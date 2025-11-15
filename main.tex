@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+
+\usepackage[T1]{fontenc}
+\usepackage{plex-otf}
+
+\usepackage{geometry}
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+% Títulos estilo Harvard
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{}{0em}{}
+
+\begin{document}
+
+\section*{Style examples}
+
+\mdseries
+IBM Plex Serif Medium example H
+
+\bfseries
+IBM Plex Serif Bold example
+
+\itshape
+IBM Plex Serif Italic example
+
+\bfseries\itshape
+IBM Plex Serif Bold Italic example
+
+\par\bigskip
+\mdseries
+IBM Plex Serif Medium number example: 0123456789
+
+\par\bigskip
+Ligatures, German double s, and other special characters
+
+\mdseries
+fi, fl, ffi, ß, ä, ö, ü
+
+\par\bigskip
+IBM Plex Serif Medium ligature example:
+office, offline, soufflé
+
+\par\bigskip
+\section*{Font implementation}
+This document uses IBM Plex Serif via fontspec.
+
+Texto normal, \textit{cursiva}, \textbf{negrita}, \textbf{\textit{negrita cursiva}}
+
+\begin{center}
+    {\Huge \textbf{Juan Pérez}}\\
+    \vspace{2mm}
+    Email: juan.perez@email.com \quad Tel: +34 600 123 456 \quad LinkedIn: linkedin.com/in/juanperez
+\end{center}
+
+\section*{Educación}
+\subsection*{Harvard University, Cambridge, MA}
+\textbf{Bachelor in Economics}, 2015 -- 2019 \\
+- Graduado con honores \\
+- GPA: 3.9/4.0
+
+\section*{Experiencia Profesional}
+\subsection*{Global Bank, Analista Financiero, 2019 -- Presente}
+\begin{itemize}[leftmargin=*]
+    \item Análisis financiero de mercados internacionales.
+    \item Elaboración de reportes ejecutivos.
+\end{itemize}
+
+\section*{Habilidades}
+\begin{itemize}[leftmargin=*]
+    \item Idiomas: Inglés (nativo), Español (nativo), Francés (intermedio)
+    \item Software: Excel, R, Python, LaTeX
+\end{itemize}
+
+\end{document}

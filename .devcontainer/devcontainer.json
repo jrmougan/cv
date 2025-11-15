@@ -1,0 +1,53 @@
+{
+  "name": "LaTeX Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+"workspaceFolder": "/home/texlive/my_cv",
+"workspaceMount": "source=${localWorkspaceFolder},target=/home/texlive/my_cv,type=bind,consistency=cached",
+  "remoteUser": "texlive",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "james-yu.latex-workshop",
+        "nickfode.latex-formatter",
+        "ms-azuretools.vscode-docker",
+        "meezilla.json",
+        "valentjn.vscode-ltex"
+      ],
+      "settings": {
+        "latex-workshop.latex.tools": [
+          {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "%DOC%"
+            ]
+          },
+          {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+              "-xelatex",
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "%DOC%"
+            ]
+          }
+        ],
+        "latex-workshop.latex.recipes": [
+          {
+            "name": "XeLaTeX (single pass)",
+            "tools": ["xelatex"]
+          },
+          {
+            "name": "latexmk (recommended)",
+            "tools": ["latexmk"]
+          }
+        ]
+      }
+    }
+  }
+}
