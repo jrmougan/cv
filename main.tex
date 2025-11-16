@@ -12,46 +12,25 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 
-% Títulos estilo Harvard
-\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+
+% Comando para línea discontinua
+% Línea discontinua pegada al título
+\newcommand{\sectiondashline}{%
+  \titlerule[1.5pt] 
+}
+
+% Formato de sección con línea discontinua
+\titleformat{\section}
+  {\Large\bfseries\color{black}} % Formato del título
+  {}                              % Etiqueta (vacía)
+  {0em}                           % Separación entre etiqueta y título
+  {}                              % Antes del título
+  [\sectiondashline]              % Después del título
+
 \titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
 \titleformat{\subsubsection}{\normalsize\itshape}{}{0em}{}
 
 \begin{document}
-
-\section*{Style examples}
-
-\mdseries
-IBM Plex Serif Medium example H
-
-\bfseries
-IBM Plex Serif Bold example
-
-\itshape
-IBM Plex Serif Italic example
-
-\bfseries\itshape
-IBM Plex Serif Bold Italic example
-
-\par\bigskip
-\mdseries
-IBM Plex Serif Medium number example: 0123456789
-
-\par\bigskip
-Ligatures, German double s, and other special characters
-
-\mdseries
-fi, fl, ffi, ß, ä, ö, ü
-
-\par\bigskip
-IBM Plex Serif Medium ligature example:
-office, offline, soufflé
-
-\par\bigskip
-\section*{Font implementation}
-This document uses IBM Plex Serif via fontspec.
-
-Texto normal, \textit{cursiva}, \textbf{negrita}, \textbf{\textit{negrita cursiva}}
 
 \begin{center}
     {\Huge \textbf{Juan Pérez}}\\
@@ -75,7 +54,7 @@ Texto normal, \textit{cursiva}, \textbf{negrita}, \textbf{\textit{negrita cursiv
 \section*{Habilidades}
 \begin{itemize}[leftmargin=*]
     \item Idiomas: Inglés (nativo), Español (nativo), Francés (intermedio)
-    \item Software: Excel, R, Python, LaTeX
+    \item Software: Excel, R, Python
 \end{itemize}
 
 \end{document}
