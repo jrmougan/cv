@@ -1,9 +1,10 @@
 \documentclass[11pt]{article}
-\usepackage{fontspec}
 
+\usepackage{lmodern}
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 \usepackage[T1]{fontenc}
-\usepackage[ttdefault=true]{AnonymousPro}
-\renewcommand*\familydefault{\ttdefault}
+
+\setcounter{secnumdepth}{0}
 
 \usepackage{geometry}
 \geometry{top=1in, bottom=1in, left=1in, right=1in}
@@ -13,8 +14,8 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 % Fondo negro documento y texto blanco
-\pagecolor{black}
-\color{green}
+\pagecolor{white}
+\color{black}
 
 % Comando para línea discontinua
 % Línea discontinua pegada al título
@@ -24,7 +25,7 @@
 
 % Formato de sección con línea discontinua
 \titleformat{\section}
-  {\Large\bfseries\itshape\color{green}} % Formato del título
+  {\Large\bfseries\color{black}} % Formato del título
   {}                              % Etiqueta (vacía)
   {0em}                           % Separación entre etiqueta y título
   {}                              % Antes del título
@@ -36,9 +37,10 @@
 \begin{document}
 
 \begin{center}
-    {\Huge \textbf{Juan Pérez}}\\
-    \vspace{2mm}
-    Email: juan.perez@email.com \quad Tel: +34 600 123 456 \quad LinkedIn: linkedin.com/in/juanperez
+    {\Huge \scshape{Jesús Romeo Mougán}}\\
+    {- - Desarrollador Web - -}\\
+    \vspace{1.5mm}
+    \textbf{Email:} jesus.romeo@email.com \quad Tel: +34 600 123 456 \quad LinkedIn: linkedin.com/in/jesusromeo
 \end{center}
 
 \section*{Educación}
