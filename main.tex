@@ -2,7 +2,8 @@
 \usepackage{fontspec}
 
 \usepackage[T1]{fontenc}
-\usepackage{plex-otf}
+\usepackage[ttdefault=true]{AnonymousPro}
+\renewcommand*\familydefault{\ttdefault}
 
 \usepackage{geometry}
 \geometry{top=1in, bottom=1in, left=1in, right=1in}
@@ -11,7 +12,9 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{enumitem}
-
+% Fondo negro documento y texto blanco
+\pagecolor{black}
+\color{green}
 
 % Comando para línea discontinua
 % Línea discontinua pegada al título
@@ -21,7 +24,7 @@
 
 % Formato de sección con línea discontinua
 \titleformat{\section}
-  {\Large\bfseries\color{black}} % Formato del título
+  {\Large\bfseries\itshape\color{green}} % Formato del título
   {}                              % Etiqueta (vacía)
   {0em}                           % Separación entre etiqueta y título
   {}                              % Antes del título
