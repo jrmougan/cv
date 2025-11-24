@@ -3,19 +3,25 @@
 \usepackage{lmodern}
 \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 \usepackage[T1]{fontenc}
+\usepackage[x11names]{xcolor}
+
+\definecolor{background}{HTML}{FAF0E6}
+\definecolor{primary}{HTML}{3E2723}
+\definecolor{secondary}{HTML}{005f73}
 
 \setcounter{secnumdepth}{0}
 
 \usepackage{geometry}
+\usepackage{fontawesome5}
 \geometry{top=1in, bottom=1in, left=1in, right=1in}
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{enumitem}
-% Fondo negro documento y texto blanco
-\pagecolor{white}
-\color{black}
+% Fondo negro documento y texto blanco, en hexadecimal
+\pagecolor{background}
+\color{primary}
 
 % Comando para línea discontinua
 % Línea discontinua pegada al título
@@ -25,7 +31,7 @@
 
 % Formato de sección con línea discontinua
 \titleformat{\section}
-  {\Large\bfseries\color{black}} % Formato del título
+  {\Large\bfseries\color{secondary}} % Formato del título
   {}                              % Etiqueta (vacía)
   {0em}                           % Separación entre etiqueta y título
   {}                              % Antes del título
@@ -40,7 +46,7 @@
     {\Huge \scshape{Jesús Romeo Mougán}}\\
     {- - Desarrollador Web - -}\\
     \vspace{1.5mm}
-    \textbf{Email:} jesus.romeo@email.com \quad Tel: +34 600 123 456 \quad LinkedIn: linkedin.com/in/jesusromeo
+    \raisebox{-0.25ex}{\textbf{\faAt}} jesus.romeo@email.com \quad \raisebox{-0.25ex}{\textbf{\faPhone}}: +34 600 123 456 \quad \raisebox{-0.25ex}{\textbf{\faLinkedin}}: linkedin.com/in/jesusromeo
 \end{center}
 
 \section*{Educación}
