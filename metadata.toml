@@ -1,0 +1,16 @@
+#:schema ../schemas/cv-schema.toml
+
+language = "es"
+[styles]
+[styles.fonts]
+base = ["Arial"]
+
+[personal_info]
+name = "Michael Scott"
+position = "Desarrollador Full Stack"
+photo = "./img/profile-photo.png"
+
+[personal_info.contact]
+email = "michael.scott@example.com"
+phone = "+34 600 123 456"
+address = "Scranton, PA"

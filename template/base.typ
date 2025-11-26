@@ -2,12 +2,21 @@
 #import "components/entity.typ": entity
 #import "section.typ": seccion
 
-#let cv = (
-  nombre,
-  titulo,
-  contacto,
-) => [
-  // Encabezado
-  #header(nombre, titulo, contacto)
-  #text[#lorem(45)]
-]
+#let cv(
+  metadata,
+  profilePhoto: image("../img/profile-photo.png"),
+  doc,
+) = {
+  header(
+    metadata,
+    profilePhoto,
+  )
+
+  /*   seccion(
+    "Perfil",
+    entity(
+      profilePhoto,
+      metadata.profileDescription,
+    )
+  ) */
+}

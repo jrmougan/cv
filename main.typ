@@ -1,12 +1,7 @@
 #import "template/base.typ": cv
+#let metadata = toml("metadata.toml")
 
-#import "/styles.typ": load-styles
-
-#load-styles()
-
-#cv(
-  "Juan Pérez",
-  "Desarrollador Full Stack",
-  "juanperez@example.com · +34 600 123 456 · Madrid",
-
-)
+#show: cv.with(
+  metadata,
+  profilePhoto: image("img/profile-photo.png"),
+);

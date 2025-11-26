@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CV Metadata Schema",
+    "type": "object",
+    "properties": {
+        "language": {
+            "type": "string",
+            "description": "Idioma del CV (por ejemplo, 'es' para español, 'en' para inglés)."
+        },
+        "personal_info": {
+            "type": "object",
+            "description": "Información personal del candidato.",
+            "properties": {
+                "fullname": {
+                    "type": "string"
+                },
+                "position": {
+                    "type": "string"
+                },
+                "photo": {
+                    "type": "string",
+                    "description": "Ruta a la foto del candidato."
+                },
+                "contact": {
+                    "type": "object",
+                    "properties": {
+                        "email": {
+                            "type": "string",
+                            "format": "email"
+                        },
+                        "phone": {
+                            "type": "string"
+                        },
+                        "address": {
+                            "type": "string"
+                        },
+                        "linkedin": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "github": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                }
+            },
+            "required": [
+                "fullname",
+                "position",
+                "contact"
+            ]
+        },
+        "styles": {
+            "type": "object",
+            "description": "Opciones de estilo para el CV.",
+            "properties": {
+                "fonts": {
+                    "type": "object",
+                    "properties": {
+                        "main": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "colors": {
+                    "type": "object",
+                    "properties": {
+                        "primary": {
+                            "type": "string",
+                            "format": "color"
+                        },
+                        "secondary": {
+                            "type": "string",
+                            "format": "color"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "language"
+    ]
+}
