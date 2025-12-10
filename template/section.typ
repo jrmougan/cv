@@ -6,6 +6,6 @@
     fill: rgb("#004488"),
   )[#titulo]
 
-  #line(length: 100%, stroke: (thickness: 1pt, color: "#004488"))
+  #line(length: 100%, stroke: (thickness: 1pt, paint: rgb("#004488")))
   #v(6pt)
 ]

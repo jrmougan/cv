@@ -1,16 +1,98 @@
 #:schema ../schemas/cv-schema.toml
 
-language = "es"
-[styles]
-[styles.fonts]
-base = ["Arial"]
+[config]
+default_language = "es"
 
-[personal_info]
+[shared]
+[shared.personal_info]
 name = "Michael Scott"
-position = "Desarrollador Full Stack"
 photo = "./img/profile-photo.png"
 
-[personal_info.contact]
+[shared.personal_info.contact]
 email = "michael.scott@example.com"
 phone = "+34 600 123 456"
 address = "Scranton, PA"
+link = "linkedin.com/in/michaelscott"
+
+[shared.styles.fonts]
+base = ["Arial"]
+
+[es]
+[es.labels]
+location = "Ubicación"
+phone = "Teléfono"
+email = "Email"
+education = "Educación"
+experience = "Experiencia"
+projects = "Proyectos"
+skills = "Habilidades"
+languages = "Idiomas"
+present = "Presente"
+
+[es.personal_info]
+position = "Desarrollador Full Stack"
+
+[[es.experience]]
+company = "Dunder Mifflin"
+position = "Gerente Regional"
+date = "2013-Presente"
+description = "Gestión del equipo de ventas y operaciones diarias."
+
+[[es.education]]
+institution = "Escuela de Negocios de Scranton"
+degree = "MBA en Gestión"
+date = "2000-2002"
+description = ""
+
+[[es.projects]]
+name = "Ryan Howard Mobile App"
+description = "App para conectar vendedores con clientes."
+url = "http://wuphf.com"
+
+[[es.skills]]
+category = "Tecnologías"
+items = ["Typst", "Python", "React"]
+
+[[es.languages]]
+language = "Español"
+level = "Nativo"
+
+[en]
+[en.labels]
+location = "Location"
+phone = "Phone"
+email = "Email"
+education = "Education"
+experience = "Experience"
+projects = "Projects"
+skills = "Skills"
+languages = "Languages"
+present = "Present"
+
+[en.personal_info]
+position = "Full Stack Developer"
+
+[[en.experience]]
+company = "Dunder Mifflin"
+position = "Regional Manager"
+date = "2013-Present"
+description = "Managed sales team and daily operations."
+
+[[en.education]]
+institution = "Scranton Business School"
+degree = "MBA in Management"
+date = "2000-2002"
+description = ""
+
+[[en.projects]]
+name = "Ryan Howard Mobile App"
+description = "App connecting sales people with clients."
+url = "http://wuphf.com"
+
+[[en.skills]]
+category = "Technologies"
+items = ["Typst", "Python", "React"]
+
+[[en.languages]]
+language = "Spanish"
+level = "Native"

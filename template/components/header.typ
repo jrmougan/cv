@@ -26,9 +26,11 @@
     grid.cell()[#box(radius: 100%, profilePhoto, clip: true, height: 100pt)],
 
     grid.cell()[
-      #personal_info(text("Ubicación:", font: metadata.styles.fonts.base), text(metadata.personal_info.contact.address)) |
-      #personal_info(text("Teléfono:", font: metadata.styles.fonts.base), text(metadata.personal_info.contact.phone)) |
-      #personal_info(text("Email:", font: metadata.styles.fonts.base), text(metadata.personal_info.contact.email))
+      #personal_info(text(metadata.labels.location + ":", font: metadata.styles.fonts.base), text(metadata.personal_info.contact.address)) |
+      #personal_info(text(metadata.labels.phone + ":", font: metadata.styles.fonts.base), text(metadata.personal_info.contact.phone)) |
+      #personal_info(text(metadata.labels.email + ":", font: metadata.styles.fonts.base), text(
+        metadata.personal_info.contact.email,
+      ))
     ],
   )
 }
