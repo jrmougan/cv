@@ -14,6 +14,12 @@
         #text(size: 9pt, fill: rgb(metadata.styles.colors.secondary))[#item.date]
         #v(1pt)
         #item.description
+        #if "tasks" in item and item.tasks != none {
+          v(5pt)
+          for task in item.tasks [
+            - #task
+          ]
+        }
       ],
     )
   ]

@@ -11,6 +11,16 @@
   profilePhoto: image("../img/profile-photo.png"),
   doc,
 ) = {
+  // Set page background if defined
+  let bg-color = if "background" in metadata.styles.colors {
+    rgb(metadata.styles.colors.background)
+  } else {
+    white
+  }
+
+  set page(fill: bg-color)
+  set text(fill: rgb(metadata.styles.colors.text))
+
   header(
     metadata,
     profilePhoto,

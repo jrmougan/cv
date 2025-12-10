@@ -15,12 +15,13 @@ address = "Scranton, PA"
 link = "linkedin.com/in/michaelscott"
 
 [shared.styles.fonts]
-base = ["Arial"]
+base = ["Courier New"]
 
 [shared.styles.colors]
-primary = "#004488"
-secondary = "#666666"
-accent = "#004488"
+background = "#FFFFFF"
+primary = "#000000"
+secondary = "#333333"
+accent = "#000000"
 text = "#000000"
 
 [es]
@@ -44,6 +45,11 @@ logo = "./img/profile-photo.png"
 position = "Gerente Regional"
 date = "2013-Presente"
 description = "Gestión del equipo de ventas y operaciones diarias."
+tasks = [
+    "Aumentó las ventas en un 20% anual.",
+    "Gestionó un equipo de 15 personas.",
+    "Organizó los Dundies.",
+]
 
 [[es.education]]
 institution = "Escuela de Negocios de Scranton"
@@ -58,6 +64,7 @@ logo = "./img/profile-photo.png"
 position = "Gerente Regional"
 date = "2013-Presente"
 description = "Gestión del equipo de ventas y operaciones diarias."
+tasks = ["Tarea 1", "Tarea 2"]
 
 [[es.projects]]
 name = "Ryan Howard Mobile App"
