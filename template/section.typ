@@ -2,7 +2,7 @@
   #v(5pt)
   #block(below: 6pt)[
     #text(
-      size: 15pt,
+      size: eval(metadata.styles.sizes.section_title),
       weight: "bold",
       fill: rgb(metadata.styles.colors.primary),
     )[#titulo]

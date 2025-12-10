@@ -7,7 +7,6 @@ default_language = "es"
 [shared.personal_info]
 name = "Michael Scott"
 photo = "./img/profile-photo.png"
-quote = "Be the change that you want to see in the world."
 
 [shared.personal_info.contact]
 email = "michael.scott@example.com"
@@ -17,6 +16,15 @@ link = "linkedin.com/in/michaelscott"
 
 [shared.styles.fonts]
 base = ["Courier New"]
+
+[shared.styles.sizes]
+header_name = "25pt"
+header_position = "10pt"
+normal = "6pt"
+item_h1 = "12pt"
+item_h2 = "10pt"
+item_h3 = "8pt"
+section_title = "16pt"
 
 [shared.styles.colors]
 background = "#F5F0E6"

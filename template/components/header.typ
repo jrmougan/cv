@@ -22,21 +22,25 @@
     ),
     align(right)[
       #text(
-        size: 32pt,
+        size: eval(metadata.styles.sizes.header_name),
         weight: "black",
         fill: rgb(metadata.styles.colors.primary),
         font: metadata.styles.fonts.base,
       )[#metadata.personal_info.name]
 
       #text(
-        size: 10pt,
+        size: eval(metadata.styles.sizes.header_position),
         weight: "bold",
         fill: rgb(metadata.styles.colors.secondary),
         tracking: 1pt,
         font: metadata.styles.fonts.base,
       )[#upper(metadata.personal_info.position)]
 
-      #set text(fill: rgb(metadata.styles.colors.text), size: 9pt, font: metadata.styles.fonts.base)
+      #set text(
+        fill: rgb(metadata.styles.colors.text),
+        size: eval(metadata.styles.sizes.normal),
+        font: metadata.styles.fonts.base,
+      )
 
       // Address
       #text(style: "italic")[#metadata.personal_info.contact.address]

@@ -11,7 +11,7 @@
       [
         #text(weight: "bold")[#item.institution] — #text(style: "italic", fill: rgb(metadata.styles.colors.secondary))[#item.degree]
         #h(1fr)
-        #text(size: 9pt, fill: rgb(metadata.styles.colors.secondary))[#item.date]
+        #text(size: eval(metadata.styles.sizes.normal), fill: rgb(metadata.styles.colors.secondary))[#item.date]
         #if "description" in item and item.description != "" [
           #v(1pt)
           #item.description
