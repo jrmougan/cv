@@ -13,7 +13,7 @@
   #grid(
     columns: (auto, 1fr),
     gutter: 15pt,
-    align: (left + horizon, right + horizon),
+    align: (left + top, right + horizon),
     box(
       radius: 50%,
       clip: true,
