@@ -49,44 +49,107 @@ present = "Presente"
 position = "Desarrollador Full Stack"
 
 [[es.experience]]
-company = "Dunder Mifflin"
+company = "Dunder Mifflin Paper Company"
 logo = "./img/profile-photo.png"
 position = "Gerente Regional"
 date = "2013-Presente"
-description = "Gestión del equipo de ventas y operaciones diarias."
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
 tasks = [
-    "Aumentó las ventas en un 20% anual.",
-    "Gestionó un equipo de 15 personas.",
-    "Organizó los Dundies.",
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+]
+
+[[es.experience]]
+company = "Staples"
+logo = "./img/profile-photo.png"
+position = "Gerente de Ventas"
+date = "2008-2013"
+description = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."
+tasks = [
+    "Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    "Et harum quidem rerum facilis est et expedita distinctio.",
 ]
 
 [[es.education]]
 institution = "Escuela de Negocios de Scranton"
 logo = "./img/profile-photo.png"
-degree = "MBA en Gestión"
+degree = "MBA en Gestión de Empresas"
 date = "2000-2002"
-description = ""
+description = "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus."
 
-[[es.experience]]
-company = "Dunder Mifflin 2"
+[[es.education]]
+institution = "Universidad de Pennsylvania"
 logo = "./img/profile-photo.png"
-position = "Gerente Regional"
-date = "2013-Presente"
-description = "Gestión del equipo de ventas y operaciones diarias."
-tasks = ["Tarea 1", "Tarea 2"]
+degree = "Licenciatura en Comercio"
+date = "1996-2000"
+description = "Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet."
 
 [[es.projects]]
 name = "Ryan Howard Mobile App"
-description = "App para conectar vendedores con clientes."
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
 url = "http://wuphf.com"
 
+[[es.projects]]
+name = "Creed Thoughts Blog"
+description = "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
+url = "http://www.creedthoughts.gov.www/creedthoughts"
+
 [[es.skills]]
-category = "Tecnologías"
-items = ["Typst", "Python", "React"]
+category = "Frontend"
+items = [
+    "React",
+    "Vue.js",
+    "Angular",
+    "Svelte",
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "Tailwind CSS",
+    "Bootstrap",
+]
+
+[[es.skills]]
+category = "Backend"
+items = [
+    "Node.js",
+    "Express",
+    "Python",
+    "Django",
+    "Flask",
+    "Java",
+    "Spring Boot",
+    "Go",
+    "Rust",
+    "PHP",
+]
+
+[[es.skills]]
+category = "DevOps"
+items = [
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Google Cloud",
+    "Azure",
+    "CI/CD",
+    "Jenkins",
+    "GitHub Actions",
+    "Terraform",
+]
 
 [[es.languages]]
 language = "Español"
 level = "Nativo"
+
+[[es.languages]]
+language = "Inglés"
+level = "C2 - Profesional Completo"
+
+[[es.languages]]
+language = "Alemán"
+level = "B1 - Intermedio"
 
 [en]
 [en.labels]
@@ -104,25 +167,41 @@ present = "Present"
 position = "Full Stack Developer"
 
 [[en.experience]]
-company = "Dunder Mifflin"
+company = "Dunder Mifflin Paper Company"
 position = "Regional Manager"
 date = "2013-Present"
-description = "Managed sales team and daily operations."
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+tasks = [
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+]
 
 [[en.education]]
 institution = "Scranton Business School"
 degree = "MBA in Management"
 date = "2000-2002"
-description = ""
+description = "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus."
 
 [[en.projects]]
 name = "Ryan Howard Mobile App"
-description = "App connecting sales people with clients."
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 url = "http://wuphf.com"
 
 [[en.skills]]
 category = "Technologies"
-items = ["Typst", "Python", "React"]
+items = [
+    "Typst",
+    "Python",
+    "React",
+    "Node.js",
+    "Docker",
+    "AWS",
+    "Git",
+    "Linux",
+    "SQL",
+    "NoSQL",
+]
 
 [[en.languages]]
 language = "Spanish"
