@@ -12,8 +12,8 @@
         ])
       } else { none },
     )
-    #v(2pt)
+    #v(0pt)
     #text(size: eval(metadata.styles.sizes.normal))[#item.description]
   ]
-  #v(8pt)
+  #v(4pt)
 ]
