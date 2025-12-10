@@ -12,12 +12,12 @@
 ) = [
   #grid(
     columns: (auto, 1fr),
-    gutter: 30pt,
+    gutter: 15pt,
     align: (left + horizon, right + horizon),
     box(
       radius: 50%,
       clip: true,
-      height: 90pt,
+      height: 75pt,
       profilePhoto,
     ),
     align(right)[
@@ -28,7 +28,7 @@
         font: metadata.styles.fonts.base,
       )[#metadata.personal_info.name]
 
-      #v(5pt)
+      #v(3pt)
 
       #text(
         size: 10pt,
@@ -38,14 +38,14 @@
         font: metadata.styles.fonts.base,
       )[#upper(metadata.personal_info.position)]
 
-      #v(10pt)
+      #v(5pt)
 
       #set text(fill: rgb(metadata.styles.colors.text), size: 9pt, font: metadata.styles.fonts.base)
 
       // Address
       #text(style: "italic")[#metadata.personal_info.contact.address]
 
-      #v(5pt)
+      #v(3pt)
 
       // Contact Info Row with Separators
       #block(width: 100%)[
@@ -66,7 +66,7 @@
         ]
       ]
 
-      #v(10pt)
+      #v(6pt)
 
       // Quote
       #if "quote" in metadata.personal_info [
@@ -79,6 +79,6 @@
     ],
   )
 
-  #v(15pt)
+  #v(8pt)
   #line(length: 100%, stroke: (thickness: 2pt, paint: rgb(metadata.styles.colors.primary)))
 ]

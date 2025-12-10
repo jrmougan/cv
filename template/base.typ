@@ -18,7 +18,10 @@
     white
   }
 
-  set page(fill: bg-color)
+  set page(
+    fill: bg-color,
+    margin: 1.5cm,
+  )
   set text(fill: rgb(metadata.styles.colors.text))
 
   header(
