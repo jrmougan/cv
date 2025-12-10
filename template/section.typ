@@ -1,11 +1,11 @@
-#let seccion = titulo => [
+#let seccion = (titulo, metadata) => [
   #v(10pt)
   #text(
     size: 12pt,
     weight: "bold",
-    fill: rgb("#004488"),
+    fill: rgb(metadata.styles.colors.primary),
   )[#titulo]
 
-  #line(length: 100%, stroke: (thickness: 1pt, paint: rgb("#004488")))
+  #line(length: 100%, stroke: (thickness: 1pt, paint: rgb(metadata.styles.colors.primary)))
   #v(6pt)
 ]

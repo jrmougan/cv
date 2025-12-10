@@ -17,35 +17,35 @@
   )
 
   if "experience" in metadata {
-    seccion(metadata.labels.experience)
+    seccion(metadata.labels.experience, metadata)
     for item in metadata.experience {
-      entity(item)
+      entity(item, metadata)
     }
   }
 
   if "education" in metadata {
-    seccion(metadata.labels.education)
+    seccion(metadata.labels.education, metadata)
     for item in metadata.education {
-      education_item(item)
+      education_item(item, metadata)
     }
   }
 
   if "projects" in metadata {
-    seccion(metadata.labels.projects)
+    seccion(metadata.labels.projects, metadata)
     for item in metadata.projects {
-      project_item(item)
+      project_item(item, metadata)
     }
   }
 
   if "skills" in metadata {
-    seccion(metadata.labels.skills)
+    seccion(metadata.labels.skills, metadata)
     for item in metadata.skills {
       skills_item(item)
     }
   }
 
   if "languages" in metadata {
-    seccion(metadata.labels.languages)
+    seccion(metadata.labels.languages, metadata)
     for item in metadata.languages {
       language_item(item)
     }

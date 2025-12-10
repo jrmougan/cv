@@ -17,6 +17,12 @@ link = "linkedin.com/in/michaelscott"
 [shared.styles.fonts]
 base = ["Arial"]
 
+[shared.styles.colors]
+primary = "#004488"
+secondary = "#666666"
+accent = "#004488"
+text = "#000000"
+
 [es]
 [es.labels]
 location = "Ubicación"
@@ -34,15 +40,24 @@ position = "Desarrollador Full Stack"
 
 [[es.experience]]
 company = "Dunder Mifflin"
+logo = "./img/profile-photo.png"
 position = "Gerente Regional"
 date = "2013-Presente"
 description = "Gestión del equipo de ventas y operaciones diarias."
 
 [[es.education]]
 institution = "Escuela de Negocios de Scranton"
+logo = "./img/profile-photo.png"
 degree = "MBA en Gestión"
 date = "2000-2002"
 description = ""
+
+[[es.experience]]
+company = "Dunder Mifflin 2"
+logo = "./img/profile-photo.png"
+position = "Gerente Regional"
+date = "2013-Presente"
+description = "Gestión del equipo de ventas y operaciones diarias."
 
 [[es.projects]]
 name = "Ryan Howard Mobile App"
