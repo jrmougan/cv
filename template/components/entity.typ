@@ -13,23 +13,19 @@
         none
       },
       [
-        #pad(bottom: 2pt, [
+        #pad(bottom: 0pt, [
           #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.company]
           #h(1fr)
           #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
         ])
-
         #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
           metadata.styles.sizes.item_h2,
         ))[#item.position]
-
-        #v(4pt)
         #text(size: eval(metadata.styles.sizes.normal))[#item.description]
-
         #if "tasks" in item and item.tasks != none {
-          v(4pt)
+          v(2pt)
           for task in item.tasks [
-            #block(width: 100%, spacing: 4pt)[
+            #block(width: 100%, below: 2pt)[
               #box(width: 6pt)[•] #text(size: eval(metadata.styles.sizes.normal))[#task]
             ]
           ]
@@ -37,5 +33,5 @@
       ],
     )
   ]
-  #v(8pt)
+  #v(4pt)
 ]

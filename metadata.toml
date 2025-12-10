@@ -20,7 +20,7 @@ base = ["Courier New"]
 [shared.styles.sizes]
 header_name = "25pt"
 header_position = "10pt"
-normal = "6pt"
+normal = "7pt"
 item_h1 = "12pt"
 item_h2 = "10pt"
 item_h3 = "8pt"

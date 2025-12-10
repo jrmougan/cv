@@ -13,22 +13,20 @@
         none
       },
       [
-        #pad(bottom: 2pt, [
+        #pad(bottom: 0pt, [
           #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
           #h(1fr)
           #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
         ])
-
         #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
           metadata.styles.sizes.item_h2,
         ))[#item.degree]
-
         #if "description" in item and item.description != "" [
-          #v(4pt)
+          #v(2pt)
           #text(size: eval(metadata.styles.sizes.normal))[#item.description]
         ]
       ],
     )
   ]
-  #v(8pt)
+  #v(4pt)
 ]
