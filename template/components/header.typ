@@ -1,22 +1,29 @@
-#let personal_info(icon, text) = [
-  *#icon*
-  #h(1pt)
-  #text
-]
+#import "@preview/fontawesome:0.5.0": *
 
+#let personal_info = (icon, content) => [
+  #box(icon)
+  #h(5pt)
+  #content
+]
 
 #let header(
   metadata,
   profilePhoto,
-) = {
-  grid(
-    columns: (1fr, auto),
+) = [
+  #grid(
+    columns: (auto, 1fr),
+    gutter: 30pt,
     align: (left + horizon, right + horizon),
-    gutter: 10pt,
-    [
+    box(
+      radius: 50%,
+      clip: true,
+      height: 90pt,
+      profilePhoto,
+    ),
+    align(right)[
       #text(
-        size: 24pt,
-        weight: "bold",
+        size: 28pt,
+        weight: "black",
         fill: rgb(metadata.styles.colors.primary),
         font: metadata.styles.fonts.base,
       )[#metadata.personal_info.name]
@@ -24,33 +31,54 @@
       #v(5pt)
 
       #text(
-        size: 14pt,
+        size: 10pt,
+        weight: "bold",
         fill: rgb(metadata.styles.colors.secondary),
+        tracking: 1pt,
         font: metadata.styles.fonts.base,
-      )[#metadata.personal_info.position]
+      )[#upper(metadata.personal_info.position)]
 
       #v(10pt)
 
-      #set text(fill: rgb(metadata.styles.colors.text), font: metadata.styles.fonts.base)
-      #grid(
-        columns: (auto, auto),
-        gutter: 10pt,
-        align: left,
-        personal_info(text(metadata.labels.location + ":", weight: "bold"), text(
-          metadata.personal_info.contact.address,
-        )),
-        personal_info(text(metadata.labels.phone + ":", weight: "bold"), text(metadata.personal_info.contact.phone)),
+      #set text(fill: rgb(metadata.styles.colors.text), size: 9pt, font: metadata.styles.fonts.base)
 
-        personal_info(text(metadata.labels.email + ":", weight: "bold"), text(metadata.personal_info.contact.email)),
-        // Add Link if present
-        if "link" in metadata.personal_info.contact [
-          #link("https://" + metadata.personal_info.contact.link)[#metadata.personal_info.contact.link]
-        ],
-      )
+      // Address
+      #text(style: "italic")[#metadata.personal_info.contact.address]
+
+      #v(5pt)
+
+      // Contact Info Row with Separators
+      #block(width: 100%)[
+        #align(right)[
+          #stack(
+            dir: ltr,
+            spacing: 8pt,
+            personal_info(fa-phone(), text(metadata.personal_info.contact.phone)),
+            text([|]),
+            personal_info(fa-envelope(), text(metadata.personal_info.contact.email)),
+            if "link" in metadata.personal_info.contact {
+              text([|])
+              personal_info(fa-linkedin(), link(
+                "https://" + metadata.personal_info.contact.link,
+              )[#metadata.personal_info.contact.link])
+            },
+          )
+        ]
+      ]
+
+      #v(10pt)
+
+      // Quote
+      #if "quote" in metadata.personal_info [
+        #text(
+          style: "italic",
+          fill: rgb(metadata.styles.colors.secondary),
+          size: 10pt,
+        )[“#metadata.personal_info.quote”]
+      ]
     ],
-    box(radius: 50%, profilePhoto, clip: true, height: 100pt),
   )
 
-  line(length: 100%, stroke: (thickness: 2pt, paint: rgb(metadata.styles.colors.primary)))
-}
-}
+  #v(15pt)
+  #line(length: 100%, stroke: (thickness: 2pt, paint: rgb(metadata.styles.colors.primary)))
+]
