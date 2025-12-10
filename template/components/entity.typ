@@ -18,14 +18,25 @@
           #h(1fr)
           #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
         ])
-        #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
-          metadata.styles.sizes.item_h2,
-        ))[#item.position]
+
+        #pad(bottom: 2pt, [
+          #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
+            metadata.styles.sizes.item_h2,
+          ))[#item.position]
+          #if "location" in item and item.location != "" [
+            #h(1fr)
+            #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
+              metadata.styles.sizes.item_h3,
+            ))[#item.location]
+          ]
+        ])
+
+        #v(2pt)
         #text(size: eval(metadata.styles.sizes.normal))[#item.description]
         #if "tasks" in item and item.tasks != none {
           v(2pt)
           for task in item.tasks [
-            #block(width: 100%, below: 2pt)[
+            #block(width: 100%, below: 3pt)[
               #box(width: 6pt)[•] #text(size: eval(metadata.styles.sizes.normal))[#task]
             ]
           ]
