@@ -15,14 +15,15 @@
       [
         #pad(bottom: 0pt, [
           #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
-          #h(1fr)
-          #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
-        ])
-
-        #pad(bottom: 2pt, [
+          #text(" - ")
           #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
             metadata.styles.sizes.item_h2,
           ))[#item.degree]
+          #h(1fr)
+          #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
+        ])
+        #pad(bottom: 2pt, [
+
           #if "location" in item and item.location != "" [
             #h(1fr)
             #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
@@ -30,10 +31,11 @@
             ))[#item.location]
           ]
         ])
-
-        #if "description" in item and item.description != "" [
-          #v(2pt)
-          #text(size: eval(metadata.styles.sizes.normal))[#item.description]
+        #v(-23pt)
+        #block(width: 80%)[
+          #if "description" in item and item.description != "" [
+            #text(size: eval(metadata.styles.sizes.normal))[#item.description]
+          ]
         ]
       ],
     )
