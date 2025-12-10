@@ -22,13 +22,11 @@
     ),
     align(right)[
       #text(
-        size: 28pt,
+        size: 32pt,
         weight: "black",
         fill: rgb(metadata.styles.colors.primary),
         font: metadata.styles.fonts.base,
       )[#metadata.personal_info.name]
-
-      #v(3pt)
 
       #text(
         size: 10pt,
@@ -38,14 +36,10 @@
         font: metadata.styles.fonts.base,
       )[#upper(metadata.personal_info.position)]
 
-      #v(5pt)
-
       #set text(fill: rgb(metadata.styles.colors.text), size: 9pt, font: metadata.styles.fonts.base)
 
       // Address
       #text(style: "italic")[#metadata.personal_info.contact.address]
-
-      #v(3pt)
 
       // Contact Info Row with Separators
       #block(width: 100%)[
@@ -68,17 +62,6 @@
 
       #v(6pt)
 
-      // Quote
-      #if "quote" in metadata.personal_info [
-        #text(
-          style: "italic",
-          fill: rgb(metadata.styles.colors.secondary),
-          size: 10pt,
-        )[“#metadata.personal_info.quote”]
-      ]
     ],
   )
-
-  #v(8pt)
-  #line(length: 100%, stroke: (thickness: 2pt, paint: rgb(metadata.styles.colors.primary)))
 ]
