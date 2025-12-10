@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.5.0": *
+#import "@preview/fontawesome:0.6.0": *
 
 #let personal_info = (icon, content) => [
   #box(icon)
@@ -28,6 +28,8 @@
         font: metadata.styles.fonts.base,
       )[#metadata.personal_info.name]
 
+      #v(-16pt)
+
       #text(
         size: eval(metadata.styles.sizes.header_position),
         weight: "bold",
@@ -53,7 +55,7 @@
             spacing: 8pt,
             personal_info(fa-phone(), text(metadata.personal_info.contact.phone)),
             text([|]),
-            personal_info(fa-envelope(), text(metadata.personal_info.contact.email)),
+            personal_info(fa-envelope(), link("mailto:" + metadata.personal_info.contact.email)),
             if "link" in metadata.personal_info.contact {
               text([|])
               personal_info(fa-linkedin(), link(
