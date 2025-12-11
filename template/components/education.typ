@@ -1,7 +1,7 @@
 #let education_item = (item, metadata) => [
   #block(breakable: false)[
     #grid(
-      columns: (32pt, 1fr),
+      columns: (15pt, 1fr),
       gutter: 12pt,
       if "logo" in item and item.logo != "" {
         box(
@@ -13,17 +13,20 @@
         none
       },
       [
-        #pad(bottom: 0pt, [
-          #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
-          #text(" - ")
-          #text(style: "italic", weight: "medium", fill: rgb(metadata.styles.colors.secondary), size: eval(
-            metadata.styles.sizes.item_h2,
-          ))[#item.degree]
-          #h(1fr)
-          #text(weight: "regular", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
+        #pad(bottom: 0pt, grid(
+          columns: (1fr, auto),
+          gutter: 5pt,
+          [
+            #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
+            #text(" - ")
+            #text(style: "italic", weight: "medium", fill: rgb(metadata.styles.colors.secondary), size: eval(
+              metadata.styles.sizes.item_h2,
+            ))[#item.degree]
+          ],
+          align(right, text(weight: "regular", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
             metadata.styles.colors.secondary,
-          ))[#item.date]
-        ])
+          ))[#item.date]),
+        ))
         #pad(bottom: 2pt, [
 
           #if "location" in item and item.location != "" [

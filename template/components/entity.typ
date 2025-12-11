@@ -13,17 +13,20 @@
         none
       },
       [
-        #pad(bottom: 0pt, [
-          #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.company]
-          #text(" - ")
-          #text(style: "italic", weight: "medium", fill: rgb(metadata.styles.colors.secondary), size: eval(
-            metadata.styles.sizes.item_h2,
-          ))[#item.position]
-          #h(1fr)
-          #text(weight: "regular", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
+        #pad(bottom: 0pt, grid(
+          columns: (1fr, auto),
+          gutter: 5pt,
+          [
+            #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.company]
+            #text(" - ")
+            #text(style: "italic", weight: "medium", fill: rgb(metadata.styles.colors.secondary), size: eval(
+              metadata.styles.sizes.item_h2,
+            ))[#item.position]
+          ],
+          align(right, text(weight: "regular", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
             metadata.styles.colors.secondary,
-          ))[#item.date]
-        ])
+          ))[#item.date]),
+        ))
         #pad(bottom: 2pt, [
 
           #if "location" in item and item.location != "" [
