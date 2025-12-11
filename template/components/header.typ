@@ -8,7 +8,6 @@
 
 #let header(
   metadata,
-  profilePhoto,
 ) = [
   #grid(
     columns: (auto, 1fr),
@@ -18,7 +17,7 @@
       radius: 50%,
       clip: true,
       height: 75pt,
-      profilePhoto,
+      image("../../" + metadata.personal_info.photo),
     ),
     align(right)[
       #text(

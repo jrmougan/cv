@@ -8,7 +8,6 @@
 
 #let cv(
   metadata,
-  profilePhoto: image("../img/profile-photo.png"),
   doc,
 ) = {
   // Set page background if defined
@@ -29,7 +28,6 @@
 
   header(
     metadata,
-    profilePhoto,
   )
 
   if "summary" in metadata.personal_info [
@@ -57,6 +55,7 @@
       education_item(item, metadata)
     }
   }
+  pagebreak()
 
   if "projects" in metadata {
     seccion(metadata.labels.projects, metadata)

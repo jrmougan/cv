@@ -24,5 +24,4 @@
 
 #show: cv.with(
   metadata,
-  profilePhoto: image("img/profile-photo.png"),
 );
