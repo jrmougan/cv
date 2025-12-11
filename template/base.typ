@@ -22,7 +22,10 @@
     fill: bg-color,
     margin: 1.5cm,
   )
-  set text(fill: rgb(metadata.styles.colors.text))
+  set text(
+    fill: rgb(metadata.styles.colors.text),
+    font: metadata.styles.fonts.base,
+  )
 
   header(
     metadata,
@@ -55,7 +58,7 @@
 
   if has_skills and has_languages {
     grid(
-      columns: (1fr, 1fr),
+      columns: (1fr, 25%),
       gutter: 20pt,
       block[
         #seccion(metadata.labels.skills, metadata)

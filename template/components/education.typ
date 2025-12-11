@@ -16,11 +16,13 @@
         #pad(bottom: 0pt, [
           #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
           #text(" - ")
-          #text(style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
+          #text(style: "italic", weight: "medium", fill: rgb(metadata.styles.colors.secondary), size: eval(
             metadata.styles.sizes.item_h2,
           ))[#item.degree]
           #h(1fr)
-          #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date]
+          #text(weight: "regular", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
+            metadata.styles.colors.secondary,
+          ))[#item.date]
         ])
         #pad(bottom: 2pt, [
 
