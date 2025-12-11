@@ -45,7 +45,7 @@
   ]
 
   grid(
-    columns: (20%, 1fr),
+    columns: (28%, 1fr),
     gutter: 15pt,
     // Reduced gutter
     // Left Column: Skills & Languages
