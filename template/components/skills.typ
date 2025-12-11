@@ -35,11 +35,13 @@
           .pairs()
           .map(pair => {
             let (cat, color_hex) = pair
-            box(height: 8pt, width: 8pt, radius: 4pt, fill: rgb(color_hex))
-            h(4pt)
-            text(size: eval(metadata.styles.sizes.item_h3), weight: "bold", fill: rgb(
-              metadata.styles.colors.text,
-            ))[#upper(cat.at(0))#cat.slice(1)]
+            box[
+              #box(height: 8pt, width: 8pt, radius: 4pt, fill: rgb(color_hex))
+              #h(4pt)
+              #text(size: eval(metadata.styles.sizes.item_h3), weight: "bold", fill: rgb(
+                metadata.styles.colors.text,
+              ))[#upper(cat.at(0))#cat.slice(1)]
+            ]
             h(12pt)
           })
           .join()
