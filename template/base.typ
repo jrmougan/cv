@@ -50,17 +50,38 @@
     }
   }
 
-  if "skills" in metadata {
-    seccion(metadata.labels.skills, metadata)
-    for item in metadata.skills {
-      skills_item(item, metadata)
-    }
-  }
+  let has_skills = "skills" in metadata
+  let has_languages = "languages" in metadata
 
-  if "languages" in metadata {
-    seccion(metadata.labels.languages, metadata)
-    for item in metadata.languages {
-      language_item(item)
+  if has_skills and has_languages {
+    grid(
+      columns: (1fr, 1fr),
+      gutter: 20pt,
+      block[
+        #seccion(metadata.labels.skills, metadata)
+        #for item in metadata.skills {
+          skills_item(item, metadata)
+        }
+      ],
+      block[
+        #seccion(metadata.labels.languages, metadata)
+        #for item in metadata.languages {
+          language_item(item, metadata)
+        }
+      ],
+    )
+  } else {
+    if has_skills {
+      seccion(metadata.labels.skills, metadata)
+      for item in metadata.skills {
+        skills_item(item, metadata)
+      }
+    }
+    if has_languages {
+      seccion(metadata.labels.languages, metadata)
+      for item in metadata.languages {
+        language_item(item, metadata)
+      }
     }
   }
 }
