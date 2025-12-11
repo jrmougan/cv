@@ -5,7 +5,7 @@ default_language = "es"
 
 [shared]
 [shared.styles.fonts]
-base = ["Courier New"]
+base = ["IBM Plex Mono", "Courier New"]
 
 [shared.styles.sizes]
 header_name = "25pt"
@@ -19,7 +19,7 @@ section_title = "16pt"
 [shared.styles.colors]
 background = "#F5F0E6"
 primary = "#2B1B17"
-secondary = "#2e8b97ff"
+secondary = "#544e45"
 accent = "#741e09ff"
 text = "#2B1B17"
 
