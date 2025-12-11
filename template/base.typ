@@ -53,7 +53,7 @@
   if "skills" in metadata {
     seccion(metadata.labels.skills, metadata)
     for item in metadata.skills {
-      skills_item(item)
+      skills_item(item, metadata)
     }
   }
 
