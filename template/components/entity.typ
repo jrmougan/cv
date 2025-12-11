@@ -13,6 +13,7 @@
       if "logo" in item and item.logo != "" {
         box(radius: 2pt, clip: true, image("../../" + item.logo, height: 22pt))
       } else {
+        h(22pt)
         none
       },
       // Column 2: Company + Position

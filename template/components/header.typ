@@ -65,6 +65,22 @@
 
       #v(6pt)
 
+      // Language Selector
+      #if "all_langs" in metadata {
+        align(right)[
+          #let langs = metadata.all_langs
+          #let buttons = ()
+          #for l in langs {
+            if l == metadata.lang {
+              buttons.push(text(weight: "bold", fill: rgb(metadata.styles.colors.primary))[#upper(l)])
+            } else {
+              buttons.push(link(label("cv-" + l), text(fill: rgb(metadata.styles.colors.secondary))[#upper(l)]))
+            }
+          }
+          #buttons.join(h(5pt) + text(fill: rgb(metadata.styles.colors.secondary))[|] + h(5pt))
+        ]
+      }
+
     ],
   )
 ]

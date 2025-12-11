@@ -7,12 +7,12 @@
 #import "section.typ": seccion
 
 #let cv(
-  metadata,
+  cv_data,
   doc,
 ) = {
   // Set page background if defined
-  let bg-color = if "background" in metadata.styles.colors {
-    rgb(metadata.styles.colors.background)
+  let bg-color = if "background" in cv_data.styles.colors {
+    rgb(cv_data.styles.colors.background)
   } else {
     white
   }
@@ -22,59 +22,62 @@
     margin: 1cm, // Reduced margin to fit content
   )
   set text(
-    fill: rgb(metadata.styles.colors.text),
-    font: metadata.styles.fonts.base,
+    fill: rgb(cv_data.styles.colors.text),
+    font: cv_data.styles.fonts.base,
   )
+
+  // Create an anchor for this language
+  [#metadata(cv_data.lang) #label("cv-" + cv_data.lang)]
 
   header(
-    metadata,
+    cv_data,
   )
 
-  if "summary" in metadata.personal_info [
+  if "summary" in cv_data.personal_info [
     #pad(bottom: 10pt, top: 5pt)[
       #text(
-        size: eval(metadata.styles.sizes.normal),
+        size: eval(cv_data.styles.sizes.normal),
         style: "italic",
-        fill: rgb(metadata.styles.colors.text),
+        fill: rgb(cv_data.styles.colors.text),
       )[
-        #metadata.personal_info.summary
+        #cv_data.personal_info.summary
       ]
     ]
   ]
 
-  if "experience" in metadata {
-    seccion(metadata.labels.experience, metadata)
-    for item in metadata.experience {
-      entity(item, metadata)
+  if "experience" in cv_data {
+    seccion(cv_data.labels.experience, cv_data)
+    for item in cv_data.experience {
+      entity(item, cv_data)
     }
   }
 
-  if "education" in metadata {
-    seccion(metadata.labels.education, metadata)
-    for item in metadata.education {
-      education_item(item, metadata)
+  if "education" in cv_data {
+    seccion(cv_data.labels.education, cv_data)
+    for item in cv_data.education {
+      education_item(item, cv_data)
     }
   }
   pagebreak()
 
-  if "projects" in metadata {
-    seccion(metadata.labels.projects, metadata)
-    for item in metadata.projects {
-      project_item(item, metadata)
+  if "projects" in cv_data {
+    seccion(cv_data.labels.projects, cv_data)
+    for item in cv_data.projects {
+      project_item(item, cv_data)
     }
   }
 
-  if "skills" in metadata {
-    seccion(metadata.labels.skills, metadata)
-    for item in metadata.skills {
-      skills_item(item, metadata)
+  if "skills" in cv_data {
+    seccion(cv_data.labels.skills, cv_data)
+    for item in cv_data.skills {
+      skills_item(item, cv_data)
     }
   }
 
-  if "languages" in metadata {
-    seccion(metadata.labels.languages, metadata)
-    for item in metadata.languages {
-      language_item(item, metadata)
+  if "languages" in cv_data {
+    seccion(cv_data.labels.languages, cv_data)
+    for item in cv_data.languages {
+      language_item(item, cv_data)
     }
   }
 }
