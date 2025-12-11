@@ -20,7 +20,7 @@
 
   set page(
     fill: bg-color,
-    margin: 1.5cm,
+    margin: 1cm, // Reduced margin to fit content
   )
   set text(
     fill: rgb(metadata.styles.colors.text),
@@ -32,59 +32,62 @@
     profilePhoto,
   )
 
-  if "experience" in metadata {
-    seccion(metadata.labels.experience, metadata)
-    for item in metadata.experience {
-      entity(item, metadata)
-    }
-  }
+  if "summary" in metadata.personal_info [
+    #pad(bottom: 10pt, top: 5pt)[
+      #text(
+        size: eval(metadata.styles.sizes.normal),
+        style: "italic",
+        fill: rgb(metadata.styles.colors.text),
+      )[
+        #metadata.personal_info.summary
+      ]
+    ]
+  ]
 
-  if "education" in metadata {
-    seccion(metadata.labels.education, metadata)
-    for item in metadata.education {
-      education_item(item, metadata)
-    }
-  }
+  grid(
+    columns: (20%, 1fr),
+    gutter: 15pt,
+    // Reduced gutter
+    // Left Column: Skills & Languages
+    block[
 
-  if "projects" in metadata {
-    seccion(metadata.labels.projects, metadata)
-    for item in metadata.projects {
-      project_item(item, metadata)
-    }
-  }
-
-  let has_skills = "skills" in metadata
-  let has_languages = "languages" in metadata
-
-  if has_skills and has_languages {
-    grid(
-      columns: (1fr, 25%),
-      gutter: 20pt,
-      block[
-        #seccion(metadata.labels.skills, metadata)
-        #for item in metadata.skills {
+      #if "skills" in metadata {
+        seccion(metadata.labels.skills, metadata)
+        for item in metadata.skills {
           skills_item(item, metadata)
         }
-      ],
-      block[
-        #seccion(metadata.labels.languages, metadata)
-        #for item in metadata.languages {
+      }
+      #if "languages" in metadata {
+        v(10pt)
+        seccion(metadata.labels.languages, metadata)
+        for item in metadata.languages {
           language_item(item, metadata)
         }
-      ],
-    )
-  } else {
-    if has_skills {
-      seccion(metadata.labels.skills, metadata)
-      for item in metadata.skills {
-        skills_item(item, metadata)
       }
-    }
-    if has_languages {
-      seccion(metadata.labels.languages, metadata)
-      for item in metadata.languages {
-        language_item(item, metadata)
+      #v(1fr) // Push content up
+    ],
+    // Right Column: Experience, Education, Projects
+    block[
+      #if "experience" in metadata {
+        seccion(metadata.labels.experience, metadata)
+        for item in metadata.experience {
+          entity(item, metadata)
+        }
       }
-    }
-  }
+
+      #if "education" in metadata {
+        seccion(metadata.labels.education, metadata)
+        for item in metadata.education {
+          education_item(item, metadata)
+        }
+      }
+
+      #if "projects" in metadata {
+        seccion(metadata.labels.projects, metadata)
+        for item in metadata.projects {
+          project_item(item, metadata)
+        }
+      }
+    ],
+  )
 }
