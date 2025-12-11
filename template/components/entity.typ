@@ -1,7 +1,7 @@
 #let entity = (item, metadata) => [
   #block(breakable: false)[
     #grid(
-      columns: (32pt, 1fr),
+      columns: (15pt, 1fr),
       gutter: 12pt,
       if "logo" in item and item.logo != "" {
         box(
@@ -14,7 +14,7 @@
       },
       [
         #pad(bottom: 0pt, grid(
-          columns: (1fr, auto),
+          columns: (1fr, 30%),
           gutter: 5pt,
           [
             #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.company]
