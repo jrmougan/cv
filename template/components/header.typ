@@ -32,9 +32,10 @@
       #text(
         size: eval(metadata.styles.sizes.header_position),
         weight: "bold",
+        style: "italic",
         fill: rgb(metadata.styles.colors.secondary),
         tracking: 1pt,
-      )[#upper(metadata.personal_info.position)]
+      )[<#metadata.personal_info.position />]
 
       #set text(
         fill: rgb(metadata.styles.colors.text),

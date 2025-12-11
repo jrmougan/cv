@@ -29,7 +29,7 @@
           #v(3pt)
           #block[
             #grid(
-              columns: (1fr, 1fr),
+              columns: (1fr, 1fr, 1fr, 1fr),
               gutter: 5pt,
               ..cat_items.map(s => {
                 let color = rgb(metadata.styles.colors.categories.at(cat))
