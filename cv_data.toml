@@ -1,0 +1,253 @@
+[shared]
+[shared.personal_info]
+name = "Jesús Romeo Mougán"
+photo = "./img/profile-photo.jpeg"
+
+[shared.personal_info.contact]
+email = "jrmougan@gmail.com"
+phone = "666362583"
+address = "Santiago de Compostela, (A Coruña)"
+link = "linkedin.com/in/jesús-romeo-mougán-750706186"
+
+[es]
+[es.labels]
+location = "Ubicación"
+phone = "Teléfono"
+email = "Email"
+education = "Educación"
+experience = "Experiencia"
+projects = "Proyectos"
+skills = "Habilidades"
+languages = "Idiomas"
+present = "Actualidad"
+expert = "Experto"
+proficient = "Competente"
+basic = "Básico"
+
+[es.personal_info]
+position = "Desarrollador FrontEnd"
+summary = "Desarrollador FrontEnd con sólida experiencia en React y ecosistema JavaScript. Apasionado por crear interfaces de usuario dinámicas y eficientes, combinando conocimientos técnicos con una fuerte disciplina y creatividad derivadadas de mi formación musical."
+
+[[es.experience]]
+company = "EMAIS Grupo"
+logo = "./img/logos/logo-emais.png"
+position = "Desarrollador FrontEnd"
+location = "Remoto"
+date = "Julio 2023 - Actualidad"
+description = "Desarrollo de un nuevo módulo en React para ampliar procesos propios del negocio y resolución de incidencias en módulos preexistentes tanto en AngularJS como en React."
+tasks = [
+    "Desarrollo de módulos con React.",
+    "Mantenimiento y resolución de incidencias en AngularJS y React.",
+]
+
+[[es.experience]]
+company = "CiTIUS (Universidade de Santiago de Compostela)"
+logo = "./img/logos/logo_citius.png"
+position = "Desarrollador FrontEnd"
+location = "Santiago de Compostela"
+date = "Abril 2022 - Abril 2023"
+description = "Desarrollo de una interfaz para una aplicación web con la finalidad de importar, editar y consolidar normativa autonómica en formato XML (LexGal)."
+tasks = [
+    "Uso de tecnologías: React, Javascript, Websockets over STOMP (SockJS), SpringBoot, MongoDB.",
+]
+
+[[es.experience]]
+company = "Independiente"
+position = "Músico / Docente"
+logo = "./img/logos/fallback_image.png"
+location = "Galicia"
+date = "2018 - 2021"
+quiet = true
+description = "Desarrollo de actividad profesional como músico y docente en diversas escuelas de música municipales y centros."
+tasks = []
+
+[[es.experience]]
+company = "SDWEB"
+logo = "./img/logos/sdweb_logo.png"
+position = "Desarrollador FullStack"
+location = "Santiago de Compostela"
+date = "2014 - 2015"
+description = "Desarrollo FullStack principalmente en Moodle (PHP, Javascript, JQUERY, MySQL), Drupal y Phonegap (Javascript)."
+tasks = [
+    "Desarrollo en entornos LMS (Moodle).",
+    "Desarrollo web con Drupal y aplicaciones móviles híbridas.",
+]
+
+
+[[es.education]]
+institution = "IES San Clemente"
+logo = "./img/logos/logo_xunta.png"
+degree = "Curso de especialización en Videojuegos y Realidad Virtual"
+location = "Santiago de Compostela"
+date = "2024 - 2025"
+description = ""
+
+[[es.education]]
+institution = "Conservatorio Superior de Música de A Coruña"
+logo = "./img/logos/logo_csm.png"
+degree = "Grado en Enseñanzas Artísticas Superiores de Música"
+location = "A Coruña"
+date = "2015 - 2020"
+description = ""
+
+[[es.education]]
+institution = "IES Ramón Mª Aller Ulloa"
+logo = "./img/logos/logo_xunta.png"
+degree = "Técnico Superior en Desarrollo de Aplicaciones WEB (FP.II)"
+location = "Lalín, Pontevedra"
+date = "2012 - 2014"
+description = "Javascript, JQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+
+[[es.skills]]
+items = [
+    { name = "JavaScript", val = 10, cat = "frontend" },
+    { name = "React", val = 10, cat = "frontend" },
+    { name = "Angular", val = 9, cat = "frontend" },
+    { name = "TypeScript", val = 10, cat = "frontend" },
+    { name = "HTML", val = 9, cat = "frontend" },
+    { name = "CSS", val = 9, cat = "frontend" },
+    { name = "NodeJS", val = 8, cat = "backend" },
+    { name = "PHP", val = 7, cat = "backend" },
+    { name = "Symfony", val = 6, cat = "backend" },
+    { name = "Python", val = 6, cat = "backend" },
+    { name = "Java", val = 6, cat = "backend" },
+    { name = "SpringBoot", val = 7, cat = "backend" },
+    { name = "Git", val = 9, cat = "tools" },
+    { name = "Docker", val = 7, cat = "tools" },
+    { name = "MySQL", val = 7, cat = "data" },
+    { name = "MongoDB", val = 6, cat = "data" },
+    { name = "Jest/Vitest", val = 7, cat = "tools" },
+    { name = "SCRUM", val = 2, cat = "tools" },
+    { name = "Styled-Components", val = 8, cat = "frontend" },
+    { name = "Storybook", val = 7, cat = "tools" },
+    { name = "TailwindCSS", val = 8, cat = "others" },
+]
+
+[[es.languages]]
+language = "Gallego"
+level = "Materna"
+
+[[es.languages]]
+language = "Español"
+level = "Nativo"
+
+[[es.languages]]
+language = "Inglés"
+level = "Intermedio"
+
+[en]
+[en.labels]
+location = "Location"
+phone = "Phone"
+email = "Email"
+education = "Education"
+experience = "Experience"
+projects = "Projects"
+skills = "Skills"
+languages = "Languages"
+present = "Present"
+expert = "Expert"
+proficient = "Proficient"
+basic = "Basic"
+
+[en.personal_info]
+position = "FrontEnd Developer"
+summary = "FrontEnd Developer with strong experience in React and the JavaScript ecosystem. Passionate about creating dynamic and efficient user interfaces, combining technical skills with discipline and creativity from a professional music background."
+
+[[en.experience]]
+company = "EMAIS Grupo"
+position = "FrontEnd Developer"
+logo = "./img/logos/logo-emais.png"
+location = "Remote"
+date = "July 2023 - Present"
+description = "Development of a new module in React to expand business processes and resolution of incidents in pre-existing modules in both AngularJS and React."
+tasks = [
+    "Module development using React.",
+    "Maintenance and bug fixing in AngularJS and React.",
+]
+
+[[en.experience]]
+company = "CiTIUS (University of Santiago de Compostela)"
+position = "FrontEnd Developer"
+location = "Santiago de Compostela"
+date = "April 2022 - April 2023"
+description = "Development of an interface for a web application to import, edit, and consolidate regional regulations in XML format (LexGal)."
+tasks = [
+    "Tech stack: React, Javascript, Websockets over STOMP (SockJS), SpringBoot, MongoDB.",
+]
+
+[[en.experience]]
+company = "Freelance Professional"
+position = "Professional Musician"
+location = "Galicia"
+date = "2018 - 2021"
+description = "Professional activity as an independent musician."
+tasks = []
+
+[[en.experience]]
+company = "SDWEB"
+position = "FullStack Developer"
+location = "Santiago de Compostela"
+date = "2014 - 2015"
+description = "FullStack development mainly in Moodle (PHP, Javascript, JQUERY, MySQL), Drupal, and Phonegap (Javascript)."
+tasks = [
+    "Development in LMS environments (Moodle).",
+    "Web development with Drupal and hybrid mobile apps.",
+]
+
+[[en.education]]
+institution = "Centro de Novas Tecnoloxías de Galicia"
+degree = "Web Application Development with Angular"
+location = "A Coruña"
+date = "May 2023 - June 2023"
+description = "50-hour specialization course."
+
+[[en.education]]
+institution = "Conservatorio Superior de Música de A Coruña"
+degree = "Higher Degree in Music"
+location = "A Coruña"
+date = "2015 - 2020"
+description = ""
+
+[[en.education]]
+institution = "IES Ramón Mª Aller Ulloa"
+degree = "Higher Technician in Web Application Development"
+location = "Lalín, Pontevedra"
+date = "2012 - 2014"
+description = "Javascript, JQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+
+[[en.skills]]
+items = [
+    { name = "JavaScript", val = 10, cat = "frontend" },
+    { name = "React", val = 10, cat = "frontend" },
+    { name = "Angular", val = 9, cat = "frontend" },
+    { name = "TypeScript", val = 8, cat = "frontend" },
+    { name = "HTML", val = 9, cat = "frontend" },
+    { name = "CSS", val = 9, cat = "frontend" },
+    { name = "NodeJS", val = 8, cat = "backend" },
+    { name = "PHP", val = 7, cat = "backend" },
+    { name = "Symfony", val = 6, cat = "backend" },
+    { name = "Python", val = 6, cat = "backend" },
+    { name = "Java", val = 6, cat = "backend" },
+    { name = "SpringBoot", val = 7, cat = "backend" },
+    { name = "Git", val = 9, cat = "tools" },
+    { name = "Docker", val = 7, cat = "tools" },
+    { name = "MySQL", val = 7, cat = "data" },
+    { name = "MongoDB", val = 6, cat = "data" },
+    { name = "Jest", val = 7, cat = "tools" },
+    { name = "SCRUM", val = 8, cat = "tools" },
+    { name = "Styled-Components", val = 8, cat = "frontend" },
+    { name = "Storybook", val = 7, cat = "tools" },
+]
+
+[[en.languages]]
+language = "Galician"
+level = "Native"
+
+[[en.languages]]
+language = "Spanish"
+level = "Native"
+
+[[en.languages]]
+language = "English"
+level = "Intermediate"
