@@ -25,30 +25,35 @@ proficient = "Competente"
 basic = "Básico"
 
 [es.personal_info]
-position = "Desarrollador FrontEnd"
-summary = "Desarrollador FrontEnd con sólida experiencia en React y ecosistema JavaScript. Apasionado por crear interfaces de usuario dinámicas y eficientes, combinando conocimientos técnicos con una fuerte disciplina y creatividad derivadadas de mi formación musical."
+position = "Desarrollador Frontend"
+summary = "Desarrollador Frontend con más de 3 años de experiencia profesional construyendo aplicaciones web con React, TypeScript y el ecosistema JavaScript. Especializado en desarrollo de interfaces complejas con formularios dinámicos (JSONSchema/RJSF), migración de aplicaciones legacy y testing con Jest, Vitest y React Testing Library."
 
 [[es.experience]]
 company = "EMAIS Grupo"
 logo = "./img/logos/logo-emais.png"
-position = "Desarrollador FrontEnd"
+position = "Desarrollador Frontend"
 location = "Remoto"
 date = "Julio 2023 - Actualidad"
-description = "Desarrollo de un nuevo módulo en React para ampliar procesos propios del negocio y resolución de incidencias en módulos preexistentes tanto en AngularJS como en React."
+description = "Desarrollo de módulos frontend en React y TypeScript para una plataforma de gestión empresarial, incluyendo formularios dinámicos con JSONSchema y RJSF. Mantenimiento y resolución de incidencias en módulos legacy AngularJS."
 tasks = [
-    "Desarrollo de módulos con React.",
-    "Mantenimiento y resolución de incidencias en AngularJS y React.",
+    "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema).",
+    "Documenté y desarrollé componentes UI reutilizables en Storybook, mejorando la consistencia visual del equipo.",
+    "Gestioné estado de la aplicación con Redux/Zustand e implementé tests unitarios y de componentes con Jest y Vitest, liderando la migración del framework de testing.",
+    "Participé en el refactor progresivo de módulos legacy AngularJS a React con Zustand, mejorando la mantenibilidad del código.",
+    "Extendí el sistema de internacionalización (i18n) de la plataforma con react-intl, dando soporte multiidioma a los nuevos módulos.",
 ]
 
 [[es.experience]]
 company = "CiTIUS (Universidade de Santiago de Compostela)"
 logo = "./img/logos/logo_citius.png"
-position = "Desarrollador FrontEnd"
+position = "Desarrollador Frontend"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
-description = "Desarrollo de una interfaz para una aplicación web con la finalidad de importar, editar y consolidar normativa autonómica en formato XML (LexGal)."
+description = "Desarrollo de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS), una herramienta de importación, edición y consolidación de normativa autonómica en formato XML."
 tasks = [
-    "Uso de tecnologías: React, Javascript, Websockets over STOMP (SockJS), SpringBoot, MongoDB.",
+    "Desarrollé la interfaz completa en React y JavaScript con comunicación en tiempo real mediante WebSockets (STOMP/SockJS).",
+    "Integré el frontend con una API REST SpringBoot y base de datos MongoDB para la gestión documental normativa.",
+    "Colaboré directamente con un equipo de investigación universitario en ciclos de desarrollo iterativo.",
 ]
 
 [[es.experience]]
@@ -67,10 +72,10 @@ logo = "./img/logos/sdweb_logo.png"
 position = "Desarrollador FullStack"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
-description = "Desarrollo FullStack principalmente en Moodle (PHP, Javascript, JQUERY, MySQL), Drupal y Phonegap (Javascript)."
+description = "Desarrollo FullStack en entornos LMS y CMS, con creación de aplicaciones móviles híbridas."
 tasks = [
-    "Desarrollo en entornos LMS (Moodle).",
-    "Desarrollo web con Drupal y aplicaciones móviles híbridas.",
+    "Desarrollé funcionalidades en plataformas LMS (Moodle) con PHP, JavaScript y MySQL.",
+    "Construí sitios web con Drupal y aplicaciones móviles híbridas con Phonegap.",
 ]
 
 
@@ -80,6 +85,14 @@ logo = "./img/logos/logo_xunta.png"
 degree = "Curso de especialización en Videojuegos y Realidad Virtual"
 location = "Santiago de Compostela"
 date = "2024 - 2025"
+description = "Unity, C#, Blender. Proyecto final: PulpaSA."
+
+[[es.education]]
+institution = "Centro de Novas Tecnoloxías de Galicia"
+logo = "./img/logos/logo_xunta.png"
+degree = "Desarrollo de Aplicaciones Web con Angular (50 horas)"
+location = "A Coruña"
+date = "2023"
 description = ""
 
 [[es.education]]
@@ -96,31 +109,48 @@ logo = "./img/logos/logo_xunta.png"
 degree = "Técnico Superior en Desarrollo de Aplicaciones WEB (FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
-description = "Javascript, JQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+description = "JavaScript, jQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+
+[[es.projects]]
+name = "PulpaSA"
+description = "Prototipo de videojuego 3D de gestión cooperativa desarrollado en Unity y C# como proyecto final del curso de especialización en Videojuegos y RV. Inspirado en Overcooked, ambientado en romerías gallegas, con modelado 3D propio en Blender, sistema de pedidos basado en FSM y estilo visual cartoon low-poly."
+
+[[es.projects]]
+name = "EQUIL"
+url = "https://github.com/jrmougan/killbill/"
+description = "App fullstack de gestión de gastos para parejas con sistema de balanza: equilibrio de deudas mediante liquidación o compensación con gastos futuros. Next.js 15, TypeScript, Prisma, MySQL, TailwindCSS, Shadcn/UI, Docker."
+
+[[es.projects]]
+name = "TaiBuddy"
+description = "Herramienta de preparación de oposiciones. Importación de exámenes mediante esquema JSON propio, categorización de preguntas por tema y simulación de exámenes. Laravel, Vue.js."
 
 [[es.skills]]
 items = [
-    { name = "JavaScript", val = 10, cat = "frontend" },
-    { name = "React", val = 10, cat = "frontend" },
-    { name = "Angular", val = 9, cat = "frontend" },
-    { name = "TypeScript", val = 10, cat = "frontend" },
+    { name = "JavaScript", val = 9, cat = "frontend" },
+    { name = "React", val = 9, cat = "frontend" },
+    { name = "TypeScript", val = 8, cat = "frontend" },
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
-    { name = "NodeJS", val = 8, cat = "backend" },
+    { name = "Angular", val = 7, cat = "frontend" },
+    { name = "Next.js", val = 4, cat = "frontend" },
+    { name = "Vue.js", val = 3, cat = "frontend" },
+    { name = "Styled-Components", val = 8, cat = "frontend" },
+    { name = "TailwindCSS", val = 8, cat = "frontend" },
+    { name = "Storybook", val = 7, cat = "frontend" },
+    { name = "Node.js", val = 8, cat = "backend" },
     { name = "PHP", val = 7, cat = "backend" },
-    { name = "Symfony", val = 6, cat = "backend" },
+    { name = "Laravel", val = 3, cat = "backend" },
+    { name = "SpringBoot", val = 6, cat = "backend" },
     { name = "Python", val = 6, cat = "backend" },
-    { name = "Java", val = 6, cat = "backend" },
-    { name = "SpringBoot", val = 7, cat = "backend" },
+    { name = "REST APIs", val = 8, cat = "backend" },
+    { name = "Jest/Vitest", val = 7, cat = "tools" },
+    { name = "React Testing Library", val = 7, cat = "tools" },
     { name = "Git", val = 9, cat = "tools" },
     { name = "Docker", val = 7, cat = "tools" },
+    { name = "GitHub Actions", val = 6, cat = "tools" },
+    { name = "Redux/Zustand", val = 7, cat = "tools" },
     { name = "MySQL", val = 7, cat = "data" },
     { name = "MongoDB", val = 6, cat = "data" },
-    { name = "Jest/Vitest", val = 7, cat = "tools" },
-    { name = "SCRUM", val = 2, cat = "tools" },
-    { name = "Styled-Components", val = 8, cat = "frontend" },
-    { name = "Storybook", val = 7, cat = "tools" },
-    { name = "TailwindCSS", val = 8, cat = "others" },
 ]
 
 [[es.languages]]
@@ -133,7 +163,7 @@ level = "Nativo"
 
 [[es.languages]]
 language = "Inglés"
-level = "Intermedio"
+level = "B1 - Lectura y escritura técnica fluida"
 
 [en]
 [en.labels]
@@ -151,59 +181,78 @@ proficient = "Proficient"
 basic = "Basic"
 
 [en.personal_info]
-position = "FrontEnd Developer"
-summary = "FrontEnd Developer with strong experience in React and the JavaScript ecosystem. Passionate about creating dynamic and efficient user interfaces, combining technical skills with discipline and creativity from a professional music background."
+position = "Frontend Developer"
+summary = "Frontend Developer with 3+ years of professional experience building web applications with React, TypeScript, and the JavaScript ecosystem. Specialized in complex UI development with dynamic forms (JSONSchema/RJSF), legacy application migration, and testing with Jest, Vitest, and React Testing Library."
 
 [[en.experience]]
 company = "EMAIS Grupo"
-position = "FrontEnd Developer"
+position = "Frontend Developer"
 logo = "./img/logos/logo-emais.png"
 location = "Remote"
 date = "July 2023 - Present"
-description = "Development of a new module in React to expand business processes and resolution of incidents in pre-existing modules in both AngularJS and React."
+description = "Development of frontend modules in React and TypeScript for an enterprise management platform, including dynamic forms with JSONSchema and RJSF. Maintenance and bug fixing in legacy AngularJS modules."
 tasks = [
-    "Module development using React.",
-    "Maintenance and bug fixing in AngularJS and React.",
+    "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema).",
+    "Developed and documented reusable UI components in Storybook, improving team-wide visual consistency.",
+    "Managed application state with Redux/Zustand and implemented unit and component tests with Jest and Vitest, leading the testing framework migration.",
+    "Participated in the progressive refactor of legacy AngularJS modules to React with Zustand, improving code maintainability.",
+    "Extended the platform's internationalization (i18n) system with react-intl, enabling multi-language support for new modules.",
 ]
 
 [[en.experience]]
 company = "CiTIUS (University of Santiago de Compostela)"
-position = "FrontEnd Developer"
+position = "Frontend Developer"
+logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
-description = "Development of an interface for a web application to import, edit, and consolidate regional regulations in XML format (LexGal)."
+description = "Development of the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS), a tool for importing, editing, and consolidating regional regulations in XML format."
 tasks = [
-    "Tech stack: React, Javascript, Websockets over STOMP (SockJS), SpringBoot, MongoDB.",
+    "Built the complete frontend interface in React and JavaScript with real-time communication via WebSockets (STOMP/SockJS).",
+    "Integrated the frontend with a SpringBoot REST API and MongoDB database for regulatory document management.",
+    "Collaborated directly with a university research team in iterative development cycles.",
 ]
 
 [[en.experience]]
 company = "Freelance Professional"
-position = "Professional Musician"
+position = "Professional Musician / Teacher"
+logo = "./img/logos/fallback_image.png"
 location = "Galicia"
 date = "2018 - 2021"
-description = "Professional activity as an independent musician."
+quiet = true
+description = "Professional activity as an independent musician and teacher at municipal music schools."
 tasks = []
 
 [[en.experience]]
 company = "SDWEB"
 position = "FullStack Developer"
+logo = "./img/logos/sdweb_logo.png"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
-description = "FullStack development mainly in Moodle (PHP, Javascript, JQUERY, MySQL), Drupal, and Phonegap (Javascript)."
+description = "FullStack development in LMS and CMS environments, including hybrid mobile application development."
 tasks = [
-    "Development in LMS environments (Moodle).",
-    "Web development with Drupal and hybrid mobile apps.",
+    "Developed features for LMS platforms (Moodle) using PHP, JavaScript, and MySQL.",
+    "Built websites with Drupal and hybrid mobile applications with Phonegap.",
 ]
 
 [[en.education]]
+institution = "IES San Clemente"
+logo = "./img/logos/logo_xunta.png"
+degree = "Specialization in Video Games and Virtual Reality"
+location = "Santiago de Compostela"
+date = "2024 - 2025"
+description = "Unity, C#, Blender. Final project: PulpaSA."
+
+[[en.education]]
 institution = "Centro de Novas Tecnoloxías de Galicia"
-degree = "Web Application Development with Angular"
+logo = "./img/logos/logo_xunta.png"
+degree = "Web Application Development with Angular (50 hours)"
 location = "A Coruña"
-date = "May 2023 - June 2023"
-description = "50-hour specialization course."
+date = "2023"
+description = ""
 
 [[en.education]]
 institution = "Conservatorio Superior de Música de A Coruña"
+logo = "./img/logos/logo_csm.png"
 degree = "Higher Degree in Music"
 location = "A Coruña"
 date = "2015 - 2020"
@@ -211,33 +260,52 @@ description = ""
 
 [[en.education]]
 institution = "IES Ramón Mª Aller Ulloa"
+logo = "./img/logos/logo_xunta.png"
 degree = "Higher Technician in Web Application Development"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
-description = "Javascript, JQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+description = "JavaScript, jQuery, Java, PHP, CodeIgniter, Symfony, HTML, CSS."
+
+[[en.projects]]
+name = "PulpaSA"
+description = "Cooperative 3D management game prototype developed in Unity and C# as the final project for a Video Games and VR specialization course. Inspired by Overcooked, set in traditional Galician festivals, featuring custom 3D modeling in Blender, an FSM-based order system, and a cartoon low-poly art style."
+
+[[en.projects]]
+name = "EQUIL"
+url = "https://github.com/jrmougan/killbill/"
+description = "Fullstack couple expense management app with balance system: debt settling through payments or offset with future expenses. Next.js 15, TypeScript, Prisma, MySQL, TailwindCSS, Shadcn/UI, Docker."
+
+[[en.projects]]
+name = "TaiBuddy"
+description = "Civil service exam preparation tool. Exam import via custom JSON schema, question categorization by topic, and exam simulation. Laravel, Vue.js."
 
 [[en.skills]]
 items = [
-    { name = "JavaScript", val = 10, cat = "frontend" },
-    { name = "React", val = 10, cat = "frontend" },
-    { name = "Angular", val = 9, cat = "frontend" },
+    { name = "JavaScript", val = 9, cat = "frontend" },
+    { name = "React", val = 9, cat = "frontend" },
     { name = "TypeScript", val = 8, cat = "frontend" },
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
-    { name = "NodeJS", val = 8, cat = "backend" },
+    { name = "Angular", val = 7, cat = "frontend" },
+    { name = "Next.js", val = 4, cat = "frontend" },
+    { name = "Vue.js", val = 3, cat = "frontend" },
+    { name = "Styled-Components", val = 8, cat = "frontend" },
+    { name = "TailwindCSS", val = 8, cat = "frontend" },
+    { name = "Storybook", val = 7, cat = "frontend" },
+    { name = "Node.js", val = 8, cat = "backend" },
     { name = "PHP", val = 7, cat = "backend" },
-    { name = "Symfony", val = 6, cat = "backend" },
+    { name = "Laravel", val = 3, cat = "backend" },
+    { name = "SpringBoot", val = 6, cat = "backend" },
     { name = "Python", val = 6, cat = "backend" },
-    { name = "Java", val = 6, cat = "backend" },
-    { name = "SpringBoot", val = 7, cat = "backend" },
+    { name = "REST APIs", val = 8, cat = "backend" },
+    { name = "Jest/Vitest", val = 7, cat = "tools" },
+    { name = "React Testing Library", val = 7, cat = "tools" },
     { name = "Git", val = 9, cat = "tools" },
     { name = "Docker", val = 7, cat = "tools" },
+    { name = "GitHub Actions", val = 6, cat = "tools" },
+    { name = "Redux/Zustand", val = 7, cat = "tools" },
     { name = "MySQL", val = 7, cat = "data" },
     { name = "MongoDB", val = 6, cat = "data" },
-    { name = "Jest", val = 7, cat = "tools" },
-    { name = "SCRUM", val = 8, cat = "tools" },
-    { name = "Styled-Components", val = 8, cat = "frontend" },
-    { name = "Storybook", val = 7, cat = "tools" },
 ]
 
 [[en.languages]]
@@ -250,4 +318,4 @@ level = "Native"
 
 [[en.languages]]
 language = "English"
-level = "Intermediate"
+level = "B1 - Fluent technical reading and writing"
