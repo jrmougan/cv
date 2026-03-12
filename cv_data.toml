@@ -9,6 +9,36 @@ phone = "666362583"
 address = "Santiago de Compostela, (A Coruña)"
 link = "linkedin.com/in/jesús-romeo-mougán-750706186"
 
+[[shared.skills]]
+items = [
+    { name = "React", cat = "frontend" },
+    { name = "TypeScript", cat = "frontend" },
+    { name = "JavaScript", cat = "frontend" },
+    { name = "Node.js", cat = "backend" },
+    { name = "HTML", cat = "frontend" },
+    { name = "CSS", cat = "frontend" },
+    { name = "TailwindCSS", cat = "frontend" },
+    { name = "Next.js", cat = "frontend" },
+    { name = "Angular", cat = "frontend" },
+    { name = "Redux/Zustand", cat = "frontend" },
+    { name = "Styled-Components", cat = "frontend" },
+    { name = "Storybook", cat = "frontend" },
+    { name = "Vue.js", cat = "frontend" },
+    { name = "REST APIs", cat = "backend" },
+    { name = "MySQL", cat = "backend" },
+    { name = "MongoDB", cat = "backend" },
+    { name = "PHP", cat = "backend" },
+    { name = "Prisma", cat = "backend" },
+    { name = "SpringBoot", cat = "backend" },
+    { name = "Laravel", cat = "backend" },
+    { name = "Git", cat = "tools" },
+    { name = "Docker", cat = "tools" },
+    { name = "GitHub Actions", cat = "tools" },
+    { name = "Jest/Vitest", cat = "tools" },
+    { name = "React Testing Library", cat = "tools" },
+    { name = "Jira", cat = "tools" },
+]
+
 [es]
 [es.labels]
 location = "Ubicación"
@@ -123,36 +153,6 @@ description = "App fullstack de gestión de gastos para parejas con sistema de b
 [[es.projects]]
 name = "TaiBuddy"
 description = "Herramienta de preparación de oposiciones. Importación de exámenes mediante esquema JSON propio, categorización de preguntas por tema y simulación de exámenes. Laravel, Vue.js."
-
-[[es.skills]]
-items = [
-    { name = "JavaScript", val = 9, cat = "frontend" },
-    { name = "React", val = 9, cat = "frontend" },
-    { name = "TypeScript", val = 8, cat = "frontend" },
-    { name = "HTML", val = 9, cat = "frontend" },
-    { name = "CSS", val = 9, cat = "frontend" },
-    { name = "Angular", val = 7, cat = "frontend" },
-    { name = "Next.js", val = 6, cat = "frontend" },
-    { name = "Vue.js", val = 4, cat = "frontend" },
-    { name = "Styled-Components", val = 8, cat = "frontend" },
-    { name = "TailwindCSS", val = 8, cat = "frontend" },
-    { name = "Storybook", val = 7, cat = "frontend" },
-    { name = "Redux/Zustand", val = 7, cat = "frontend" },
-    { name = "Node.js", val = 8, cat = "backend" },
-    { name = "PHP", val = 5, cat = "backend" },
-    { name = "Laravel", val = 3, cat = "backend" },
-    { name = "SpringBoot", val = 4, cat = "backend" },
-    { name = "Prisma", val = 5, cat = "backend" },
-    { name = "REST APIs", val = 8, cat = "backend" },
-    { name = "Jest/Vitest", val = 7, cat = "tools" },
-    { name = "React Testing Library", val = 7, cat = "tools" },
-    { name = "Git", val = 9, cat = "tools" },
-    { name = "Docker", val = 7, cat = "tools" },
-    { name = "GitHub Actions", val = 6, cat = "tools" },
-    { name = "Jira", val = 7, cat = "tools" },
-    { name = "MySQL", val = 7, cat = "data" },
-    { name = "MongoDB", val = 6, cat = "data" },
-]
 
 [[es.languages]]
 language = "Gallego"
@@ -279,36 +279,6 @@ description = "Fullstack couple expense management app with balance system: debt
 [[en.projects]]
 name = "TaiBuddy"
 description = "Civil service exam preparation tool. Exam import via custom JSON schema, question categorization by topic, and exam simulation. Laravel, Vue.js."
-
-[[en.skills]]
-items = [
-    { name = "JavaScript", val = 9, cat = "frontend" },
-    { name = "React", val = 9, cat = "frontend" },
-    { name = "TypeScript", val = 8, cat = "frontend" },
-    { name = "HTML", val = 9, cat = "frontend" },
-    { name = "CSS", val = 9, cat = "frontend" },
-    { name = "Angular", val = 7, cat = "frontend" },
-    { name = "Next.js", val = 6, cat = "frontend" },
-    { name = "Vue.js", val = 4, cat = "frontend" },
-    { name = "Styled-Components", val = 8, cat = "frontend" },
-    { name = "TailwindCSS", val = 8, cat = "frontend" },
-    { name = "Storybook", val = 7, cat = "frontend" },
-    { name = "Redux/Zustand", val = 7, cat = "frontend" },
-    { name = "Node.js", val = 8, cat = "backend" },
-    { name = "PHP", val = 5, cat = "backend" },
-    { name = "Laravel", val = 3, cat = "backend" },
-    { name = "SpringBoot", val = 4, cat = "backend" },
-    { name = "Prisma", val = 5, cat = "backend" },
-    { name = "REST APIs", val = 8, cat = "backend" },
-    { name = "Jest/Vitest", val = 7, cat = "tools" },
-    { name = "React Testing Library", val = 7, cat = "tools" },
-    { name = "Git", val = 9, cat = "tools" },
-    { name = "Docker", val = 7, cat = "tools" },
-    { name = "GitHub Actions", val = 6, cat = "tools" },
-    { name = "Jira", val = 7, cat = "tools" },
-    { name = "MySQL", val = 7, cat = "data" },
-    { name = "MongoDB", val = 6, cat = "data" },
-]
 
 [[en.languages]]
 language = "Galician"
