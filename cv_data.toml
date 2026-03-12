@@ -79,10 +79,11 @@ logo = "./img/logos/logo_citius.png"
 position = "Desarrollador Frontend"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
-description = "Desarrollo de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS), una herramienta de importación, edición y consolidación de normativa autonómica en formato XML."
+description = "Desarrollo de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS), una herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML."
 tags = ["React", "JavaScript", "REST APIs", "SpringBoot", "MongoDB"]
 tasks = [
     "Desarrollé desde cero la interfaz web completa del proyecto como único desarrollador frontend, utilizando React y JavaScript.",
+    "Diseñé e implementé el sistema de control de versiones y seguimiento de cambios sobre documentos XML normativos, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario.",
     "Implementé comunicación en tiempo real mediante WebSockets (STOMP/SockJS) para la edición colaborativa de documentos XML normativos.",
     "Integré el frontend con una API REST SpringBoot y MongoDB, diseñando los flujos de importación y gestión documental.",
 ]
@@ -211,10 +212,11 @@ position = "Frontend Developer"
 logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
-description = "Development of the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS), a tool for importing, editing, and consolidating regional regulations in XML format."
+description = "Development of the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS), a tool for importing, editing, versioning, and consolidating regional regulations in XML format."
 tags = ["React", "JavaScript", "REST APIs", "SpringBoot", "MongoDB"]
 tasks = [
     "Built from scratch the complete web interface as the sole frontend developer, using React and JavaScript.",
+    "Designed and implemented the version control and change tracking system for XML regulatory documents, featuring visual diff between versions, browsable history, and per-user change auditing.",
     "Implemented real-time communication via WebSockets (STOMP/SockJS) for collaborative editing of XML regulatory documents.",
     "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
 ]
