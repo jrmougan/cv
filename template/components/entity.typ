@@ -1,3 +1,5 @@
+#import "skills.typ": skill_tags
+
 #let entity = (item, metadata) => [
   #let is_quiet = "quiet" in item and item.quiet
   #let primary_color = if is_quiet { rgb("#aaaaaa") } else { rgb(metadata.styles.colors.primary) }
@@ -46,6 +48,9 @@
           )[#task] \
         ]
       ]
+    }
+    #if "tags" in item and item.tags.len() > 0 {
+      skill_tags(item.tags, metadata)
     }
   ]
   #v(1pt) // Space between entity items

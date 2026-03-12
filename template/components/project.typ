@@ -1,3 +1,5 @@
+#import "skills.typ": skill_tags
+
 #let project_item = (item, metadata) => [
   #block(breakable: false)[
     #grid(
@@ -14,6 +16,9 @@
     )
     #v(0pt)
     #text(size: eval(metadata.styles.sizes.normal))[#item.description]
+    #if "tags" in item and item.tags.len() > 0 {
+      skill_tags(item.tags, metadata)
+    }
   ]
   #v(4pt)
 ]

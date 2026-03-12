@@ -2,7 +2,6 @@
 #import "components/entity.typ": entity
 #import "components/education.typ": education_item
 #import "components/project.typ": project_item
-#import "components/skills.typ": skills_item
 #import "components/languages.typ": language_item
 #import "section.typ": seccion
 
@@ -58,19 +57,11 @@
       education_item(item, cv_data)
     }
   }
-  pagebreak()
 
   if "projects" in cv_data {
     seccion(cv_data.labels.projects, cv_data)
     for item in cv_data.projects {
       project_item(item, cv_data)
-    }
-  }
-
-  if "skills" in cv_data {
-    seccion(cv_data.labels.skills, cv_data)
-    for item in cv_data.skills {
-      skills_item(item, cv_data)
     }
   }
 

@@ -1,38 +1,36 @@
-#let skills_item = (item, metadata) => {
+// Reusable skill tags component
+// Renders an inline flow of colored chips for technology tags
+// Usage: skill_tags(item.tags, metadata)
+
+#let skill_tags(tags, metadata) = {
+  if tags.len() == 0 { return }
+
   let cats = metadata.styles.colors.categories
 
-  // Build chip content inline
-  let chips = item.items.map(skill => {
-    let cat = if "cat" in skill { skill.cat } else { "tools" }
+  // Build skill name -> category lookup from shared skills data
+  let skill_lookup = (:)
+  if "skills" in metadata {
+    for skill_group in metadata.skills {
+      for skill in skill_group.items {
+        skill_lookup.insert(skill.name, skill.cat)
+      }
+    }
+  }
+
+  let chips = tags.map(tag => {
+    let cat = skill_lookup.at(tag, default: "tools")
     let color = rgb(cats.at(cat, default: cats.at("tools")))
     let bg = color.lighten(85%)
 
     box(
-      inset: (x: 5pt, y: 3.5pt),
+      inset: (x: 5pt, y: 3pt),
       radius: 3pt,
       fill: bg,
-    )[#text(fill: color, size: 7.5pt, weight: "semibold")[#skill.name]]
+    )[#text(fill: color, size: 7pt, weight: "semibold")[#tag]]
   })
 
-  // Legend builder
-  let legend(color_key, label) = {
-    let color = rgb(cats.at(color_key))
-    box[#text(fill: color, size: 6pt, weight: "bold")[■]
-      #h(2pt)
-      #text(fill: rgb(metadata.styles.colors.secondary), size: 5.5pt, weight: "medium")[#label]]
-  }
-
-  // Render
-  block(width: 100%, below: 6pt)[
-    #set par(leading: 6pt)
-    #chips.join(h(4pt))
-  ]
-
-  block[
-    #legend("frontend", "Frontend")
-    #h(8pt)
-    #legend("backend", "Backend & Data")
-    #h(8pt)
-    #legend("tools", "DevOps & QA")
+  block(width: 100%, above: 8pt)[
+    #set par(leading: 5pt)
+    #chips.join(h(3pt))
   ]
 }
