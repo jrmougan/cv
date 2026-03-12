@@ -5,13 +5,7 @@ default_language = "es"
 
 [shared]
 [shared.styles.fonts]
-base = [
-    "IM FELL English",
-    "Latin Modern Mono",
-    "Arial",
-    "IBM Plex Mono",
-    "Courier New",
-]
+base = ["Courier New"]
 
 [shared.styles.sizes]
 header_name = "25pt"
