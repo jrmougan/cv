@@ -26,7 +26,7 @@ basic = "Básico"
 
 [es.personal_info]
 position = "Desarrollador Frontend"
-summary = "Desarrollador Frontend con más de 3 años de experiencia profesional construyendo aplicaciones web con React, TypeScript y el ecosistema JavaScript. Especializado en desarrollo de interfaces complejas con formularios dinámicos (JSONSchema/RJSF), migración de aplicaciones legacy y testing con Jest, Vitest y React Testing Library."
+summary = "Desarrollador Frontend con más de 4 años de experiencia profesional en el desarrollo de aplicaciones web con React y TypeScript. Enfocado en la construcción de interfaces complejas, migración de sistemas legacy y calidad de código mediante testing automatizado. Experiencia en entornos de producto, investigación y equipos multidisciplinares."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -36,11 +36,11 @@ location = "Remoto"
 date = "Julio 2023 - Actualidad"
 description = "Desarrollo de módulos frontend en React y TypeScript para una plataforma de gestión empresarial, incluyendo formularios dinámicos con JSONSchema y RJSF. Mantenimiento y resolución de incidencias en módulos legacy AngularJS."
 tasks = [
-    "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema).",
-    "Documenté y desarrollé componentes UI reutilizables en Storybook, mejorando la consistencia visual del equipo.",
-    "Gestioné estado de la aplicación con Redux/Zustand e implementé tests unitarios y de componentes con Jest y Vitest, liderando la migración del framework de testing.",
-    "Participé en el refactor progresivo de módulos legacy AngularJS a React con Zustand, mejorando la mantenibilidad del código.",
-    "Extendí el sistema de internacionalización (i18n) de la plataforma con react-intl, dando soporte multiidioma a los nuevos módulos.",
+    "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos en producción.",
+    "Desarrollé componentes UI reutilizables documentados en Storybook, mejorando la consistencia visual y reduciendo el tiempo de desarrollo de nuevas vistas.",
+    "Implementé la migración del framework de testing de Jest a Vitest, escribiendo tests unitarios y de integración con React Testing Library.",
+    "Participé en el refactor progresivo de módulos legacy AngularJS a React con Zustand, mejorando los tiempos de carga y la mantenibilidad del código.",
+    "Extendí el sistema de internacionalización (i18n) con react-intl, habilitando soporte multiidioma en los módulos de nueva creación.",
 ]
 
 [[es.experience]]
@@ -51,9 +51,9 @@ location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
 description = "Desarrollo de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS), una herramienta de importación, edición y consolidación de normativa autonómica en formato XML."
 tasks = [
-    "Desarrollé la interfaz completa en React y JavaScript con comunicación en tiempo real mediante WebSockets (STOMP/SockJS).",
-    "Integré el frontend con una API REST SpringBoot y base de datos MongoDB para la gestión documental normativa.",
-    "Colaboré directamente con un equipo de investigación universitario en ciclos de desarrollo iterativo.",
+    "Desarrollé desde cero la interfaz web completa del proyecto como único desarrollador frontend, utilizando React y JavaScript.",
+    "Implementé comunicación en tiempo real mediante WebSockets (STOMP/SockJS) para la edición colaborativa de documentos XML normativos.",
+    "Integré el frontend con una API REST SpringBoot y MongoDB, diseñando los flujos de importación y gestión documental.",
 ]
 
 [[es.experience]]
@@ -132,23 +132,23 @@ items = [
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
     { name = "Angular", val = 7, cat = "frontend" },
-    { name = "Next.js", val = 4, cat = "frontend" },
-    { name = "Vue.js", val = 3, cat = "frontend" },
+    { name = "Next.js", val = 6, cat = "frontend" },
+    { name = "Vue.js", val = 4, cat = "frontend" },
     { name = "Styled-Components", val = 8, cat = "frontend" },
     { name = "TailwindCSS", val = 8, cat = "frontend" },
     { name = "Storybook", val = 7, cat = "frontend" },
+    { name = "Redux/Zustand", val = 7, cat = "frontend" },
     { name = "Node.js", val = 8, cat = "backend" },
-    { name = "PHP", val = 7, cat = "backend" },
+    { name = "PHP", val = 5, cat = "backend" },
     { name = "Laravel", val = 3, cat = "backend" },
-    { name = "SpringBoot", val = 6, cat = "backend" },
-    { name = "Python", val = 6, cat = "backend" },
+    { name = "SpringBoot", val = 4, cat = "backend" },
+    { name = "Prisma", val = 5, cat = "backend" },
     { name = "REST APIs", val = 8, cat = "backend" },
     { name = "Jest/Vitest", val = 7, cat = "tools" },
     { name = "React Testing Library", val = 7, cat = "tools" },
     { name = "Git", val = 9, cat = "tools" },
     { name = "Docker", val = 7, cat = "tools" },
     { name = "GitHub Actions", val = 6, cat = "tools" },
-    { name = "Redux/Zustand", val = 7, cat = "tools" },
     { name = "MySQL", val = 7, cat = "data" },
     { name = "MongoDB", val = 6, cat = "data" },
 ]
@@ -163,7 +163,7 @@ level = "Nativo"
 
 [[es.languages]]
 language = "Inglés"
-level = "B1 - Lectura y escritura técnica fluida"
+level = "B2 - Lectura técnica diaria. Comunicación profesional escrita y oral"
 
 [en]
 [en.labels]
@@ -182,7 +182,7 @@ basic = "Basic"
 
 [en.personal_info]
 position = "Frontend Developer"
-summary = "Frontend Developer with 3+ years of professional experience building web applications with React, TypeScript, and the JavaScript ecosystem. Specialized in complex UI development with dynamic forms (JSONSchema/RJSF), legacy application migration, and testing with Jest, Vitest, and React Testing Library."
+summary = "Frontend Developer with 4+ years of professional experience building web applications with React and TypeScript. Focused on complex UI development, legacy system migration, and code quality through automated testing. Experienced across product, research, and cross-functional team environments."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -192,11 +192,11 @@ location = "Remote"
 date = "July 2023 - Present"
 description = "Development of frontend modules in React and TypeScript for an enterprise management platform, including dynamic forms with JSONSchema and RJSF. Maintenance and bug fixing in legacy AngularJS modules."
 tasks = [
-    "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema).",
-    "Developed and documented reusable UI components in Storybook, improving team-wide visual consistency.",
-    "Managed application state with Redux/Zustand and implemented unit and component tests with Jest and Vitest, leading the testing framework migration.",
-    "Participated in the progressive refactor of legacy AngularJS modules to React with Zustand, improving code maintainability.",
-    "Extended the platform's internationalization (i18n) system with react-intl, enabling multi-language support for new modules.",
+    "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema), delivering multiple modules to production.",
+    "Developed reusable UI components documented in Storybook, improving visual consistency and reducing development time for new views.",
+    "Implemented the testing framework migration from Jest to Vitest, writing unit and integration tests with React Testing Library.",
+    "Participated in the progressive refactoring of legacy AngularJS modules to React with Zustand, improving load times and code maintainability.",
+    "Extended the platform's i18n system with react-intl, enabling multi-language support across newly developed modules.",
 ]
 
 [[en.experience]]
@@ -207,13 +207,13 @@ location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
 description = "Development of the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS), a tool for importing, editing, and consolidating regional regulations in XML format."
 tasks = [
-    "Built the complete frontend interface in React and JavaScript with real-time communication via WebSockets (STOMP/SockJS).",
-    "Integrated the frontend with a SpringBoot REST API and MongoDB database for regulatory document management.",
-    "Collaborated directly with a university research team in iterative development cycles.",
+    "Built from scratch the complete web interface as the sole frontend developer, using React and JavaScript.",
+    "Implemented real-time communication via WebSockets (STOMP/SockJS) for collaborative editing of XML regulatory documents.",
+    "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
 ]
 
 [[en.experience]]
-company = "Freelance Professional"
+company = "Independent Professional"
 position = "Professional Musician / Teacher"
 logo = "./img/logos/fallback_image.png"
 location = "Galicia"
@@ -287,23 +287,23 @@ items = [
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
     { name = "Angular", val = 7, cat = "frontend" },
-    { name = "Next.js", val = 4, cat = "frontend" },
-    { name = "Vue.js", val = 3, cat = "frontend" },
+    { name = "Next.js", val = 6, cat = "frontend" },
+    { name = "Vue.js", val = 4, cat = "frontend" },
     { name = "Styled-Components", val = 8, cat = "frontend" },
     { name = "TailwindCSS", val = 8, cat = "frontend" },
     { name = "Storybook", val = 7, cat = "frontend" },
+    { name = "Redux/Zustand", val = 7, cat = "frontend" },
     { name = "Node.js", val = 8, cat = "backend" },
-    { name = "PHP", val = 7, cat = "backend" },
+    { name = "PHP", val = 5, cat = "backend" },
     { name = "Laravel", val = 3, cat = "backend" },
-    { name = "SpringBoot", val = 6, cat = "backend" },
-    { name = "Python", val = 6, cat = "backend" },
+    { name = "SpringBoot", val = 4, cat = "backend" },
+    { name = "Prisma", val = 5, cat = "backend" },
     { name = "REST APIs", val = 8, cat = "backend" },
     { name = "Jest/Vitest", val = 7, cat = "tools" },
     { name = "React Testing Library", val = 7, cat = "tools" },
     { name = "Git", val = 9, cat = "tools" },
     { name = "Docker", val = 7, cat = "tools" },
     { name = "GitHub Actions", val = 6, cat = "tools" },
-    { name = "Redux/Zustand", val = 7, cat = "tools" },
     { name = "MySQL", val = 7, cat = "data" },
     { name = "MongoDB", val = 6, cat = "data" },
 ]
@@ -318,4 +318,4 @@ level = "Native"
 
 [[en.languages]]
 language = "English"
-level = "B1 - Fluent technical reading and writing"
+level = "B2 - Daily technical reading. Professional written and spoken communication"
