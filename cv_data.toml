@@ -100,16 +100,6 @@ tasks = [
 ]
 
 [[es.experience]]
-company = "Independiente"
-position = "Músico / Docente"
-logo = "./img/logos/fallback_image.png"
-location = "Galicia"
-date = "2018 - 2021"
-quiet = true
-description = "Desarrollo de actividad profesional como músico y docente en diversas escuelas de música municipales y centros."
-tasks = []
-
-[[es.experience]]
 company = "SDWEB"
 logo = "./img/logos/sdweb_logo.png"
 position = "Desarrollador FullStack"
@@ -250,16 +240,6 @@ tasks = [
     "Implemented real-time collaborative editing via WebSockets (STOMP/SockJS), enabling multiple users to simultaneously edit XML regulatory documents.",
     "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
 ]
-
-[[en.experience]]
-company = "Independent Professional"
-position = "Professional Musician / Teacher"
-logo = "./img/logos/fallback_image.png"
-location = "Galicia"
-date = "2018 - 2021"
-quiet = true
-description = "Professional activity as an independent musician and teacher at municipal music schools."
-tasks = []
 
 [[en.experience]]
 company = "SDWEB"
