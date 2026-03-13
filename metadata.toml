@@ -21,20 +21,21 @@ section_title = "12pt"
 tag = "7pt"
 
 [shared.styles.colors]
-# Everforest Light (Medium) — warm, nature-inspired palette
-background = "#FDF6E3"
-primary = "#3A94C5"
-secondary = "#829181"
-accent = "#8DA101"
-text = "#5C6A72"
-muted = "#A6B0A0"
-header_bg = "#E6E2CC"
-header_text = "#5C6A72"
-header_dim = "#939F91"
-terminal_text = "#8DA101"
+# Light Retro Terminal
+background = "#FCF5E3"
+primary = "#3A8BA4"       # Blue from the palette
+secondary = "#75828A"     # Greyish text
+accent = "#D9615D"        # Pale Red
+text = "#4A545C"          # Dark Slate
+muted = "#E5DBC7"         # Muted bg color for tags/quiet items
+header_bg = "#FCF5E3"     # Slightly darker cream
+header_text = "#4A545C"
+header_dim = "#9AA4A8"
+terminal_text = "#839A3A" # Moss Green for the prompt and borders
+section_title = "#3A8BA4" # Blue color for section titles
 
 [shared.styles.colors.categories]
-frontend = "#3A94C5"
-backend = "#DF69BA"
-tools = "#F57D26"
-gamedev = "#F85552"
+frontend = "#3A8BA4" # Blue
+backend = "#C57A9D"  # Pink
+tools = "#DA8E27"    # Orange/Yellow
+gamedev = "#D9615D"  # Red

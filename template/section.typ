@@ -5,7 +5,7 @@
       align: (left, horizon),
       gutter: 8pt,
       box(
-        fill: rgb(metadata.styles.colors.terminal_text),
+        fill: rgb(metadata.styles.colors.section_title),
         inset: (x: 6pt, y: 3pt),
         radius: 2pt,
       )[
@@ -39,7 +39,7 @@
           font: metadata.styles.fonts.terminal.at(0),
         )[ #upper(titulo) ]
       ],
-      line(length: 100%, stroke: (thickness: 1pt, paint: rgb(metadata.styles.colors.terminal_text), dash: "dashed")),
+      line(length: 100%, stroke: (thickness: 1pt, paint: rgb(metadata.styles.colors.section_title), dash: "dashed")),
     )
   ]
 ]
