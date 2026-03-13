@@ -101,7 +101,7 @@ position = "Desarrollador Full-Stack"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
 description = "Desarrollo Full-Stack en entornos LMS y CMS, con creación de aplicaciones móviles híbridas."
-tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS"]
+tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS", "API SCORM", "Moodle"]
 
 
 [[es.education]]
@@ -120,6 +120,7 @@ degree = "Grado en Enseñanzas Artísticas Superiores de Música"
 location = "A Coruña"
 date = "2015 - 2020"
 description = ""
+tags = ["Trabajo en Equipo", "Disciplina", "Atención al Detalle", "Resolución de Problemas"]
 
 [[es.education]]
 institution = "IES Ramón Mª Aller Ulloa"
@@ -128,21 +129,7 @@ degree = "Técnico Superior en Desarrollo de Aplicaciones WEB (FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
-tags = ["JavaScript", "PHP", "HTML", "CSS"]
-
-[[es.projects]]
-name = "EQUIL"
-url = "https://github.com/jrmougan/killbill/"
-description = "App fullstack de gestión de gastos para parejas con sistema de balanza: equilibrio de deudas mediante liquidación o compensación con gastos futuros. "
-tags = [
-    "Next.js",
-    "TypeScript",
-    "Prisma",
-    "MySQL",
-    "TailwindCSS",
-    "Docker",
-    "GitHub Actions",
-]
+tags = ["JavaScript", "PHP", "HTML", "CSS", "Symfony", "CodeIgniter", "jQuery", "MySQL", "Java"]
 
 [[es.languages]]
 language = "Gallego"
@@ -221,7 +208,7 @@ logo = "./img/logos/sdweb_logo.png"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
 description = "Full-Stack development in LMS and CMS environments, including hybrid mobile application development."
-tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS"]
+tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS", "SCORM API", "Moodle"]
 
 [[en.education]]
 institution = "IES San Clemente"
@@ -239,6 +226,7 @@ degree = "Higher Degree in Music"
 location = "A Coruña"
 date = "2015 - 2020"
 description = ""
+tags = ["Teamwork", "Discipline", "Attention to Detail", "Problem Solving"]
 
 [[en.education]]
 institution = "IES Ramón Mª Aller Ulloa"
@@ -247,21 +235,7 @@ degree = "Higher Technician in Web Application Development"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
-tags = ["JavaScript", "PHP", "HTML", "CSS"]
-
-[[en.projects]]
-name = "EQUIL"
-url = "https://github.com/jrmougan/killbill/"
-description = "Fullstack couple expense management app with balance system: debt settling through payments or offset with future expenses. "
-tags = [
-    "Next.js",
-    "TypeScript",
-    "Prisma",
-    "MySQL",
-    "TailwindCSS",
-    "Docker",
-    "GitHub Actions",
-]
+tags = ["JavaScript", "PHP", "HTML", "CSS", "Symfony", "CodeIgniter", "jQuery", "MySQL", "Java"]
 
 [[en.languages]]
 language = "Galician"
