@@ -32,7 +32,7 @@ header_bg = "#FCF5E3"     # Slightly darker cream
 header_text = "#4A545C"
 header_dim = "#9AA4A8"
 terminal_text = "#839A3A" # Moss Green for the prompt and borders
-section_title = "#3A8BA4" # Blue color for section titles
+section_title = "#839A3A" # Moss Green for section titles
 
 [shared.styles.colors.categories]
 frontend = "#3A8BA4" # Blue

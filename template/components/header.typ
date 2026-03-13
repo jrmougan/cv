@@ -45,9 +45,6 @@
 
       // Left column — terminal text
       align(left)[
-        #let prompt = text(fill: accent)[jeromo\@citius:\~\$]
-        #prompt ./show-cv \
-
         #text(fill: white-text)[Name:    ] #metadata.personal_info.name \
         #text(fill: white-text)[Role:    ] #metadata.personal_info.position \
         #pixel-icon("location-pin") #h(2pt) #metadata.personal_info.contact.address \

@@ -5,9 +5,7 @@
       align: (left, horizon),
       gutter: 8pt,
       box(
-        fill: rgb(metadata.styles.colors.section_title),
-        inset: (x: 6pt, y: 3pt),
-        radius: 2pt,
+        inset: (x: 0pt, y: 3pt),
       )[
         #set align(horizon)
         #let icon-path = "icons/" + lower(titulo) + ".svg"
@@ -29,13 +27,13 @@
 
         #if clean-title in icon-map [
           #let fname = icon-map.at(clean-title)
-          #box(baseline: 20%)[#image("/icons/" + fname + ".svg", width: 10pt)]
+          #box(align(horizon, image("/icons/" + fname + ".svg", width: 10pt)))
           #h(4pt)
         ]
         #text(
           size: eval(metadata.styles.sizes.section_title),
           weight: "bold",
-          fill: rgb(metadata.styles.colors.background),
+          fill: rgb(metadata.styles.colors.section_title),
           font: metadata.styles.fonts.terminal.at(0),
         )[ #upper(titulo) ]
       ],
