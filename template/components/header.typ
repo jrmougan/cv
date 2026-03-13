@@ -22,6 +22,22 @@
     #set text(font: metadata.styles.fonts.terminal, size: 8.5pt, fill: term-text)
     #set par(leading: 6pt)
 
+    // Language selector — top-right, above grid
+    #if "all_langs" in metadata {
+      align(right)[
+        #let langs = metadata.all_langs
+        #let buttons = ()
+        #for l in langs {
+          if l == metadata.lang {
+            buttons.push(text(weight: "bold", fill: term-text)[\[#upper(l)\]])
+          } else {
+            buttons.push(link(label("cv-" + l), text(fill: dim)[#upper(l)]))
+          }
+        }
+        #buttons.join(h(4pt))
+      ]
+    }
+
     #grid(
       columns: (1fr, auto),
       gutter: 12pt,
@@ -44,23 +60,7 @@
             "https://" + metadata.personal_info.contact.link,
             text(fill: term-text)[LinkedIn],
           )
-        ] \
-
-        #if "all_langs" in metadata {
-          [#text(fill: white-text)[Lang:    ]]
-          let langs = metadata.all_langs
-          let buttons = ()
-          for l in langs {
-            if l == metadata.lang {
-              buttons.push(text(weight: "bold", fill: term-text)[\[#upper(l)\]])
-            } else {
-              buttons.push(link(label("cv-" + l), text(fill: dim)[#upper(l)]))
-            }
-          }
-          buttons.join(h(4pt))
-          [\ ]
-        }
-
+        ]
       ],
 
       // Photo

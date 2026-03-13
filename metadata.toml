@@ -5,9 +5,9 @@ default_language = "es"
 
 [shared]
 [shared.styles.fonts]
-base = ["Geist"]
-mono = ["Geist Mono"]
-section_title = ["Geist"]
+base = ["Geist Pixel Square"]
+mono = ["Geist Pixel Square"]
+section_title = ["Geist Pixel Square"]
 terminal = ["Geist Pixel Square"]
 
 [shared.styles.sizes]

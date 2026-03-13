@@ -64,7 +64,18 @@ position = "Desarrollador Frontend"
 location = "Remoto"
 date = "Julio 2023 - Actualidad"
 description = "Desarrollo de módulos frontend en React y TypeScript dentro de un equipo de +7 desarrolladores en una empresa de soluciones de gestión empresarial, con Scrum, code review obligatorio y gestión en Jira."
-tags = ["React", "TypeScript", "Styled-Components", "Storybook", "Jest/Vitest", "React Testing Library", "Redux/Zustand", "Node.js", "Git", "Jira"]
+tags = [
+    "React",
+    "TypeScript",
+    "Styled-Components",
+    "Storybook",
+    "Jest/Vitest",
+    "React Testing Library",
+    "Redux/Zustand",
+    "Node.js",
+    "Git",
+    "Jira",
+]
 tasks = [
     "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos en producción.",
     "Desarrollé una librería de componentes UI reutilizables documentada en Storybook y redacté documentación técnica interna, mejorando la consistencia visual y reduciendo el tiempo de desarrollo de nuevas vistas.",
@@ -155,12 +166,20 @@ tags = ["Unity", "C#", "Blender"]
 [[es.projects]]
 name = "EQUIL"
 url = "https://github.com/jrmougan/killbill/"
-description = "App fullstack de gestión de gastos para parejas con sistema de balanza: equilibrio de deudas mediante liquidación o compensación con gastos futuros. Next.js 15, TypeScript, Prisma, MySQL, TailwindCSS, Shadcn/UI, Docker."
-tags = ["Next.js", "TypeScript", "Prisma", "MySQL", "TailwindCSS", "Docker", "GitHub Actions"]
+description = "App fullstack de gestión de gastos para parejas con sistema de balanza: equilibrio de deudas mediante liquidación o compensación con gastos futuros. "
+tags = [
+    "Next.js",
+    "TypeScript",
+    "Prisma",
+    "MySQL",
+    "TailwindCSS",
+    "Docker",
+    "GitHub Actions",
+]
 
 [[es.projects]]
 name = "TaiBuddy"
-description = "Herramienta de preparación de oposiciones. Importación de exámenes mediante esquema JSON propio, categorización de preguntas por tema y simulación de exámenes. Laravel, Vue.js."
+description = "Herramienta de preparación de oposiciones. Importación de exámenes mediante esquema JSON propio, categorización de preguntas por tema y simulación de exámenes. "
 tags = ["Laravel", "Vue.js"]
 
 [[es.languages]]
@@ -197,7 +216,18 @@ logo = "./img/logos/logo-emais.png"
 location = "Remote"
 date = "July 2023 - Present"
 description = "Frontend module development in React and TypeScript within a 7+ developer team at an enterprise management solutions company, following Scrum with mandatory code review and Jira-based project management."
-tags = ["React", "TypeScript", "Styled-Components", "Storybook", "Jest/Vitest", "React Testing Library", "Redux/Zustand", "Node.js", "Git", "Jira"]
+tags = [
+    "React",
+    "TypeScript",
+    "Styled-Components",
+    "Storybook",
+    "Jest/Vitest",
+    "React Testing Library",
+    "Redux/Zustand",
+    "Node.js",
+    "Git",
+    "Jira",
+]
 tasks = [
     "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema), delivering multiple modules to production.",
     "Developed a reusable UI component library documented in Storybook and wrote internal technical documentation, improving visual consistency and reducing development time for new views.",
@@ -287,12 +317,20 @@ tags = ["Unity", "C#", "Blender"]
 [[en.projects]]
 name = "EQUIL"
 url = "https://github.com/jrmougan/killbill/"
-description = "Fullstack couple expense management app with balance system: debt settling through payments or offset with future expenses. Next.js 15, TypeScript, Prisma, MySQL, TailwindCSS, Shadcn/UI, Docker."
-tags = ["Next.js", "TypeScript", "Prisma", "MySQL", "TailwindCSS", "Docker", "GitHub Actions"]
+description = "Fullstack couple expense management app with balance system: debt settling through payments or offset with future expenses. "
+tags = [
+    "Next.js",
+    "TypeScript",
+    "Prisma",
+    "MySQL",
+    "TailwindCSS",
+    "Docker",
+    "GitHub Actions",
+]
 
 [[en.projects]]
 name = "TaiBuddy"
-description = "Civil service exam preparation tool. Exam import via custom JSON schema, question categorization by topic, and exam simulation. Laravel, Vue.js."
+description = "Civil service exam preparation tool. Exam import via custom JSON schema, question categorization by topic, and exam simulation. "
 tags = ["Laravel", "Vue.js"]
 
 [[en.languages]]

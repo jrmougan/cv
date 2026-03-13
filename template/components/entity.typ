@@ -4,7 +4,7 @@
   #let is_quiet = "quiet" in item and item.quiet
   #let primary_color = if is_quiet { rgb(metadata.styles.colors.muted) } else { rgb(metadata.styles.colors.primary) }
   #let secondary_color = if is_quiet { rgb(metadata.styles.colors.muted).lighten(15%) } else { rgb(metadata.styles.colors.secondary) }
-  #let accent_color = if is_quiet { rgb(metadata.styles.colors.muted) } else { rgb(metadata.styles.colors.secondary) }
+  #let accent_color = if is_quiet { rgb(metadata.styles.colors.muted) } else { rgb(metadata.styles.colors.primary) }
   #let text_color = if is_quiet { rgb(metadata.styles.colors.muted).lighten(15%) } else { rgb(metadata.styles.colors.text) }
 
   #block(breakable: true, width: 100%, below: 8pt)[
@@ -29,7 +29,11 @@
         // Column 3: Location + Date
         stack(dir: ttb, spacing: 1pt,
           if "location" in item and item.location != "" {
-            text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: accent_color)[#item.location]
+            box[
+              #box(height: 6pt, baseline: 10%, image("../../icons/location-pin-entry.svg"))
+              #h(1pt)
+              #text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: accent_color)[#item.location]
+            ]
           },
           text(style: "italic", size: eval(metadata.styles.sizes.item_h3), fill: secondary_color)[#item.date],
         ),

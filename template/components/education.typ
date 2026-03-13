@@ -15,13 +15,17 @@
       },
       // Column 2: Institution + Degree
       stack(dir: ttb, spacing: 1pt,
-        text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution],
+        text(weight: "bold", size: eval(metadata.styles.sizes.item_h1), fill: rgb(metadata.styles.colors.primary))[#item.institution],
         text(weight: "regular", style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(metadata.styles.sizes.item_h2))[#item.degree],
       ),
       // Column 3: Location + Date
       stack(dir: ttb, spacing: 1pt,
         if "location" in item and item.location != "" {
-          text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.location]
+          box[
+            #box(height: 6pt, baseline: 10%, image("../../icons/location-pin-entry.svg"))
+            #h(1pt)
+            #text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.primary))[#item.location]
+          ]
         },
         text(style: "italic", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date],
       ),
