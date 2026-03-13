@@ -25,7 +25,7 @@
     font: cv_data.styles.fonts.mono,
     size: eval(cv_data.styles.sizes.normal),
   )
-  set par(leading: 0.5em)
+  set par(leading: 0.65em)
 
   // Create an anchor for this language
   [#metadata(cv_data.lang) #label("cv-" + cv_data.lang)]

@@ -13,12 +13,12 @@ terminal = ["Geist Pixel Square"]
 [shared.styles.sizes]
 header_name = "22pt"
 header_position = "10pt"
-normal = "7.5pt"
-item_h1 = "9pt"
-item_h2 = "8pt"
-item_h3 = "7pt"
-section_title = "11pt"
-tag = "6pt"
+normal = "8pt"
+item_h1 = "10pt"
+item_h2 = "9pt"
+item_h3 = "8pt"
+section_title = "12pt"
+tag = "7pt"
 
 [shared.styles.colors]
 # Everforest Light (Medium) — warm, nature-inspired palette

@@ -19,16 +19,13 @@ items = [
     { name = "CSS", val = 8, cat = "frontend" },
     { name = "TailwindCSS", val = 7, cat = "frontend" },
     { name = "Next.js", val = 7, cat = "frontend" },
-    { name = "Angular", val = 5, cat = "frontend" },
     { name = "Redux", val = 6, cat = "frontend" },
     { name = "Zustand", val = 7, cat = "frontend" },
     { name = "Styled-Components", val = 8, cat = "frontend" },
     { name = "Storybook", val = 7, cat = "frontend" },
-    { name = "Vue.js", val = 5, cat = "frontend" },
     { name = "REST APIs", val = 8, cat = "backend" },
     { name = "MySQL", val = 6, cat = "backend" },
     { name = "MongoDB", val = 6, cat = "backend" },
-    { name = "PHP", val = 5, cat = "backend" },
     { name = "Prisma", val = 6, cat = "backend" },
     { name = "Git", val = 9, cat = "tools" },
     { name = "Docker", val = 6, cat = "tools" },
@@ -37,9 +34,6 @@ items = [
     { name = "Jest", val = 7, cat = "tools" },
     { name = "React Testing Library", val = 8, cat = "tools" },
     { name = "Jira", val = 7, cat = "tools" },
-    { name = "Unity", val = 6, cat = "gamedev" },
-    { name = "C#", val = 6, cat = "gamedev" },
-    { name = "Blender", val = 5, cat = "gamedev" },
 ]
 
 [es]
@@ -55,7 +49,7 @@ present = "Actualidad"
 
 [es.personal_info]
 position = "Desarrollador Frontend"
-summary = "Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones web en React y TypeScript. He entregado múltiples módulos de negocio en producción, liderado la migración del framework de testing de Jest a Vitest e implementado refactors de AngularJS a React. Experiencia como único frontend en un proyecto de investigación (CiTIUS/USC) y en equipos de +7 desarrolladores con Scrum y code review."
+summary = "Desarrollador Frontend con más de 4 años de experiencia en React, TypeScript y JavaScript. Especializado en construir módulos de negocio en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). Experiencia tanto como único frontend en proyectos de investigación como en equipos de +7 desarrolladores con Scrum y code review."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -67,11 +61,14 @@ description = "Desarrollo de módulos frontend en React y TypeScript dentro de u
 tags = [
     "React",
     "TypeScript",
+    "JavaScript",
     "Styled-Components",
     "Storybook",
-    "Jest/Vitest",
+    "Jest",
+    "Vitest",
     "React Testing Library",
-    "Redux/Zustand",
+    "Redux",
+    "Zustand",
     "Node.js",
     "Git",
     "Jira",
@@ -79,9 +76,8 @@ tags = [
 tasks = [
     "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos en producción.",
     "Desarrollé una librería de componentes UI reutilizables documentada en Storybook y redacté documentación técnica interna, mejorando la consistencia visual y reduciendo el tiempo de desarrollo de nuevas vistas.",
-    "Lideré la migración del framework de testing de Jest a Vitest, escribiendo tests unitarios y de integración con React Testing Library.",
+    "Ejecuté la migración del framework de testing de Jest a Vitest, escribiendo tests unitarios y de integración con React Testing Library.",
     "Participé en el refactor progresivo de módulos legacy AngularJS a React con Zustand, mejorando los tiempos de carga y la mantenibilidad del código.",
-    "Extendí el sistema de internacionalización (i18n) con react-intl, habilitando soporte multiidioma en los módulos de nueva creación.",
 ]
 
 [[es.experience]]
@@ -90,10 +86,9 @@ logo = "./img/logos/logo_citius.png"
 position = "Desarrollador Frontend"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
-description = "Desarrollo desde cero de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML."
+description = "Desarrollo desde cero de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: definición de la arquitectura de componentes React, flujos de usuario y herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML."
 tags = ["React", "JavaScript", "REST APIs", "SpringBoot", "MongoDB"]
 tasks = [
-    "Definí la arquitectura de componentes React y los flujos de usuario completos de la aplicación.",
     "Diseñé e implementé el sistema de control de versiones y seguimiento de cambios sobre documentos XML normativos, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario.",
     "Implementé edición colaborativa en tiempo real mediante WebSockets (STOMP/SockJS), permitiendo que múltiples usuarios editasen simultáneamente documentos XML normativos.",
     "Integré el frontend con una API REST SpringBoot y MongoDB, diseñando los flujos de importación y gestión documental.",
@@ -102,15 +97,11 @@ tasks = [
 [[es.experience]]
 company = "SDWEB"
 logo = "./img/logos/sdweb_logo.png"
-position = "Desarrollador FullStack"
+position = "Desarrollador Full-Stack"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
-description = "Desarrollo FullStack en entornos LMS y CMS, con creación de aplicaciones móviles híbridas."
+description = "Desarrollo Full-Stack en entornos LMS y CMS, con creación de aplicaciones móviles híbridas."
 tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS"]
-tasks = [
-    "Desarrollé funcionalidades en plataformas LMS (Moodle) con PHP, JavaScript y MySQL.",
-    "Construí sitios web con Drupal y aplicaciones móviles híbridas.",
-]
 
 
 [[es.education]]
@@ -121,15 +112,6 @@ location = "Santiago de Compostela"
 date = "2024 - 2025"
 description = ""
 tags = ["Unity", "C#", "Blender"]
-
-[[es.education]]
-institution = "Centro de Novas Tecnoloxías de Galicia"
-logo = "./img/logos/logo_xunta.png"
-degree = "Desarrollo de Aplicaciones Web con Angular (50 horas)"
-location = "A Coruña"
-date = "2023"
-description = ""
-tags = ["Angular"]
 
 [[es.education]]
 institution = "Conservatorio Superior de Música de A Coruña"
@@ -149,11 +131,6 @@ description = ""
 tags = ["JavaScript", "PHP", "HTML", "CSS"]
 
 [[es.projects]]
-name = "PulpaSA"
-description = "Prototipo de videojuego 3D de gestión cooperativa desarrollado en Unity y C# como proyecto final del curso de especialización en Videojuegos y RV. Inspirado en Overcooked, ambientado en romerías gallegas, con modelado 3D propio en Blender, sistema de pedidos basado en FSM y estilo visual cartoon low-poly."
-tags = ["Unity", "C#", "Blender"]
-
-[[es.projects]]
 name = "EQUIL"
 url = "https://github.com/jrmougan/killbill/"
 description = "App fullstack de gestión de gastos para parejas con sistema de balanza: equilibrio de deudas mediante liquidación o compensación con gastos futuros. "
@@ -166,11 +143,6 @@ tags = [
     "Docker",
     "GitHub Actions",
 ]
-
-[[es.projects]]
-name = "TaiBuddy"
-description = "Herramienta de preparación de oposiciones. Importación de exámenes mediante esquema JSON propio, categorización de preguntas por tema y simulación de exámenes. "
-tags = ["Laravel", "Vue.js"]
 
 [[es.languages]]
 language = "Gallego"
@@ -197,7 +169,7 @@ present = "Present"
 
 [en.personal_info]
 position = "Frontend Developer"
-summary = "Frontend Developer with 4+ years of experience building web applications in React and TypeScript. Delivered multiple business modules to production, led the testing framework migration from Jest to Vitest, and implemented legacy AngularJS-to-React refactors. Experience as sole frontend developer on a research project (CiTIUS/USC) and in 7+ developer teams with Scrum and code review."
+summary = "Frontend Developer with 4+ years of experience in React, TypeScript, and JavaScript. Specialized in building production business modules, component libraries, and testing systems (Vitest, React Testing Library). Experience both as sole frontend on research projects and in 7+ developer teams with Scrum and code review."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -209,11 +181,14 @@ description = "Frontend module development in React and TypeScript within a 7+ d
 tags = [
     "React",
     "TypeScript",
+    "JavaScript",
     "Styled-Components",
     "Storybook",
-    "Jest/Vitest",
+    "Jest",
+    "Vitest",
     "React Testing Library",
-    "Redux/Zustand",
+    "Redux",
+    "Zustand",
     "Node.js",
     "Git",
     "Jira",
@@ -221,9 +196,8 @@ tags = [
 tasks = [
     "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema), delivering multiple modules to production.",
     "Developed a reusable UI component library documented in Storybook and wrote internal technical documentation, improving visual consistency and reducing development time for new views.",
-    "Led the testing framework migration from Jest to Vitest, writing unit and integration tests with React Testing Library.",
+    "Drove the testing framework migration from Jest to Vitest, writing unit and integration tests with React Testing Library.",
     "Participated in the progressive refactoring of legacy AngularJS modules to React with Zustand, improving load times and code maintainability.",
-    "Extended the platform's i18n system with react-intl, enabling multi-language support across newly developed modules.",
 ]
 
 [[en.experience]]
@@ -232,10 +206,9 @@ position = "Frontend Developer"
 logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
-description = "Built from scratch the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS/USC) as sole frontend developer: a tool for importing, editing, versioning, and consolidating regional regulations in XML format."
+description = "Built from scratch the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS/USC) as sole frontend developer: defined the React component architecture, user flows, and a tool for importing, editing, versioning, and consolidating regional regulations in XML format."
 tags = ["React", "JavaScript", "REST APIs", "SpringBoot", "MongoDB"]
 tasks = [
-    "Defined the React component architecture and complete user flows for the application.",
     "Designed and implemented the version control and change tracking system for XML regulatory documents, featuring visual diff between versions, browsable history, and per-user change auditing.",
     "Implemented real-time collaborative editing via WebSockets (STOMP/SockJS), enabling multiple users to simultaneously edit XML regulatory documents.",
     "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
@@ -243,16 +216,12 @@ tasks = [
 
 [[en.experience]]
 company = "SDWEB"
-position = "FullStack Developer"
+position = "Full-Stack Developer"
 logo = "./img/logos/sdweb_logo.png"
 location = "Santiago de Compostela"
 date = "2014 - 2015"
-description = "FullStack development in LMS and CMS environments, including hybrid mobile application development."
+description = "Full-Stack development in LMS and CMS environments, including hybrid mobile application development."
 tags = ["PHP", "JavaScript", "MySQL", "HTML", "CSS"]
-tasks = [
-    "Developed features for LMS platforms (Moodle) using PHP, JavaScript, and MySQL.",
-    "Built websites with Drupal and hybrid mobile applications.",
-]
 
 [[en.education]]
 institution = "IES San Clemente"
@@ -262,15 +231,6 @@ location = "Santiago de Compostela"
 date = "2024 - 2025"
 description = ""
 tags = ["Unity", "C#", "Blender"]
-
-[[en.education]]
-institution = "Centro de Novas Tecnoloxías de Galicia"
-logo = "./img/logos/logo_xunta.png"
-degree = "Web Application Development with Angular (50 hours)"
-location = "A Coruña"
-date = "2023"
-description = ""
-tags = ["Angular"]
 
 [[en.education]]
 institution = "Conservatorio Superior de Música de A Coruña"
@@ -290,11 +250,6 @@ description = ""
 tags = ["JavaScript", "PHP", "HTML", "CSS"]
 
 [[en.projects]]
-name = "PulpaSA"
-description = "Cooperative 3D management game prototype developed in Unity and C# as the final project for a Video Games and VR specialization course. Inspired by Overcooked, set in traditional Galician festivals, featuring custom 3D modeling in Blender, an FSM-based order system, and a cartoon low-poly art style."
-tags = ["Unity", "C#", "Blender"]
-
-[[en.projects]]
 name = "EQUIL"
 url = "https://github.com/jrmougan/killbill/"
 description = "Fullstack couple expense management app with balance system: debt settling through payments or offset with future expenses. "
@@ -307,11 +262,6 @@ tags = [
     "Docker",
     "GitHub Actions",
 ]
-
-[[en.projects]]
-name = "TaiBuddy"
-description = "Civil service exam preparation tool. Exam import via custom JSON schema, question categorization by topic, and exam simulation. "
-tags = ["Laravel", "Vue.js"]
 
 [[en.languages]]
 language = "Galician"

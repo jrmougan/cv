@@ -1,11 +1,11 @@
 #import "skills.typ": skill_tags
 
 #let project_item = (item, metadata) => [
-  #block(breakable: false, below: 6pt)[
+  #block(breakable: false, below: 14pt)[
     #grid(
       columns: (1fr, auto),
       column-gutter: 6pt,
-      align(left + horizon, text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.name]),
+      align(left + horizon, text(weight: "bold", fill: rgb(metadata.styles.colors.primary), size: eval(metadata.styles.sizes.item_h1))[#item.name]),
       if "url" in item and item.url != "" {
         align(right + horizon, link(item.url)[
           #text(style: "italic", fill: rgb(metadata.styles.colors.accent), size: eval(

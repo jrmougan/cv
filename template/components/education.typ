@@ -1,7 +1,7 @@
 #import "skills.typ": skill_tags
 
 #let education_item = (item, metadata) => [
-  #block(breakable: false, width: 100%, below: 6pt)[
+  #block(breakable: false, width: 100%, below: 14pt)[
     #grid(
       columns: (auto, 1fr, auto),
       column-gutter: 6pt,
