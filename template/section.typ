@@ -1,12 +1,45 @@
 #let seccion = (titulo, metadata) => [
-  #v(2pt)
-  #block(below: 3pt)[
-    #text(
-      size: eval(metadata.styles.sizes.section_title),
-      weight: "bold",
-      fill: rgb(metadata.styles.colors.primary),
-    )[#titulo]
+  #block(width: 100%, above: 16pt, below: 8pt)[
+    #grid(
+      columns: (auto, 1fr),
+      align: (left, horizon),
+      gutter: 8pt,
+      box(
+        fill: rgb(metadata.styles.colors.terminal_text),
+        inset: (x: 6pt, y: 3pt),
+        radius: 2pt,
+      )[
+        #set align(horizon)
+        #let icon-path = "icons/" + lower(titulo) + ".svg"
+        // Try to load icon, if not exists, just show text.
+        // Typst panics on missing image, so we just use an if-else based on the known names
+        #let icon-map = (
+          "experiencia": "experience",
+          "educacion": "education",
+          "education": "education",
+          "experience": "experience",
+          "proyectos": "projects",
+          "projects": "projects",
+          "idiomas": "languages",
+          "languages": "languages",
+        )
+        #let clean-title = (
+          lower(titulo).replace("ó", "o").replace("á", "a").replace("é", "e").replace("í", "i").replace("ú", "u")
+        )
+
+        #if clean-title in icon-map [
+          #let fname = icon-map.at(clean-title)
+          #box(baseline: 20%)[#image("/icons/" + fname + ".svg", width: 10pt)]
+          #h(4pt)
+        ]
+        #text(
+          size: eval(metadata.styles.sizes.section_title),
+          weight: "bold",
+          fill: rgb(metadata.styles.colors.background),
+          font: metadata.styles.fonts.terminal.at(0),
+        )[ #upper(titulo) ]
+      ],
+      line(length: 100%, stroke: (thickness: 1pt, paint: rgb(metadata.styles.colors.terminal_text), dash: "dashed")),
+    )
   ]
-  #line(length: 100%, stroke: (thickness: 0.9pt, dash: "dotted", paint: rgb(metadata.styles.colors.primary)))
-  #v(2pt)
 ]

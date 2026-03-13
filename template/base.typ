@@ -18,12 +18,14 @@
 
   set page(
     fill: bg-color,
-    margin: 1cm, // Reduced margin to fit content
+    margin: (x: 1cm, y: 0.7cm),
   )
   set text(
     fill: rgb(cv_data.styles.colors.text),
-    font: cv_data.styles.fonts.base,
+    font: cv_data.styles.fonts.mono,
+    size: eval(cv_data.styles.sizes.normal),
   )
+  set par(leading: 0.5em)
 
   // Create an anchor for this language
   [#metadata(cv_data.lang) #label("cv-" + cv_data.lang)]
@@ -33,11 +35,11 @@
   )
 
   if "summary" in cv_data.personal_info [
-    #pad(bottom: 10pt, top: 5pt)[
+    #block(above: 4pt, below: 4pt)[
       #text(
         size: eval(cv_data.styles.sizes.normal),
         style: "italic",
-        fill: rgb(cv_data.styles.colors.text),
+        fill: rgb(cv_data.styles.colors.secondary),
       )[
         #cv_data.personal_info.summary
       ]

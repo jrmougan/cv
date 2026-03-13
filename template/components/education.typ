@@ -1,48 +1,41 @@
 #import "skills.typ": skill_tags
 
 #let education_item = (item, metadata) => [
-  #block(breakable: true, width: 100%)[
+  #block(breakable: false, width: 100%, below: 6pt)[
     #grid(
       columns: (auto, 1fr, auto),
-      gutter: 10pt,
+      column-gutter: 6pt,
+      row-gutter: 0pt,
+      align: (left + horizon, left + top, right + top),
       // Column 1: Logo
       if "logo" in item and item.logo != "" {
-        box(radius: 2pt, clip: true, image("../../" + item.logo, height: 22pt))
+        box(radius: 2pt, clip: true, image("../../" + item.logo, height: 16pt))
       } else {
         none
       },
       // Column 2: Institution + Degree
-      align(left)[
-        #text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution]
-        #v(-5pt)
-        #text(weight: "light", style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(
-          metadata.styles.sizes.item_h2,
-        ))[#item.degree]
-      ],
+      stack(dir: ttb, spacing: 1pt,
+        text(weight: "bold", size: eval(metadata.styles.sizes.item_h1))[#item.institution],
+        text(weight: "regular", style: "italic", fill: rgb(metadata.styles.colors.secondary), size: eval(metadata.styles.sizes.item_h2))[#item.degree],
+      ),
       // Column 3: Location + Date
-      align(right)[
-        #if "location" in item and item.location != "" {
-          text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
-            metadata.styles.colors.accent,
-          ))[#item.location]
-          [\ ]
-        }
-        #text(style: "italic", size: eval(metadata.styles.sizes.item_h3), fill: rgb(
-          metadata.styles.colors.secondary,
-        ))[#item.date]
-      ],
+      stack(dir: ttb, spacing: 1pt,
+        if "location" in item and item.location != "" {
+          text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.location]
+        },
+        text(style: "italic", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.date],
+      ),
     )
 
     // Content
     #if "description" in item and item.description != "" [
-      #v(5pt)
-      #block(width: 100%)[
+      #block(width: 100%, above: 2pt)[
         #text(size: eval(metadata.styles.sizes.normal))[#item.description]
       ]
     ]
+    // Skill tags
     #if "tags" in item and item.tags.len() > 0 {
       skill_tags(item.tags, metadata)
     }
   ]
-  #v(5pt)
 ]

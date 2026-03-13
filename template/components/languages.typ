@@ -1,9 +1,7 @@
 #let language_item = (item, metadata) => [
-  #grid(
-    columns: (12%, 1fr),
-    gutter: 10pt,
-    align(right, text(weight: "bold", size: eval(metadata.styles.sizes.normal))[#item.language]),
-    text(size: eval(metadata.styles.sizes.normal))[#item.level],
-  )
-  #v(3pt)
+  #block(below: 3pt)[
+    #text(weight: "bold", size: eval(metadata.styles.sizes.normal))[#item.language]
+    #h(4pt)
+    #text(size: eval(metadata.styles.sizes.normal), fill: rgb(metadata.styles.colors.secondary))[#item.level]
+  ]
 ]

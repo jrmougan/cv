@@ -6,31 +6,22 @@
   if tags.len() == 0 { return }
 
   let cats = metadata.styles.colors.categories
-
-  // Build skill name -> category lookup from shared skills data
-  let skill_lookup = (:)
-  if "skills" in metadata {
-    for skill_group in metadata.skills {
-      for skill in skill_group.items {
-        skill_lookup.insert(skill.name, skill.cat)
-      }
-    }
+  let tag-size = if "tag" in metadata.styles.sizes {
+    eval(metadata.styles.sizes.tag)
+  } else {
+    6.5pt
   }
 
-  let chips = tags.map(tag => {
-    let cat = skill_lookup.at(tag, default: "tools")
-    let color = rgb(cats.at(cat, default: cats.at("tools")))
-    let bg = color.lighten(85%)
+  let term-color = rgb(metadata.styles.colors.terminal_text)
+  let dim-color = rgb(metadata.styles.colors.header_dim)
 
-    box(
-      inset: (x: 5pt, y: 3pt),
-      radius: 3pt,
-      fill: bg,
-    )[#text(fill: color, size: 7pt, weight: "semibold")[#tag]]
-  })
+  let chips = tags.map(tag => [
+    // Style as JSON bracket list:  [React]
+    #text(fill: dim-color)[\[]#text(fill: term-color, size: tag-size, weight: "medium")[#tag]#text(fill: dim-color)[\]]
+  ])
 
-  block(width: 100%, above: 8pt)[
-    #set par(leading: 5pt)
-    #chips.join(h(3pt))
+  block(width: 100%, above: 4pt)[
+    #set par(leading: 3pt)
+    #chips.join(h(2pt))
   ]
 }

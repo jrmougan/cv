@@ -5,26 +5,36 @@ default_language = "es"
 
 [shared]
 [shared.styles.fonts]
-base = ["Courier New"]
+base = ["Geist"]
+mono = ["Geist Mono"]
+section_title = ["Geist"]
+terminal = ["Geist Pixel Square"]
 
 [shared.styles.sizes]
-header_name = "25pt"
+header_name = "22pt"
 header_position = "10pt"
-normal = "7pt"
-item_h1 = "10pt"
+normal = "7.5pt"
+item_h1 = "9pt"
 item_h2 = "8pt"
-item_h3 = "8pt"
-section_title = "16pt"
+item_h3 = "7pt"
+section_title = "11pt"
+tag = "6pt"
 
 [shared.styles.colors]
-background = "#F5F0E6"
-primary = "#2B1B17"
-secondary = "#544e45"
-accent = "#741e09ff"
-text = "#2B1B17"
+# Everforest Light (Medium) — warm, nature-inspired palette
+background = "#FDF6E3"
+primary = "#3A94C5"
+secondary = "#829181"
+accent = "#8DA101"
+text = "#5C6A72"
+muted = "#A6B0A0"
+header_bg = "#E6E2CC"
+header_text = "#5C6A72"
+header_dim = "#939F91"
+terminal_text = "#8DA101"
 
 [shared.styles.colors.categories]
-frontend = "#2e8b97ff"
-backend = "#e07a5f"
-tools = "#3d405b"
-gamedev = "#7b2d8e"
+frontend = "#3A94C5"
+backend = "#DF69BA"
+tools = "#F57D26"
+gamedev = "#F85552"

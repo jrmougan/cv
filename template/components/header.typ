@@ -1,86 +1,76 @@
-#import "@preview/fontawesome:0.6.0": *
-
-#let personal_info = (icon, content) => [
-  #box(icon)
-  #h(5pt)
-  #content
-]
+#let pixel-icon(name, size: 7pt) = {
+  box(height: size, baseline: 15%, image("../../icons/" + name + ".svg"))
+}
 
 #let header(
   metadata,
-) = [
-  #grid(
-    columns: (auto, 1fr),
-    gutter: 15pt,
-    align: (left + top, right + horizon),
-    box(
-      radius: 50%,
-      clip: true,
-      height: 75pt,
-      image("../../" + metadata.personal_info.photo),
-    ),
-    align(right)[
-      #text(
-        size: eval(metadata.styles.sizes.header_name),
-        weight: "black",
-        fill: rgb(metadata.styles.colors.primary),
-      )[#metadata.personal_info.name]
+) = {
+  let bg = rgb(metadata.styles.colors.header_bg)
+  let accent = rgb(metadata.styles.colors.accent)
+  let white-text = rgb(metadata.styles.colors.header_text)
+  let term-text = rgb(metadata.styles.colors.terminal_text)
+  let dim = rgb(metadata.styles.colors.header_dim)
 
-      #v(-16pt)
+  // Full-bleed dark header — terminal style
+  block(
+    width: 100%,
+    inset: (x: 0pt, top: 0pt, bottom: 8pt),
+    outset: (x: 1cm, top: 0.7cm),
+    fill: bg,
+    below: 4pt,
+  )[
+    #set text(font: metadata.styles.fonts.terminal, size: 8.5pt, fill: term-text)
+    #set par(leading: 6pt)
 
-      #text(
-        size: eval(metadata.styles.sizes.header_position),
-        weight: "bold",
-        style: "italic",
-        fill: rgb(metadata.styles.colors.secondary),
-        tracking: 1pt,
-      )[<#metadata.personal_info.position />]
+    #grid(
+      columns: (1fr, auto),
+      gutter: 12pt,
+      align: (left + horizon, right + horizon),
 
-      #set text(
-        fill: rgb(metadata.styles.colors.text),
-        size: eval(metadata.styles.sizes.normal),
-      )
+      // Left column — terminal text
+      align(left)[
+        #let prompt = text(fill: accent)[jeromo\@citius:\~\$]
+        #prompt ./show-cv \
 
-      // Address
-      #text(style: "italic")[#metadata.personal_info.contact.address]
-
-      // Contact Info Row with Separators
-      #block(width: 100%)[
-        #align(right)[
-          #stack(
-            dir: ltr,
-            spacing: 8pt,
-            personal_info(fa-phone(), text(metadata.personal_info.contact.phone)),
-            text([|]),
-            personal_info(fa-envelope(), link("mailto:" + metadata.personal_info.contact.email)),
-            if "link" in metadata.personal_info.contact {
-              text([|])
-              personal_info(fa-linkedin(), link(
-                "https://" + metadata.personal_info.contact.link,
-              )[#metadata.personal_info.contact.link])
-            },
+        #text(fill: white-text)[Name:    ] #metadata.personal_info.name \
+        #text(fill: white-text)[Role:    ] #metadata.personal_info.position \
+        #pixel-icon("location-pin") #h(2pt) #metadata.personal_info.contact.address \
+        #pixel-icon("phone") #h(2pt) #metadata.personal_info.contact.phone #h(4pt) #text(fill: dim)[|] #h(
+          4pt,
+        ) #pixel-icon("mail") #h(2pt) #link("mailto:" + metadata.personal_info.contact.email, text(
+          fill: term-text,
+        )[#metadata.personal_info.contact.email]) #if "link" in metadata.personal_info.contact [
+          #h(4pt) #text(fill: dim)[|] #h(4pt) #pixel-icon("linkedin") #h(2pt) #link(
+            "https://" + metadata.personal_info.contact.link,
+            text(fill: term-text)[LinkedIn],
           )
-        ]
-      ]
+        ] \
 
-      #v(6pt)
-
-      // Language Selector
-      #if "all_langs" in metadata {
-        align(right)[
-          #let langs = metadata.all_langs
-          #let buttons = ()
-          #for l in langs {
+        #if "all_langs" in metadata {
+          [#text(fill: white-text)[Lang:    ]]
+          let langs = metadata.all_langs
+          let buttons = ()
+          for l in langs {
             if l == metadata.lang {
-              buttons.push(text(weight: "bold", fill: rgb(metadata.styles.colors.primary))[#upper(l)])
+              buttons.push(text(weight: "bold", fill: term-text)[\[#upper(l)\]])
             } else {
-              buttons.push(link(label("cv-" + l), text(fill: rgb(metadata.styles.colors.secondary))[#upper(l)]))
+              buttons.push(link(label("cv-" + l), text(fill: dim)[#upper(l)]))
             }
           }
-          #buttons.join(h(5pt) + text(fill: rgb(metadata.styles.colors.secondary))[|] + h(5pt))
-        ]
-      }
+          buttons.join(h(4pt))
+          [\ ]
+        }
 
-    ],
-  )
-]
+      ],
+
+      // Photo
+      box(
+        radius: 4pt,
+        clip: true,
+        height: 60pt,
+        stroke: 2pt + term-text,
+        image("../../" + metadata.personal_info.photo),
+      ),
+    )
+  ]
+}
