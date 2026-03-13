@@ -7,7 +7,7 @@
   #let accent_color = if is_quiet { rgb(metadata.styles.colors.muted) } else { rgb(metadata.styles.colors.primary) }
   #let text_color = if is_quiet { rgb(metadata.styles.colors.muted).lighten(15%) } else { rgb(metadata.styles.colors.text) }
 
-  #block(breakable: true, width: 100%, below: 14pt)[
+  #block(breakable: true, width: 100%, below: 18pt)[
     // Header grid — NEVER breaks across pages
     #block(breakable: false)[
       #grid(
@@ -22,12 +22,12 @@
           box(width: 16pt, height: 16pt)
         },
         // Column 2: Company + Position
-        stack(dir: ttb, spacing: 1pt,
+        stack(dir: ttb, spacing: 4pt,
           text(weight: "bold", size: eval(metadata.styles.sizes.item_h1), fill: primary_color)[#item.company],
           text(weight: "regular", style: "italic", fill: secondary_color, size: eval(metadata.styles.sizes.item_h2))[#item.position],
         ),
         // Column 3: Location + Date
-        stack(dir: ttb, spacing: 1pt,
+        stack(dir: ttb, spacing: 4pt,
           if "location" in item and item.location != "" {
             box[
               #box(height: 6pt, baseline: 10%, image("../../icons/location-pin-entry.svg"))
@@ -40,17 +40,17 @@
       )
     ]
     // Description
-    #block(width: 100%, above: 2pt, below: 2pt)[
+    #block(width: 100%, above: 6pt, below: 4pt)[
       #text(size: eval(metadata.styles.sizes.normal), fill: text_color)[#item.description]
     ]
     // Tasks — terminal style lists
     #if "tasks" in item and item.tasks != none and item.tasks.len() > 0 {
-      block(width: 100%, above: 3pt)[
+      block(width: 100%, above: 6pt)[
         #set list(
           marker: text(fill: secondary_color, weight: "bold", size: 6pt)[\>],
           indent: 0pt,
           body-indent: 6pt,
-          spacing: 3pt,
+          spacing: 5pt,
         )
         #set text(size: eval(metadata.styles.sizes.normal), fill: text_color)
         #list(..item.tasks)
