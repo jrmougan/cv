@@ -22,7 +22,7 @@
       stack(dir: ttb, spacing: 4pt,
         if "location" in item and item.location != "" {
           box[
-            #box(height: 6pt, baseline: 10%, image("../../icons/location-pin-entry.svg"))
+            #text(weight: "bold", fill: rgb(metadata.styles.colors.secondary))[\@]
             #h(1pt)
             #text(weight: "medium", size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.primary))[#item.location]
           ]

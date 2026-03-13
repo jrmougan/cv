@@ -1,6 +1,4 @@
-#let pixel-icon(name, size: 7pt) = {
-  box(height: size, baseline: 15%, image("../../icons/" + name + ".svg"))
-}
+
 
 #let header(
   metadata,
@@ -45,15 +43,15 @@
 
       // Left column — terminal text
       align(left)[
-        #text(fill: white-text)[Name:    ] #metadata.personal_info.name \
-        #text(fill: white-text)[Role:    ] #metadata.personal_info.position \
-        #pixel-icon("location-pin") #h(2pt) #metadata.personal_info.contact.address \
-        #pixel-icon("phone") #h(2pt) #metadata.personal_info.contact.phone #h(4pt) #text(fill: dim)[|] #h(
+        #text(weight: "bold", fill: dim)[NAME:] #h(2pt) #metadata.personal_info.name \
+        #text(weight: "bold", fill: dim)[ROLE:] #h(2pt) #metadata.personal_info.position \
+        #text(weight: "bold", fill: dim)[LOC:] #h(2pt) #metadata.personal_info.contact.address \
+        #text(weight: "bold", fill: dim)[TEL:] #h(2pt) #metadata.personal_info.contact.phone #h(4pt) #text(fill: dim)[|] #h(
           4pt,
-        ) #pixel-icon("mail") #h(2pt) #link("mailto:" + metadata.personal_info.contact.email, text(
+        ) #text(weight: "bold", fill: dim)[MAIL:] #h(2pt) #link("mailto:" + metadata.personal_info.contact.email, text(
           fill: term-text,
         )[#metadata.personal_info.contact.email]) #if "link" in metadata.personal_info.contact [
-          #h(4pt) #text(fill: dim)[|] #h(4pt) #pixel-icon("linkedin") #h(2pt) #link(
+          #h(4pt) #text(fill: dim)[|] #h(4pt) #text(weight: "bold", fill: dim)[LINK:] #h(2pt) #link(
             "https://" + metadata.personal_info.contact.link,
             text(fill: term-text)[LinkedIn],
           )
