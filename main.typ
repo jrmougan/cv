@@ -3,7 +3,7 @@
 #let data = toml("cv_data.toml")
 
 // Define available languages
-#let langs = ("es", "en")
+#let langs = ("es", "en", "gl")
 
 // Iterate over languages and render them sequentially
 #for lang in langs {
