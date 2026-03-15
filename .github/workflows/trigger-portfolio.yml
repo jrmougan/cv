@@ -1,0 +1,14 @@
+name: Trigger portfolio rebuild
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv_data.toml'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy
+        run: curl -X POST "${{ secrets.PORTFOLIO_DEPLOY_HOOK }}"
