@@ -73,4 +73,64 @@
       language_item(item, cv_data)
     }
   }
+
+  // Footer — QR portfolio + LinkedIn
+  let contact = cv_data.personal_info.contact
+  if "qr_portfolio" in contact and "portfolio" in contact {
+    let secondary = rgb(cv_data.styles.colors.secondary)
+    let term = rgb(cv_data.styles.colors.terminal_text)
+    let muted = rgb(cv_data.styles.colors.muted)
+
+    place(bottom + center,
+      dx: 0pt,
+      dy: 0.7cm,
+      block(
+        width: 100% + 2cm,
+        inset: (x: 0pt, top: 6pt, bottom: 6pt),
+        stroke: (top: 0.3pt + muted),
+      )[
+        #set text(font: cv_data.styles.fonts.terminal, size: 6.5pt)
+        #grid(
+          columns: (auto, 1fr, auto),
+          align: (left + horizon, left + horizon, right + horizon),
+          column-gutter: 12pt,
+
+          // Left — LinkedIn QR + URL
+          if "link" in contact {
+            grid(
+              columns: (auto, auto),
+              align: (left + horizon, left + horizon),
+              column-gutter: 8pt,
+              if "qr_linkedin" in contact {
+                image("../" + contact.qr_linkedin, width: 28pt, height: 28pt)
+              },
+              stack(dir: ttb, spacing: 2pt,
+                text(fill: secondary, weight: "bold")[LINKEDIN],
+                link("https://" + contact.link,
+                  text(fill: term)[#contact.link]
+                ),
+              ),
+            )
+          },
+
+          // Center — empty spacer
+          [],
+
+          // Right — portfolio URL + QR
+          grid(
+            columns: (auto, auto),
+            align: (right + horizon, right + horizon),
+            column-gutter: 8pt,
+            stack(dir: ttb, spacing: 2pt,
+              text(fill: secondary, weight: "bold")[PORTFOLIO],
+              link(contact.portfolio,
+                text(fill: term)[#contact.portfolio]
+              ),
+            ),
+            image("../" + contact.qr_portfolio, width: 28pt, height: 28pt),
+          ),
+        )
+      ]
+    )
+  }
 }

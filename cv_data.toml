@@ -8,6 +8,9 @@ email = "buzon.jesus@mougan.es"
 phone = "+34 666 362 583"
 address = "Santiago de Compostela, (A Coruña)"
 link = "linkedin.com/in/jesús-romeo-mougán-750706186"
+qr_linkedin = "./img/qr-linkedin.svg"
+portfolio = "https://cv.mougan.es"
+qr_portfolio = "./img/qr-portfolio.svg"
 
 [[shared.skills]]
 items = [
