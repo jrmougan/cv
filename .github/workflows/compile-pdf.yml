@@ -1,0 +1,27 @@
+name: Compile CV PDF
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: typst-community/setup-typst@v4
+
+      - name: Compile PDF
+        run: typst compile main.typ cv.pdf --font-path ./fonts/
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest CV
+          make_latest: true
+          files: cv.pdf
