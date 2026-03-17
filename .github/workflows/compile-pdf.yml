@@ -23,7 +23,7 @@ jobs:
           for f in letters/*.toml; do
             company=$(basename "$f" .toml)
             echo "Compiling cover letter for $company..."
-            typst compile --sys-inputs company="$company" --font-path ./fonts/ compile_letters.typ "letter_$company.pdf"
+            typst compile --input company="$company" --font-path ./fonts/ compile_letters.typ "letter_$company.pdf"
           done
 
       - name: Upload to GitHub Release
