@@ -1,0 +1,41 @@
+[es]
+to = "Responsable de Selección\nEmpresa de Ejemplo\nCalle de la Tecnología, 123\n28001 Madrid"
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado/a responsable de selección:"
+body = """
+Me pongo en contacto con vosotros para expresar mi firme interés en la posición de Desarrollador Frontend en su empresa. Con más de 4 años de experiencia trabajando con React, TypeScript y sistemas de testing modernos, confío en que puedo aportar un valor significativo a su equipo técnico.
+
+A lo largo de mi carrera, me he especializado en construir interfaces robustas, escalables y centradas en el usuario, siempre siguiendo las mejores prácticas de desarrollo y asegurando la calidad del código mediante tests unitarios y de integración.
+
+Agradezco de antemano su tiempo y consideración, y quedo a su entera disposición para concertar una entrevista y profundizar en cómo mi perfil encaja con las necesidades de su equipo.
+"""
+closing = "Atentamente,"
+
+[en]
+to = "Hiring Manager\nExample Company\n123 Technology St\nLondon, UK"
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Hiring Manager,"
+body = """
+I am writing to express my strong interest in the Frontend Developer position at your company. With over 4 years of experience working with React, TypeScript, and modern testing frameworks, I am confident that I can bring significant value to your technical team.
+
+Throughout my career, I have specialized in building robust, scalable, and user-centric interfaces, always following development best practices and ensuring code quality through unit and integration testing.
+
+Thank you for your time and consideration. I look forward to the possibility of discussing how my skills and experience align with your team's needs.
+"""
+closing = "Best regards,"
+
+[gl]
+to = "Responsable de Selección\nEmpresa de Exemplo\nRúa da Tecnoloxía, 123\n15701 Santiago de Compostela"
+date = "17 de marzo de 2026"
+subject = "Candidatura para o posto de Desenvolvedor Frontend"
+opening = "Estimado/a responsable de selección:"
+body = """
+Póñome en contacto con vós para expresar o meu firme interese na posición de Desenvolvedor Frontend na súa empresa. Con máis de 4 anos de experiencia traballando con React, TypeScript e sistemas de testing modernos, confío en que podo achegar un valor significativo ao seu equipo técnico.
+
+Ao longo da miña carreira, especialiceime en construír interfaces robustas, escalables e centradas no usuario, sempre seguindo as mellores prácticas de desenvolvemento e asegurando a calidade do código mediante tests unitarios e de integración.
+
+Agradezo de antemán o seu tempo e consideración, e quedo á súa enteira disposición para concertar unha entrevista e afondar en como o meu perfil encaixa coas necesidades do seu equipo.
+"""
+closing = "Atentamente,"

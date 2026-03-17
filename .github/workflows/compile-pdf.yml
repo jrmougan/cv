@@ -15,13 +15,23 @@ jobs:
 
       - uses: typst-community/setup-typst@v4
 
-      - name: Compile PDF
+      - name: Compile CV PDF
         run: typst compile main.typ cv.pdf --font-path ./fonts/
+
+      - name: Compile Cover Letters
+        run: |
+          for f in letters/*.toml; do
+            company=$(basename "$f" .toml)
+            echo "Compiling cover letter for $company..."
+            typst compile --sys-inputs company="$company" --font-path ./fonts/ compile_letters.typ "letter_$company.pdf"
+          done
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: Latest CV
+          name: Latest CV and Letters
           make_latest: true
-          files: cv.pdf
+          files: |
+            cv.pdf
+            letter_*.pdf
