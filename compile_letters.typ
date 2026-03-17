@@ -20,8 +20,12 @@
     let personal_info = shared.at("personal_info", default: (:)) + lang-data.at("personal_info", default: (:))
     let metadata = shared + lang-data + (personal_info: personal_info, lang: lang, all_langs: langs)
 
+    // Merge shared letter data with language-specific data
+    let letter_shared = letter_data.at("shared", default: (:))
+    let letter_lang = letter_shared + letter_data.at(lang)
+
     // Render the cover letter for this language
-    cover_letter_cv(metadata, letter_data.at(lang))
+    cover_letter_cv(metadata, letter_lang)
 
     // Add a pagebreak between languages in the same PDF
     if lang != langs.last() {

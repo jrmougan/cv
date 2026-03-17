@@ -86,7 +86,7 @@
       dy: 0.7cm,
       block(
         width: 100% + 2cm,
-        inset: (x: 0pt, top: 6pt, bottom: 6pt),
+        inset: (x: 12pt, top: 6pt, bottom: 6pt),
         stroke: (top: 0.3pt + muted),
       )[
         #set text(font: cv_data.styles.fonts.terminal, size: 6.5pt)

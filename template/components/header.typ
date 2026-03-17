@@ -58,14 +58,16 @@
         ]
       ],
 
-      // Photo
-      box(
-        radius: 4pt,
-        clip: true,
-        height: 60pt,
-        stroke: 2pt + term-text,
-        image("../../" + metadata.personal_info.photo),
-      ),
+      // Photo (hidden when show_photo is false)
+      if metadata.at("show_photo", default: true) {
+        box(
+          radius: 4pt,
+          clip: true,
+          height: 60pt,
+          stroke: 2pt + term-text,
+          image("../../" + metadata.personal_info.photo),
+        )
+      },
     )
   ]
 }

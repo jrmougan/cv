@@ -1,5 +1,7 @@
-[es]
+[shared]
 to = "Responsable de Selección\nEmpresa de Ejemplo\nCalle de la Tecnología, 123\n28001 Madrid"
+
+[es]
 date = "17 de marzo de 2026"
 subject = "Candidatura para el puesto de Desarrollador Frontend"
 opening = "Estimado/a responsable de selección:"
@@ -13,7 +15,6 @@ Agradezco de antemano su tiempo y consideración, y quedo a su entera disposici�
 closing = "Atentamente,"
 
 [en]
-to = "Hiring Manager\nExample Company\n123 Technology St\nLondon, UK"
 date = "March 17, 2026"
 subject = "Application for Frontend Developer Position"
 opening = "Dear Hiring Manager,"
@@ -27,7 +28,6 @@ Thank you for your time and consideration. I look forward to the possibility of 
 closing = "Best regards,"
 
 [gl]
-to = "Responsable de Selección\nEmpresa de Exemplo\nRúa da Tecnoloxía, 123\n15701 Santiago de Compostela"
 date = "17 de marzo de 2026"
 subject = "Candidatura para o posto de Desenvolvedor Frontend"
 opening = "Estimado/a responsable de selección:"
