@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nEY / EY GDS"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de EY:"
+body = """
+Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en EY. Sé que vuestros centros de servicios globales, especialmente activos en España, gestionan proyectos internacionales donde el nivel de inglés y la capacidad de comunicación técnica en un entorno global son fundamentales, y es precisamente ese contexto el que me resulta más atractivo.
+
+Cuento con un nivel B2 de inglés que utilizo diariamente para la lectura de documentación técnica y la comunicación profesional escrita y oral. En mi trabajo actual en EMAIS Grupo, interactúo regularmente con documentación, librerías y recursos en inglés, lo que me permite integrarme sin fricción en equipos internacionales.
+
+Desde el punto de vista técnico, aporto más de 4 años de experiencia con React, TypeScript y el ecosistema frontend moderno. He diseñado módulos de negocio en producción, una librería de componentes UI con Storybook, y he liderado la migración del sistema de testing a Vitest dentro de un equipo de +7 desarrolladores con Scrum. Mi experiencia previa como único frontend developer en un proyecto de investigación (LexGal, CiTIUS/USC) me aporta además autonomía y capacidad para definir arquitecturas desde cero.
+
+Me encantaría poder explorar cómo mi perfil encaja en vuestros proyectos internacionales.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear EY Hiring Team,"
+body = """
+I am writing to present my candidacy as a Frontend Developer at EY. I know that your Global Delivery Services centres, especially active in Spain, manage international projects where English proficiency and technical communication skills in a global environment are essential — and it is precisely this context that I find most appealing.
+
+I have a B2 level of English that I use daily for reading technical documentation and for professional written and spoken communication. In my current role at EMAIS Grupo, I regularly interact with English-language documentation, libraries, and resources, enabling me to integrate seamlessly into international teams.
+
+From a technical standpoint, I bring over 4 years of experience with React, TypeScript, and the modern frontend ecosystem. I have designed production business modules, a UI component library with Storybook, and driven the migration of the testing system to Vitest within a 7+ developer team following Scrum. My previous experience as the sole frontend developer on a research project (LexGal, CiTIUS/USC) also gives me autonomy and the ability to define architectures from scratch.
+
+I would welcome the opportunity to explore how my profile fits within your international projects.
+"""
+closing = "Best regards,"

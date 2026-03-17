@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nAccenture Song"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de Accenture Song:"
+body = """
+Me pongo en contacto con vosotros para expresar mi interés en incorporarme a Accenture Song como Desarrollador Frontend. Vuestra apuesta por la experiencia de usuario y las soluciones a gran escala conecta directamente con mi perfil profesional, que combina rigor técnico con una sensibilidad especial hacia el detalle y la calidad.
+
+Cuento con más de 4 años de experiencia en desarrollo frontend con React y TypeScript. En EMAIS Grupo he diseñado módulos de negocio en producción, una librería de componentes UI con Storybook pensada para garantizar la consistencia visual, y he impulsado la migración del sistema de testing a Vitest, siempre con foco en la calidad y la experiencia del usuario final.
+
+Me gustaría destacar un aspecto diferencial de mi perfil: antes de dedicarme profesionalmente al desarrollo, me formé como Graduado en Enseñanzas Artísticas Superiores de Música en el Conservatorio Superior de A Coruña. Esta formación me ha aportado disciplina, atención al detalle, capacidad de trabajo en equipo bajo presión y una perspectiva creativa que aplico diariamente a la resolución de problemas técnicos. Creo que esta combinación encaja especialmente bien con la cultura de Accenture Song, donde la tecnología y la creatividad van de la mano.
+
+Estaré encantado de poder conversar sobre cómo mi perfil puede contribuir a vuestros proyectos.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Accenture Song Hiring Team,"
+body = """
+I am writing to express my interest in joining Accenture Song as a Frontend Developer. Your commitment to user experience and large-scale solutions connects directly with my professional profile, which combines technical rigour with a special sensitivity towards detail and quality.
+
+I have over 4 years of experience in frontend development with React and TypeScript. At EMAIS Grupo, I have designed production business modules, a UI component library with Storybook focused on ensuring visual consistency, and driven the migration of the testing system to Vitest, always with a focus on quality and the end-user experience.
+
+I would like to highlight a distinctive aspect of my profile: before dedicating myself professionally to development, I obtained a Higher Degree in Music from the Conservatorio Superior de A Coruña. This training has given me discipline, attention to detail, the ability to work in teams under pressure, and a creative perspective that I apply daily to solving technical problems. I believe this combination is especially well-suited to Accenture Song's culture, where technology and creativity go hand in hand.
+
+I would welcome the opportunity to discuss how my profile can contribute to your projects.
+"""
+closing = "Best regards,"

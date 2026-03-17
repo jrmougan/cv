@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nAltia Consultores"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de Altia:"
+body = """
+Me pongo en contacto con vosotros para expresar mi interés en incorporarme a Altia Consultores como Desarrollador Frontend. Como una de las consultoras más importantes de España con sede en A Coruña, Altia representa para mí la combinación ideal de proximidad y proyectos de gran envergadura, especialmente en el ámbito de la administración pública y la gran empresa.
+
+Mi experiencia está estrechamente ligada a este contexto. En el CiTIUS (Universidade de Santiago de Compostela), desarrollé como único frontend developer el proyecto LexGal: una herramienta web para la importación, edición, versionado y consolidación de normativa autonómica gallega en formato XML. Diseñé el sistema completo de control de versiones con diff visual, historial navegable y auditoría por usuario, e implementé edición colaborativa en tiempo real con WebSockets. Esta experiencia directa con administración pública gallega y documentación normativa es especialmente relevante para los proyectos que gestiona Altia en este sector.
+
+Actualmente, en EMAIS Grupo, complemento ese perfil con experiencia en equipos grandes (+7 desarrolladores), Scrum, code review obligatorio, desarrollo de módulos de negocio en producción con React y TypeScript, y la creación de una librería de componentes UI con Storybook.
+
+Como gallego afincado en Santiago de Compostela, me motiva especialmente la posibilidad de aportar mi experiencia a una empresa gallega referente en el sector tecnológico nacional.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Altia Hiring Team,"
+body = """
+I am writing to express my interest in joining Altia Consultores as a Frontend Developer. As one of Spain's most important IT consultancies headquartered in A Coruña, Altia represents for me the ideal combination of local proximity and large-scale projects, particularly in public administration and enterprise.
+
+My experience is closely tied to this context. At CiTIUS (University of Santiago de Compostela), I developed the LexGal project as the sole frontend developer: a web tool for importing, editing, versioning, and consolidating Galician regional regulations in XML format. I designed the complete version control system with visual diff, browsable history, and per-user auditing, and implemented real-time collaborative editing via WebSockets. This direct experience with Galician public administration and regulatory documentation is especially relevant to the projects Altia manages in this sector.
+
+Currently, at EMAIS Grupo, I complement this profile with experience in large teams (7+ developers), Scrum, mandatory code review, production business module development with React and TypeScript, and the creation of a UI component library with Storybook.
+
+As a Galician based in Santiago de Compostela, I am especially motivated by the opportunity to contribute my experience to a Galician company that is a benchmark in the national technology sector.
+"""
+closing = "Best regards,"

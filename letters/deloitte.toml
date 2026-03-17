@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nDeloitte Digital"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de Deloitte Digital:"
+body = """
+Me pongo en contacto con vosotros para expresar mi interés en incorporarme a Deloitte Digital como Desarrollador Frontend. La capacidad de transformación digital que ofrecéis a grandes organizaciones, tanto nacionales como internacionales, requiere perfiles técnicos capaces de entregar producto real en producción, y creo que mi experiencia demuestra exactamente eso.
+
+En EMAIS Grupo, dentro de un equipo de más de 7 desarrolladores con Scrum y code review obligatorio, he diseñado e implementado múltiples módulos de negocio en React con TypeScript que están actualmente en producción. Creé una librería de componentes UI documentada en Storybook que mejoró la consistencia visual del producto y redujo significativamente los tiempos de desarrollo de nuevas vistas. También lideré la migración del framework de testing de Jest a Vitest, estableciendo un sistema de calidad con React Testing Library.
+
+Previamente, en el CiTIUS (USC), demostré capacidad para definir la arquitectura completa de un proyecto desde cero como único frontend developer, integrando React con API REST SpringBoot, MongoDB y edición colaborativa en tiempo real con WebSockets.
+
+Me encantaría poder conversar sobre cómo mi perfil puede contribuir a los proyectos de transformación que lideráis desde vuestros hubs tecnológicos.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Deloitte Digital Hiring Team,"
+body = """
+I am writing to express my interest in joining Deloitte Digital as a Frontend Developer. The digital transformation capability you deliver to large national and international organisations requires technical profiles capable of shipping real production-grade products, and I believe my experience demonstrates exactly that.
+
+At EMAIS Grupo, within a 7+ developer team following Scrum with mandatory code review, I have designed and delivered multiple production business modules in React with TypeScript. I created a UI component library documented in Storybook that improved the product's visual consistency and significantly reduced development time for new views. I also drove the migration of the testing framework from Jest to Vitest, establishing a quality system with React Testing Library.
+
+Previously, at CiTIUS (USC), I demonstrated the ability to define a complete project architecture from scratch as the sole frontend developer, integrating React with a SpringBoot REST API, MongoDB, and real-time collaborative editing via WebSockets.
+
+I would welcome the opportunity to discuss how my profile can contribute to the transformation projects you lead from your technology hubs.
+"""
+closing = "Best regards,"

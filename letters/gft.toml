@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nGFT Technologies"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de GFT:"
+body = """
+Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en GFT. Conozco la apuesta de GFT por la ingeniería de producto de calidad y la definición de arquitecturas frontend robustas, y creo que mi perfil encaja directamente con esa filosofía.
+
+En mi puesto actual en EMAIS Grupo, trabajo dentro de un equipo de más de 7 desarrolladores con Scrum y code review obligatorio, donde he asumido responsabilidades de liderazgo técnico: diseñé e implementé una librería de componentes UI reutilizables documentada en Storybook, definí estándares de desarrollo y redacté documentación técnica interna que mejoró la consistencia visual y redujo los tiempos de desarrollo de nuevas vistas. También lideré la migración del framework de testing de Jest a Vitest, estableciendo una cultura de testing con React Testing Library.
+
+Además, mi experiencia previa como único frontend developer en el proyecto LexGal (CiTIUS/USC) me permitió definir desde cero la arquitectura de componentes React, los flujos de usuario y las decisiones técnicas de un proyecto completo de investigación, algo que considero especialmente relevante para los perfiles de arquitectura frontend que buscáis.
+
+Quedo a vuestra disposición para ampliar cualquier aspecto de mi perfil en una entrevista.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear GFT Hiring Team,"
+body = """
+I am writing to express my interest in the Frontend Developer position at GFT. I am familiar with GFT's commitment to high-quality product engineering and the definition of robust frontend architectures, and I believe my profile aligns directly with that philosophy.
+
+In my current role at EMAIS Grupo, I work within a team of 7+ developers following Scrum with mandatory code review, where I have taken on technical leadership responsibilities: I designed and implemented a reusable UI component library documented in Storybook, defined development standards, and wrote internal technical documentation that improved visual consistency and reduced development time for new views. I also drove the migration of the testing framework from Jest to Vitest, establishing a testing culture with React Testing Library.
+
+Furthermore, my previous experience as the sole frontend developer on the LexGal project (CiTIUS/USC) allowed me to define from scratch the React component architecture, user flows, and technical decisions for a complete research project — something I consider especially relevant to the frontend architecture profiles you are looking for.
+
+I would welcome the opportunity to discuss my profile further in an interview.
+"""
+closing = "Best regards,"

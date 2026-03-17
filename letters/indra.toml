@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nIndra / Minsait"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de Indra:"
+body = """
+Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en Indra. Conozco la complejidad y la escala de los proyectos que gestionáis en sectores como la administración pública, defensa y energía, y creo que mi experiencia técnica aporta un valor muy específico para este tipo de entornos.
+
+En concreto, durante mi etapa en el CiTIUS (Universidade de Santiago de Compostela), desarrollé como único frontend developer el proyecto LexGal: una herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML. Diseñé e implementé el sistema completo de control de versiones y seguimiento de cambios sobre documentos XML normativos, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario. Además, implementé edición colaborativa en tiempo real mediante WebSockets (STOMP/SockJS). Esta experiencia directa con documentación normativa, XML y sistemas de trazabilidad es especialmente relevante para los proyectos de administración pública que lidera Indra.
+
+Actualmente, en EMAIS Grupo, complemento ese perfil con experiencia en equipos grandes (+7 desarrolladores), Scrum, code review obligatorio, y el desarrollo de módulos de negocio en producción con React, TypeScript y sistemas de testing modernos (Vitest, React Testing Library).
+
+Quedo a vuestra disposición para profundizar en cualquier aspecto de mi perfil.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Indra Hiring Team,"
+body = """
+I am writing to present my candidacy as a Frontend Developer at Indra. I am aware of the complexity and scale of the projects you manage in sectors such as public administration, defence, and energy, and I believe my technical experience brings very specific value to these environments.
+
+Specifically, during my time at CiTIUS (University of Santiago de Compostela), I developed the LexGal project as the sole frontend developer: a tool for importing, editing, versioning, and consolidating regional regulations in XML format. I designed and implemented the complete version control and change tracking system for XML regulatory documents, featuring visual diff between versions, browsable history, and per-user change auditing. Additionally, I implemented real-time collaborative editing via WebSockets (STOMP/SockJS). This direct experience with regulatory documentation, XML, and traceability systems is especially relevant to the public administration projects that Indra leads.
+
+Currently, at EMAIS Grupo, I complement this profile with experience in large teams (7+ developers), Scrum, mandatory code review, and the development of production business modules with React, TypeScript, and modern testing systems (Vitest, React Testing Library).
+
+I would be happy to elaborate further on any aspect of my profile.
+"""
+closing = "Best regards,"

@@ -1,0 +1,32 @@
+[shared]
+to = "Departamento de Selección\nInetum"
+
+[es]
+date = "17 de marzo de 2026"
+subject = "Candidatura para el puesto de Desarrollador Frontend"
+opening = "Estimado equipo de selección de Inetum:"
+body = """
+Me pongo en contacto con vosotros para expresar mi interés en incorporarme a Inetum como Desarrollador Frontend. Sé que estáis en proceso de incorporación de perfiles Senior Frontend para proyectos de gran escala, y creo que mi experiencia es directamente aplicable a ese contexto.
+
+Durante los últimos dos años en EMAIS Grupo, he trabajado en el desarrollo de módulos frontend en React y TypeScript dentro de un equipo de más de 7 desarrolladores, donde he participado activamente en la definición de la arquitectura front-end: creación de una librería de componentes reutilizables con Storybook, refactorización progresiva de módulos legacy AngularJS a React con Zustand, y establecimiento de estándares de testing con Vitest y React Testing Library.
+
+Previamente, en el CiTIUS (Universidade de Santiago de Compostela), tuve la oportunidad de definir desde cero la arquitectura completa de un proyecto de investigación: componentes React, flujos de usuario, integración con API REST SpringBoot y MongoDB, y un sistema de edición colaborativa en tiempo real mediante WebSockets. Esta experiencia de análisis y diseño arquitectónico desde la fase inicial es precisamente la capacidad que valoráis para vuestros proyectos de gran escala.
+
+Estaré encantado de poder ampliar estos puntos en una entrevista personal.
+"""
+closing = "Atentamente,"
+
+[en]
+date = "March 17, 2026"
+subject = "Application for Frontend Developer Position"
+opening = "Dear Inetum Hiring Team,"
+body = """
+I am writing to express my interest in joining Inetum as a Frontend Developer. I understand you are actively incorporating Senior Frontend profiles for large-scale projects, and I believe my experience is directly applicable to that context.
+
+Over the past two years at EMAIS Grupo, I have worked on frontend module development in React and TypeScript within a 7+ developer team, where I have actively participated in defining the front-end architecture: creating a reusable component library with Storybook, progressively refactoring legacy AngularJS modules to React with Zustand, and establishing testing standards with Vitest and React Testing Library.
+
+Previously, at CiTIUS (University of Santiago de Compostela), I had the opportunity to define from scratch the complete architecture of a research project: React components, user flows, REST API integration with SpringBoot and MongoDB, and a real-time collaborative editing system via WebSockets. This experience in architectural analysis and design from the ground up is precisely the capability you value for your large-scale projects.
+
+I would be happy to elaborate on these points in a personal interview.
+"""
+closing = "Best regards,"
