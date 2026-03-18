@@ -19,7 +19,7 @@ items = [
     { name = "JavaScript", val = 9, cat = "frontend" },
     { name = "Node.js", val = 6, cat = "backend" },
     { name = "HTML", val = 9, cat = "frontend" },
-    { name = "CSS", val = 8, cat = "frontend" },
+    { name = "CSS", val = 9, cat = "frontend" },
     { name = "TailwindCSS", val = 7, cat = "frontend" },
     { name = "Next.js", val = 7, cat = "frontend" },
     { name = "Redux", val = 6, cat = "frontend" },
@@ -90,7 +90,15 @@ position = "Desarrollador Frontend"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
 description = "Desarrollo desde cero de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: definición de la arquitectura de componentes React, flujos de usuario y herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML."
-tags = ["React", "Redux", "JavaScript", "TailwindCSS", "REST APIs", "SpringBoot", "MongoDB"]
+tags = [
+    "React",
+    "Redux",
+    "JavaScript",
+    "TailwindCSS",
+    "REST APIs",
+    "SpringBoot",
+    "MongoDB",
+]
 tasks = [
     "Diseñé e implementé el sistema de control de versiones y seguimiento de cambios sobre documentos XML normativos, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario.",
     "Implementé edición colaborativa en tiempo real mediante WebSockets (STOMP/SockJS), permitiendo que múltiples usuarios editasen simultáneamente documentos XML normativos.",
@@ -123,7 +131,12 @@ degree = "Grado en Enseñanzas Artísticas Superiores de Música"
 location = "A Coruña"
 date = "2015 - 2020"
 description = ""
-tags = ["Trabajo en Equipo", "Disciplina", "Atención al Detalle", "Resolución de Problemas"]
+tags = [
+    "Trabajo en Equipo",
+    "Disciplina",
+    "Atención al Detalle",
+    "Resolución de Problemas",
+]
 
 [[es.education]]
 institution = "IES Ramón Mª Aller Ulloa"
@@ -132,7 +145,17 @@ degree = "Técnico Superior en Desarrollo de Aplicaciones WEB (FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
-tags = ["JavaScript", "PHP", "HTML", "CSS", "Symfony", "CodeIgniter", "jQuery", "MySQL", "Java"]
+tags = [
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "Symfony",
+    "CodeIgniter",
+    "jQuery",
+    "MySQL",
+    "Java",
+]
 
 [[es.languages]]
 language = "Gallego"
@@ -197,7 +220,15 @@ logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
 description = "Built from scratch the web interface for the LexGal project at the Center for Intelligent Technologies Research (CiTIUS/USC) as sole frontend developer: defined the React component architecture, user flows, and a tool for importing, editing, versioning, and consolidating regional regulations in XML format."
-tags = ["React", "Redux", "JavaScript", "TailwindCSS", "REST APIs", "SpringBoot", "MongoDB"]
+tags = [
+    "React",
+    "Redux",
+    "JavaScript",
+    "TailwindCSS",
+    "REST APIs",
+    "SpringBoot",
+    "MongoDB",
+]
 tasks = [
     "Designed and implemented the version control and change tracking system for XML regulatory documents, featuring visual diff between versions, browsable history, and per-user change auditing.",
     "Implemented real-time collaborative editing via WebSockets (STOMP/SockJS), enabling multiple users to simultaneously edit XML regulatory documents.",
@@ -238,7 +269,17 @@ degree = "Higher Technician in Web Application Development"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
-tags = ["JavaScript", "PHP", "HTML", "CSS", "Symfony", "CodeIgniter", "jQuery", "MySQL", "Java"]
+tags = [
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "Symfony",
+    "CodeIgniter",
+    "jQuery",
+    "MySQL",
+    "Java",
+]
 
 [[en.languages]]
 language = "Galician"
@@ -303,7 +344,15 @@ position = "Desenvolvedor Frontend"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
 description = "Desenvolvemento desde cero da interface web do proxecto LexGal no Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: definición da arquitectura de compoñentes React, fluxos de usuario e ferramenta de importación, edición, versionado e consolidación de normativa autonómica en formato XML."
-tags = ["React", "Redux", "JavaScript", "TailwindCSS", "REST APIs", "SpringBoot", "MongoDB"]
+tags = [
+    "React",
+    "Redux",
+    "JavaScript",
+    "TailwindCSS",
+    "REST APIs",
+    "SpringBoot",
+    "MongoDB",
+]
 tasks = [
     "Deseñei e implementei o sistema de control de versións e seguimento de cambios sobre documentos XML normativos, con diff visual entre versións, historial navegable e auditoría de modificacións por usuario.",
     "Implementei edición colaborativa en tempo real mediante WebSockets (STOMP/SockJS), permitindo que múltiples usuarios editasen simultaneamente documentos XML normativos.",
@@ -335,7 +384,12 @@ degree = "Grao en Ensinanzas Artísticas Superiores de Música"
 location = "A Coruña"
 date = "2015 - 2020"
 description = ""
-tags = ["Traballo en Equipo", "Disciplina", "Atención ao Detalle", "Resolución de Problemas"]
+tags = [
+    "Traballo en Equipo",
+    "Disciplina",
+    "Atención ao Detalle",
+    "Resolución de Problemas",
+]
 
 [[gl.education]]
 institution = "IES Ramón Mª Aller Ulloa"
@@ -344,7 +398,17 @@ degree = "Técnico Superior en Desenvolvemento de Aplicacións WEB (FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
-tags = ["JavaScript", "PHP", "HTML", "CSS", "Symfony", "CodeIgniter", "jQuery", "MySQL", "Java"]
+tags = [
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "Symfony",
+    "CodeIgniter",
+    "jQuery",
+    "MySQL",
+    "Java",
+]
 
 [[gl.languages]]
 language = "Galego"
