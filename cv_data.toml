@@ -66,6 +66,7 @@ tags = [
     "TypeScript",
     "JavaScript",
     "Styled-Components",
+    "Fluent UI",
     "Storybook",
     "Jest",
     "Vitest",
@@ -77,10 +78,10 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Diseñé e implementé módulos de negocio en React con TypeScript, Styled-Components y formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos en producción.",
-    "Desarrollé una librería de componentes UI reutilizables documentada en Storybook y redacté documentación técnica interna, mejorando la consistencia visual y reduciendo el tiempo de desarrollo de nuevas vistas.",
-    "Ejecuté la migración del framework de testing de Jest a Vitest, escribiendo tests unitarios y de integración con React Testing Library.",
-    "Participé en el refactor progresivo de módulos legacy AngularJS a React con Zustand, mejorando los tiempos de carga y la mantenibilidad del código.",
+    "Desarrollé módulos de negocio en React con TypeScript, Styled-Components, Fluent UI y formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos para cubrir necesidades de negocio en producción.",
+    "Colaboré en el desarrollo de una librería de componentes UI reutilizables documentada en Storybook y redacté documentación técnica interna.",
+    "Colaboré en la migración del framework de testing de Jest a Vitest.",
+    "Participé en el refactor progresivo de módulos legacy AngularJS + Redux a React con Zustand, mejorando los tiempos de carga y la mantenibilidad del código.",
 ]
 
 [[es.experience]]
@@ -196,6 +197,7 @@ tags = [
     "TypeScript",
     "JavaScript",
     "Styled-Components",
+    "Fluent UI",
     "Storybook",
     "Jest",
     "Vitest",
@@ -207,10 +209,10 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Designed and implemented business modules in React with TypeScript, Styled-Components, and dynamic forms (RJSF/JSONSchema), delivering multiple modules to production.",
-    "Developed a reusable UI component library documented in Storybook and wrote internal technical documentation, improving visual consistency and reducing development time for new views.",
-    "Drove the testing framework migration from Jest to Vitest, writing unit and integration tests with React Testing Library.",
-    "Participated in the progressive refactoring of legacy AngularJS modules to React with Zustand, improving load times and code maintainability.",
+    "Developed business modules in React with TypeScript, Styled-Components, Fluent UI and dynamic forms (RJSF/JSONSchema), delivering multiple modules to cover business needs in production.",
+    "Collaborated on the development of a reusable UI component library documented in Storybook and wrote internal technical documentation.",
+    "Collaborated on the migration of the testing framework from Jest to Vitest.",
+    "Participated in the progressive refactoring of legacy AngularJS + Redux modules to React with Zustand, improving load times and code maintainability.",
 ]
 
 [[en.experience]]
@@ -320,6 +322,7 @@ tags = [
     "TypeScript",
     "JavaScript",
     "Styled-Components",
+    "Fluent UI",
     "Storybook",
     "Jest",
     "Vitest",
@@ -331,10 +334,10 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Deseñei e implementei módulos de negocio en React con TypeScript, Styled-Components e formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos en produción.",
-    "Desenvolvín unha libraría de compoñentes UI reutilizables documentada en Storybook e redactei documentación técnica interna, mellorando a consistencia visual e reducindo o tempo de desenvolvemento de novas vistas.",
-    "Executei a migración do framework de testing de Jest a Vitest, escribindo tests unitarios e de integración con React Testing Library.",
-    "Participei no refactor progresivo de módulos legacy AngularJS a React con Zustand, mellorando os tempos de carga e a mantibilidade do código.",
+    "Desenvolvín módulos de negocio en React con TypeScript, Styled-Components, Fluent UI e formularios dinámicos (RJSF/JSONSchema), entregando múltiples módulos para cubrir necesidades de negocio en produción.",
+    "Colaborei no desenvolvemento dunha libraría de compoñentes UI reutilizables documentada en Storybook e redactei documentación técnica interna.",
+    "Colaborei na migración do framework de testing de Jest a Vitest.",
+    "Participei no refactor progresivo de módulos legacy AngularJS + Redux a React con Zustand, mellorando os tempos de carga e a mantibilidade do código.",
 ]
 
 [[gl.experience]]
