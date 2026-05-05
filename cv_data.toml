@@ -18,6 +18,9 @@ items = [
     { name = "TypeScript", val = 8, cat = "frontend" },
     { name = "JavaScript", val = 9, cat = "frontend" },
     { name = "Node.js", val = 6, cat = "backend" },
+    { name = "Python", val = 6, cat = "backend" },
+    { name = "Java", val = 5, cat = "backend" },
+    { name = "PHP", val = 5, cat = "backend" },
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
     { name = "TailwindCSS", val = 7, cat = "frontend" },
@@ -52,7 +55,7 @@ present = "Actualidad"
 
 [es.personal_info]
 position = "Desarrollador Frontend"
-summary = "Desarrollador Frontend con más de 4 años de experiencia en React, TypeScript y JavaScript. Especializado en construir módulos de negocio en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). Experiencia tanto como único frontend en proyectos de investigación como en equipos de +7 desarrolladores con Scrum y code review."
+summary = "Desarrollador Frontend con más de 4 años de experiencia en React, TypeScript y JavaScript. He trabajado tanto como único frontend en proyectos de investigación como en equipos de +7 personas con Scrum y code review, construyendo módulos en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). En mi tiempo libre cacharreo con backend (Node, Python, Java, PHP) porque me gusta tocar todo el stack y, a medio plazo, dar el salto a fullstack."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -87,7 +90,7 @@ tasks = [
 [[es.experience]]
 company = "CiTIUS (Universidade de Santiago de Compostela)"
 logo = "./img/logos/logo_citius.png"
-position = "Desarrollador Frontend"
+position = "Técnico de apoyo a la investigación"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
 description = "Desarrollo desde cero de la interfaz web del proyecto LexGal en el Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: definición de la arquitectura de componentes React, flujos de usuario y herramienta de importación, edición, versionado y consolidación de normativa autonómica en formato XML."
@@ -183,7 +186,7 @@ present = "Present"
 
 [en.personal_info]
 position = "Frontend Developer"
-summary = "Frontend Developer with 4+ years of experience in React, TypeScript, and JavaScript. Specialized in building production business modules, component libraries, and testing systems (Vitest, React Testing Library). Experience both as sole frontend on research projects and in 7+ developer teams with Scrum and code review."
+summary = "Frontend Developer with 4+ years of experience in React, TypeScript and JavaScript. I've worked both as the sole frontend on research projects and in 7+ person teams with Scrum and code review, shipping production modules, component libraries and testing setups (Vitest, React Testing Library). On the side I tinker with backend (Node, Python, Java, PHP) because I like touching the whole stack and, in the medium term, growing into fullstack."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -217,7 +220,7 @@ tasks = [
 
 [[en.experience]]
 company = "CiTIUS (University of Santiago de Compostela)"
-position = "Frontend Developer"
+position = "Research Support Technician"
 logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "April 2022 - April 2023"
@@ -308,7 +311,7 @@ present = "Actualidade"
 
 [gl.personal_info]
 position = "Desenvolvedor Frontend"
-summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia en React, TypeScript e JavaScript. Especializado en construír módulos de negocio en produción, librarías de compoñentes e sistemas de testing (Vitest, React Testing Library). Experiencia tanto como único frontend en proxectos de investigación como en equipos de +7 desenvolvedores con Scrum e code review."
+summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia en React, TypeScript e JavaScript. Traballei tanto como único frontend en proxectos de investigación como en equipos de +7 persoas con Scrum e code review, construíndo módulos en produción, librarías de compoñentes e sistemas de testing (Vitest, React Testing Library). No meu tempo libre trasteo con backend (Node, Python, Java, PHP) porque me gusta tocar todo o stack e, a medio prazo, dar o salto a fullstack."
 
 [[gl.experience]]
 company = "EMAIS Grupo"
@@ -343,7 +346,7 @@ tasks = [
 [[gl.experience]]
 company = "CiTIUS (Universidade de Santiago de Compostela)"
 logo = "./img/logos/logo_citius.png"
-position = "Desenvolvedor Frontend"
+position = "Técnico de apoio á investigación"
 location = "Santiago de Compostela"
 date = "Abril 2022 - Abril 2023"
 description = "Desenvolvemento desde cero da interface web do proxecto LexGal no Centro de Investigación en Tecnoloxías Intelixentes (CiTIUS/USC) como único frontend developer: definición da arquitectura de compoñentes React, fluxos de usuario e ferramenta de importación, edición, versionado e consolidación de normativa autonómica en formato XML."
