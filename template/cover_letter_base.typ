@@ -1,12 +1,12 @@
 #import "components/header.typ": header
 
 #let cover_letter_cv(
-  metadata,
+  cv_data,
   letter_data,
 ) = {
   // Set page background if defined
-  let bg-color = if "background" in metadata.styles.colors {
-    rgb(metadata.styles.colors.background)
+  let bg-color = if "background" in cv_data.styles.colors {
+    rgb(cv_data.styles.colors.background)
   } else {
     white
   }
@@ -16,22 +16,17 @@
     margin: (x: 2cm, y: 1.5cm),
   )
   set text(
-    fill: rgb(metadata.styles.colors.text),
-    font: metadata.styles.fonts.mono,
-    size: eval(metadata.styles.sizes.normal),
+    fill: rgb(cv_data.styles.colors.text),
+    font: cv_data.styles.fonts.mono,
+    size: eval(cv_data.styles.sizes.normal),
   )
   set par(leading: 0.75em, justify: true)
 
   // Create an anchor for this language (required by header's language selector)
-  // Note: we use a hidden block instead of metadata() to avoid name collision
-  // with the `metadata` parameter of this function
-  {
-    let lang-id = metadata.lang
-    [#hide[#lang-id] #label("cv-" + lang-id)]
-  }
+  [#metadata(cv_data.lang) #label("cv-" + cv_data.lang)]
 
   // Header (uses CV's header, without photo)
-  header(metadata + (show_photo: false))
+  header(cv_data + (show_photo: false))
 
   v(24pt)
 
@@ -55,7 +50,7 @@
   if "subject" in letter_data [
     #block(width: 100%)[
       #set align(left)
-      #text(weight: "bold", fill: rgb(metadata.styles.colors.primary))[
+      #text(weight: "bold", fill: rgb(cv_data.styles.colors.primary))[
         #upper(letter_data.subject)
       ]
     ]
@@ -80,15 +75,15 @@
   block(width: 100%)[
     #letter_data.closing \
     #v(12pt)
-    #text(weight: "bold", fill: rgb(metadata.styles.colors.primary))[#metadata.personal_info.name]
+    #text(weight: "bold", fill: rgb(cv_data.styles.colors.primary))[#cv_data.personal_info.name]
   ]
 
   // Footer — QR portfolio + LinkedIn (same as CV)
-  let contact = metadata.personal_info.contact
+  let contact = cv_data.personal_info.contact
   if "qr_portfolio" in contact and "portfolio" in contact {
-    let secondary = rgb(metadata.styles.colors.secondary)
-    let term = rgb(metadata.styles.colors.terminal_text)
-    let muted = rgb(metadata.styles.colors.muted)
+    let secondary = rgb(cv_data.styles.colors.secondary)
+    let term = rgb(cv_data.styles.colors.terminal_text)
+    let muted = rgb(cv_data.styles.colors.muted)
 
     place(bottom + center,
       dx: 0pt,
@@ -98,7 +93,7 @@
         inset: (x: 12pt, top: 6pt, bottom: 6pt),
         stroke: (top: 0.3pt + muted),
       )[
-        #set text(font: metadata.styles.fonts.terminal, size: 6.5pt)
+        #set text(font: cv_data.styles.fonts.terminal, size: 6.5pt)
         #grid(
           columns: (auto, 1fr, auto),
           align: (left + horizon, left + horizon, right + horizon),
