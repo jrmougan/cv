@@ -26,8 +26,9 @@
     let muted = rgb(cv_data.styles.colors.muted)
 
     block(
-      width: 100% + 2cm,
+      width: 100%,
       inset: (x: 12pt, top: 3pt, bottom: 3pt),
+      outset: (x: 1cm),
       stroke: (top: 0.3pt + muted),
     )[
       #set text(font: cv_data.styles.fonts.terminal, size: 6.5pt)
