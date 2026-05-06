@@ -54,7 +54,7 @@ languages = "Idiomas"
 present = "Actualidad"
 
 [es.personal_info]
-position = "Desarrollador Frontend"
+position = "Desarrollador Senior Frontend"
 summary = "Desarrollador Frontend con más de 4 años de experiencia en React, TypeScript y JavaScript. He trabajado tanto como único frontend en proyectos de investigación como en equipos de +7 personas con Scrum y code review, construyendo módulos en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). En proyectos personales también trabajo con backend (Node, Python, Java, PHP) porque me interesa cubrir todo el stack y, a medio plazo, dar el salto a fullstack."
 
 [[es.experience]]
@@ -188,7 +188,7 @@ languages = "Languages"
 present = "Present"
 
 [en.personal_info]
-position = "Frontend Developer"
+position = "Senior Frontend Developer"
 summary = "Frontend Developer with 4+ years of experience in React, TypeScript and JavaScript. I've worked both as the sole frontend on research projects and in 7+ person teams with Scrum and code review, shipping production modules, component libraries and testing setups (Vitest, React Testing Library). In personal projects I also work with backend (Node, Python, Java, PHP) because I want to cover the whole stack and, in the medium term, move into fullstack."
 
 [[en.experience]]
@@ -316,7 +316,7 @@ languages = "Idiomas"
 present = "Actualidade"
 
 [gl.personal_info]
-position = "Desenvolvedor Frontend"
+position = "Desenvolvedor Senior Frontend"
 summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia en React, TypeScript e JavaScript. Traballei tanto como único frontend en proxectos de investigación como en equipos de +7 persoas con Scrum e code review, construíndo módulos en produción, librarías de compoñentes e sistemas de testing (Vitest, React Testing Library). En proxectos persoais tamén traballo con backend (Node, Python, Java, PHP) porque me interesa cubrir todo o stack e, a medio prazo, dar o salto a fullstack."
 
 [[gl.experience]]
