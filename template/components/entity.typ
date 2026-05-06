@@ -7,7 +7,7 @@
   #let accent_color = if is_quiet { rgb(metadata.styles.colors.muted) } else { rgb(metadata.styles.colors.primary) }
   #let text_color = if is_quiet { rgb(metadata.styles.colors.muted).lighten(15%) } else { rgb(metadata.styles.colors.text) }
 
-  #block(breakable: true, width: 100%, below: 18pt)[
+  #block(breakable: true, width: 100%, below: 14pt)[
     // Header grid — NEVER breaks across pages
     #block(breakable: false)[
       #grid(
