@@ -2,31 +2,31 @@
 to = "Departamento de Selección\nEY / EY GDS"
 
 [es]
-date = "17 de marzo de 2026"
+date = "6 de mayo de 2026"
 subject = "Candidatura para el puesto de Desarrollador Frontend"
 opening = "Estimado equipo de selección de EY:"
 body = """
-Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en EY. Sé que vuestros centros de servicios globales, especialmente activos en España, gestionan proyectos internacionales donde el nivel de inglés y la capacidad de comunicación técnica en un entorno global son fundamentales, y es precisamente ese contexto el que me resulta más atractivo.
+Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en EY. Llego con +4 años haciendo frontend en React y TypeScript en producción, y un motivo concreto detrás de la candidatura: busco un entorno más cambiante que el que tengo ahora, con proyectos variados, ritmo de consultoría y la posibilidad de trabajar en proyectos internacionales. Vuestros centros de servicios globales encajan exactamente con eso.
 
-Cuento con un nivel B2 de inglés que utilizo diariamente para la lectura de documentación técnica y la comunicación profesional escrita y oral. En mi trabajo actual en EMAIS Grupo, interactúo regularmente con documentación, librerías y recursos en inglés, lo que me permite integrarme sin fricción en equipos internacionales.
+A nivel técnico, en EMAIS Grupo trabajo dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio: módulos de negocio en producción, una librería de componentes UI con Storybook, refactor progresivo de AngularJS a React, y un piloto interno de flujos de desarrollo con IA y agéntica. Antes, en el CiTIUS (USC), trabajé un año como único frontend developer en LexGal —arquitectura React desde cero, sistema de versionado con diff sobre XML, edición colaborativa en tiempo real con WebSockets—, lo que me dio bagaje en autonomía y diseño de productos completos.
 
-Desde el punto de vista técnico, aporto más de 4 años de experiencia con React, TypeScript y el ecosistema frontend moderno. He diseñado módulos de negocio en producción, una librería de componentes UI con Storybook, y he liderado la migración del sistema de testing a Vitest dentro de un equipo de +7 desarrolladores con Scrum. Mi experiencia previa como único frontend developer en un proyecto de investigación (LexGal, CiTIUS/USC) me aporta además autonomía y capacidad para definir arquitecturas desde cero.
+A nivel de idiomas, mi inglés es B2 y lo uso a diario para documentación técnica y comunicación profesional escrita y oral. Pasarlo al día a día con equipos distribuidos es justamente uno de los pasos que quiero dar ahora.
 
-Me encantaría poder explorar cómo mi perfil encaja en vuestros proyectos internacionales.
+Estaré encantado de comentar cualquier detalle del perfil.
 """
 closing = "Atentamente,"
 
 [en]
-date = "March 17, 2026"
+date = "May 6, 2026"
 subject = "Application for Frontend Developer Position"
 opening = "Dear EY Hiring Team,"
 body = """
-I am writing to present my candidacy as a Frontend Developer at EY. I know that your Global Delivery Services centres, especially active in Spain, manage international projects where English proficiency and technical communication skills in a global environment are essential — and it is precisely this context that I find most appealing.
+I am writing to present my candidacy as a Frontend Developer at EY. I come with 4+ years building frontend in React and TypeScript in production, and a concrete reason behind the application: I am looking for a more varied environment than the one I have now, with rotating projects, a consulting pace, and the chance to work on international engagements. Your Global Delivery Services centres match that exactly.
 
-I have a B2 level of English that I use daily for reading technical documentation and for professional written and spoken communication. In my current role at EMAIS Grupo, I regularly interact with English-language documentation, libraries, and resources, enabling me to integrate seamlessly into international teams.
+Technically, at EMAIS Grupo I work within a 7+ developer team with Scrum and mandatory code review: production business modules, a UI component library with Storybook, progressive refactoring from AngularJS to React, and an internal pilot of AI-assisted and agentic engineering workflows. Previously, at CiTIUS (USC), I worked for a year as the sole frontend developer on the LexGal project —React architecture from scratch, a version control system with diff over XML, real-time collaborative editing via WebSockets—, which gave me a foundation in autonomy and full-product design.
 
-From a technical standpoint, I bring over 4 years of experience with React, TypeScript, and the modern frontend ecosystem. I have designed production business modules, a UI component library with Storybook, and driven the migration of the testing system to Vitest within a 7+ developer team following Scrum. My previous experience as the sole frontend developer on a research project (LexGal, CiTIUS/USC) also gives me autonomy and the ability to define architectures from scratch.
+Language-wise, my English is B2 and I use it daily for technical documentation and professional written and spoken communication. Bringing it into day-to-day work with distributed teams is precisely one of the steps I want to take now.
 
-I would welcome the opportunity to explore how my profile fits within your international projects.
+I would be happy to discuss any aspect of the profile.
 """
 closing = "Best regards,"
