@@ -3,30 +3,34 @@ to = "Departamento de Selección\nEY / EY GDS"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de EY:"
 body = """
-Me dirijo a vosotros para presentar mi candidatura como Desarrollador Frontend en EY. Llego con +4 años haciendo frontend en React y TypeScript en producción, y un motivo concreto detrás de la candidatura: busco un entorno más cambiante que el que tengo ahora, con proyectos variados, ritmo de consultoría y la posibilidad de trabajar en proyectos internacionales. Vuestros centros de servicios globales encajan exactamente con eso.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en EY.
 
-A nivel técnico, en EMAIS Grupo trabajo dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio: módulos de negocio en producción, una librería de componentes UI con Storybook, refactor progresivo de AngularJS a React, y un piloto interno de flujos de desarrollo con IA y agéntica. Antes, en el CiTIUS (USC), trabajé un año como único frontend developer en LexGal —arquitectura React desde cero, sistema de versionado con diff sobre XML, edición colaborativa en tiempo real con WebSockets—, lo que me dio bagaje en autonomía y diseño de productos completos.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a EY por los proyectos internacionales que canalizan a través de sus centros de servicios globales (GDS), un contexto donde el ritmo de cliente, la exigencia técnica y el trabajo distribuido son parte del trabajo y donde quiero llevar mi nivel de inglés (B2) del consumo diario de documentación al uso cotidiano en equipo.
 
-A nivel de idiomas, mi inglés es B2 y lo uso a diario para documentación técnica y comunicación profesional escrita y oral. Pasarlo al día a día con equipos distribuidos es justamente uno de los pasos que quiero dar ahora.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica.
 
-Estaré encantado de comentar cualquier detalle del perfil.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"
 
 [en]
 date = "May 6, 2026"
-subject = "Application for Frontend Developer Position"
+subject = "Application for Senior Frontend Developer Position"
 opening = "Dear EY Hiring Team,"
 body = """
-I am writing to present my candidacy as a Frontend Developer at EY. I come with 4+ years building frontend in React and TypeScript in production, and a concrete reason behind the application: I am looking for a more varied environment than the one I have now, with rotating projects, a consulting pace, and the chance to work on international engagements. Your Global Delivery Services centres match that exactly.
+I am writing to apply for the Senior Frontend Developer position at EY.
 
-Technically, at EMAIS Grupo I work within a 7+ developer team with Scrum and mandatory code review: production business modules, a UI component library with Storybook, progressive refactoring from AngularJS to React, and an internal pilot of AI-assisted and agentic engineering workflows. Previously, at CiTIUS (USC), I worked for a year as the sole frontend developer on the LexGal project —React architecture from scratch, a version control system with diff over XML, real-time collaborative editing via WebSockets—, which gave me a foundation in autonomy and full-product design.
+I have more than four years of experience in React and TypeScript, and I am particularly drawn to EY by the international projects channelled through your Global Delivery Services (GDS) centres — a context where client pace, technical demand, and distributed work are part of the job, and where I want to take my English (B2) from daily documentation consumption to everyday team use.
 
-Language-wise, my English is B2 and I use it daily for technical documentation and professional written and spoken communication. Bringing it into day-to-day work with distributed teams is precisely one of the steps I want to take now.
+Currently, at EMAIS Grupo, I am part of a team of more than seven developers that combines, under Scrum, continuous delivery of new functionality with the progressive migration of legacy AngularJS + Redux modules to React with Zustand. Day-to-day involves functional components with the latest hooks, TypeScript/TSX, strict code review, and pragmatic architectural decisions to modernise without stopping the business: the same balance required by client projects that cannot afford a pause. I also take part in the internal pilot of AI-assisted development (Copilot, Claude, OpenCode) and agentic engineering.
 
-I would be happy to discuss any aspect of the profile.
+Previously, for a year at CiTIUS (University of Santiago de Compostela), I was the sole frontend developer on the LexGal project: I defined from scratch the React architecture, the version control system with visual diff over JSON parsed from an XML original, and real-time collaborative editing via WebSockets, in addition to communicating directly with the project leads to refine requirements (joint meetings with project leads, researchers, and public officials of the LexGal project). That stage gave me end-to-end technical autonomy and real experience in client interlocution.
+
+I remain at your disposal to expand on any detail of the profile in an interview.
 """
 closing = "Best regards,"

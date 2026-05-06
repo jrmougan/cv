@@ -3,30 +3,34 @@ to = "Departamento de Selección\nInetum"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de Inetum:"
 body = """
-Os escribo para presentar mi candidatura como Desarrollador Frontend en Inetum. Llego con +4 años en React y TypeScript, y un motivo concreto: busco un entorno de consultoría con más variedad de proyectos y un ritmo distinto al de un único producto largo.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en Inetum.
 
-Una parte importante de lo que hago en EMAIS Grupo se parece bastante al trabajo de consultoría: estamos refactorizando progresivamente módulos legacy de AngularJS+Redux a React con Zustand, equilibrando entrega de funcionalidad nueva, code review estricto y mantenibilidad del código antiguo dentro de un equipo de +7 desarrolladores con Scrum. Es modernización en frío, sin parar de servir negocio. Además, formo parte del piloto interno de flujos de desarrollo asistidos por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, algo que me parece directamente trasladable a entornos de cliente.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a Inetum por la variedad de proyectos de gran escala y los procesos de modernización tecnológica que llevan a cabo, un contexto donde la flexibilidad para moverse entre dominios y la capacidad de modernizar sin parar el negocio del cliente son parte del trabajo.
 
-Antes, en el CiTIUS (Universidade de Santiago de Compostela), trabajé un año como único frontend developer en LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre XML y la edición colaborativa con WebSockets. Esa combinación de modernización en equipo grande y autonomía total es lo que creo que mejor encaja con lo que pide trabajar en una consultora como Inetum.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: justamente el equilibrio que pide un proyecto de transformación tecnológica como los que gestionan en Inetum. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica.
 
-Estaré encantado de comentar cualquier detalle del perfil.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"
 
 [en]
 date = "May 6, 2026"
-subject = "Application for Frontend Developer Position"
+subject = "Application for Senior Frontend Developer Position"
 opening = "Dear Inetum Hiring Team,"
 body = """
-I am writing to present my candidacy as a Frontend Developer at Inetum. I come with 4+ years in React and TypeScript and a specific reason: I am looking for a consulting environment with more project variety and a different pace from being focused on a single long-running product.
+I am writing to apply for the Senior Frontend Developer position at Inetum.
 
-A meaningful part of my work at EMAIS Grupo resembles consulting fairly closely: we are progressively refactoring legacy AngularJS+Redux modules to React with Zustand, balancing new feature delivery, strict code review, and maintainability of the old code within a 7+ developer team following Scrum. It is modernisation in flight, without ever stopping to serve the business. I am also part of the internal pilot of AI-assisted development workflows (Copilot, Claude, OpenCode) and agentic engineering, which I believe translates directly to client environments.
+I have more than four years of experience in React and TypeScript, and I am particularly drawn to Inetum by the variety of large-scale projects and the technological modernisation processes you carry out, a context where flexibility to move between domains and the capacity to modernise without stopping the client's business are part of the job.
 
-Previously, at CiTIUS (University of Santiago de Compostela), I worked for a year as the sole frontend developer on LexGal: I defined from scratch the React architecture, the version control system with visual diff over XML, and real-time collaborative editing via WebSockets. That combination of large-team modernisation and full autonomy is what I think best matches the work of a consultancy like Inetum.
+Currently, at EMAIS Grupo, I am part of a team of more than seven developers that combines, under Scrum, continuous delivery of new functionality with the progressive migration of legacy AngularJS + Redux modules to React with Zustand. Day-to-day involves functional components with the latest hooks, TypeScript/TSX, strict code review, and pragmatic architectural decisions to modernise without stopping the business: precisely the balance demanded by a technological transformation project of the kind you manage at Inetum. I also take part in the internal pilot of AI-assisted development (Copilot, Claude, OpenCode) and agentic engineering.
 
-I would be happy to discuss any aspect of the profile.
+Previously, for a year at CiTIUS (University of Santiago de Compostela), I was the sole frontend developer on the LexGal project: I defined from scratch the React architecture, the version control system with visual diff over JSON parsed from an XML original, and real-time collaborative editing via WebSockets, in addition to communicating directly with the project leads to refine requirements (joint meetings with project leads, researchers, and public officials of the LexGal project). That stage gave me end-to-end technical autonomy and real experience in client interlocution.
+
+I remain at your disposal to expand on any detail of the profile in an interview.
 """
 closing = "Best regards,"

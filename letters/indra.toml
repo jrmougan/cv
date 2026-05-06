@@ -6,12 +6,14 @@ date = "6 de mayo de 2026"
 subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de Minsait:"
 body = """
-Me pongo en contacto con vosotros para presentar mi candidatura como Desarrollador Senior Frontend en Minsait. Llevo +4 años haciendo frontend con React y TypeScript en producción, y un motivo concreto me trae aquí: busco un entorno de consultoría con proyectos variados y ritmo dinámico, después de unos años centrado en un único producto.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador/a Senior Frontend React/Angular.
 
-Lo que me hace mirar específicamente vuestra oferta es que mencionáis explícitamente el uso de herramientas de IA como Copilot. En EMAIS Grupo, además del trabajo de producto dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio, formo parte de un piloto interno bastante real: estamos integrando flujos de desarrollo asistidos por IA en el día a día —Copilot, Claude, OpenCode— y experimentando con ingeniería agéntica en tareas de desarrollo, refactor y revisión. Es un terreno en el que ya estoy invirtiendo tiempo, no algo que tenga que aprender de cero al llegar.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a Minsait por la variedad de dominios y clientes con los que trabajan sus equipos de Soluciones, un contexto donde adaptarse rápido y aportar valor desde el primer sprint forma parte del trabajo.
 
-Antes, en el CiTIUS (Universidade de Santiago de Compostela), trabajé un año como único frontend developer en LexGal: arquitectura React desde cero, sistema de versionado con diff visual sobre documentos XML, edición colaborativa en tiempo real con WebSockets, y comunicación directa con los investigadores del centro para sacar requisitos. Esa autonomía técnica desde la decisión arquitectónica hasta la entrega es algo que quiero seguir aplicando, ahora en un contexto de consultoría.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, una práctica que veo directamente trasladable al objetivo que marca la oferta de "agilizar el desarrollo con herramientas de IA".
 
-Estaré encantado de comentar cualquier detalle del perfil.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente, ambas cosas presentes en la descripción del puesto.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"

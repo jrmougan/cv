@@ -3,15 +3,17 @@ to = "Departamento de Selección\nAltia Consultores"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de Altia:"
 body = """
-Os escribo como gallego afincado en Santiago de Compostela y con experiencia bastante literal en el tipo de proyectos que lleváis en administración pública gallega.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en Altia Consultores.
 
-En el CiTIUS (USC) trabajé un año como único frontend developer en LexGal, una herramienta para importar, editar, versionar y consolidar normativa autonómica gallega en formato XML. Más allá del trabajo técnico —arquitectura React, sistema de versionado con diff visual entre revisiones, edición colaborativa en tiempo real con WebSockets sobre una API REST SpringBoot—, el día a día era hablar directamente con los investigadores del centro para traducir un proceso administrativo concreto en una herramienta usable. Esa combinación de autonomía técnica y conocimiento del dominio es la que más valor creo que puedo aportar a proyectos como los vuestros.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a Altia por su trayectoria en proyectos de administración pública gallega y su raíz en A Coruña, un contexto donde la cercanía al dominio y la responsabilidad sobre el producto entregado son parte del valor del trabajo. Como gallego afincado en Santiago de Compostela, ese encaje es además personal.
 
-Actualmente, en EMAIS Grupo, complemento ese perfil dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio: módulos de negocio en producción con React y TypeScript, una librería de componentes UI en Storybook construida con UX/UI, refactor progresivo de AngularJS a React, y un piloto interno de flujos de desarrollo con IA y agéntica.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica.
 
-Trabajar en una empresa gallega de referencia con proyectos de envergadura nacional, sin tener que mudarme, es honestamente lo que más me motiva. Estaré encantado de comentar cualquier detalle.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal —una herramienta para importar, editar, versionar y consolidar normativa autonómica gallega—: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real con el tipo de cliente que llevan en Altia.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"

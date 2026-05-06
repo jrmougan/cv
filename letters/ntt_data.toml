@@ -3,30 +3,34 @@ to = "Departamento de Selección\nNTT DATA"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de NTT DATA:"
 body = """
-Os escribo para presentar mi candidatura como Desarrollador Frontend en NTT DATA. Vuestro tamaño y la variedad de proyectos —desde grandes cuentas hasta líneas de innovación— es lo que me atrae específicamente: busco un entorno cambiante y ritmo de consultoría tras unos años centrado en un único producto.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en NTT DATA.
 
-En EMAIS Grupo, dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio, trabajo en módulos de negocio en React y TypeScript, en una librería de componentes UI documentada en Storybook construida con UX/UI, y en el refactor progresivo de AngularJS a React con Zustand. También formo parte de un piloto interno de flujos de desarrollo asistidos por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, algo que veo directamente relevante para una consultora del tamaño y ambición técnica de NTT DATA.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a NTT DATA por la escala y la diversidad técnica de los proyectos que gestionan —desde grandes cuentas hasta líneas de innovación—, un contexto donde adaptarse rápido a dominios distintos y aportar valor desde el primer sprint forma parte del trabajo.
 
-Antes, en el CiTIUS (Universidade de Santiago de Compostela), trabajé un año como único frontend developer en LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre documentos XML, la edición colaborativa en tiempo real con WebSockets, y la conversación directa con los investigadores para sacar requisitos. Esa combinación de autonomía técnica y trabajo en equipo grande es lo que creo que mejor encaja con vuestra forma de operar.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, una práctica directamente alineada con la ambición técnica de una consultora del tamaño de NTT DATA.
 
-Estaré encantado de comentar cualquier detalle del perfil.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"
 
 [en]
 date = "May 6, 2026"
-subject = "Application for Frontend Developer Position"
+subject = "Application for Senior Frontend Developer Position"
 opening = "Dear NTT DATA Hiring Team,"
 body = """
-I am writing to present my candidacy as a Frontend Developer at NTT DATA. Your size and project variety —from large accounts to innovation lines— is what specifically draws me: I am looking for a changing environment and consulting pace after a few years focused on a single product.
+I am writing to apply for the Senior Frontend Developer position at NTT DATA.
 
-At EMAIS Grupo, within a 7+ developer team with Scrum and mandatory code review, I work on business modules in React and TypeScript, on a UI component library documented in Storybook built alongside UX/UI, and on the progressive refactoring of AngularJS to React with Zustand. I am also part of an internal pilot of AI-assisted development workflows (Copilot, Claude, OpenCode) and agentic engineering, which I see as directly relevant for a consultancy of NTT DATA's size and technical ambition.
+I have more than four years of experience in React and TypeScript, and I am particularly drawn to NTT DATA by the scale and technical diversity of the projects you manage —from large accounts to innovation lines—, a context where adapting quickly to different domains and bringing value from the first sprint are part of the job.
 
-Previously, at CiTIUS (University of Santiago de Compostela), I worked for a year as the sole frontend developer on LexGal: I defined from scratch the React architecture, the version control system with visual diff over XML documents, real-time collaborative editing via WebSockets, and direct conversation with researchers to define requirements. That combination of technical autonomy and large-team work is what I believe fits best with how you operate.
+Currently, at EMAIS Grupo, I am part of a team of more than seven developers that combines, under Scrum, continuous delivery of new functionality with the progressive migration of legacy AngularJS + Redux modules to React with Zustand. Day-to-day involves functional components with the latest hooks, TypeScript/TSX, strict code review, and pragmatic architectural decisions to modernise without stopping the business: the same balance required by client projects that cannot afford a pause. I also take part in the internal pilot of AI-assisted development (Copilot, Claude, OpenCode) and agentic engineering, a practice directly aligned with the technical ambition of a consultancy of NTT DATA's size.
 
-I would be happy to discuss any aspect of the profile.
+Previously, for a year at CiTIUS (University of Santiago de Compostela), I was the sole frontend developer on the LexGal project: I defined from scratch the React architecture, the version control system with visual diff over JSON parsed from an XML original, and real-time collaborative editing via WebSockets, in addition to communicating directly with the project leads to refine requirements (joint meetings with project leads, researchers, and public officials of the LexGal project). That stage gave me end-to-end technical autonomy and real experience in client interlocution.
+
+I remain at your disposal to expand on any detail of the profile in an interview.
 """
 closing = "Best regards,"

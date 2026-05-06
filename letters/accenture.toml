@@ -3,26 +3,34 @@ to = "Departamento de Selección\nAccenture Song"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de Accenture Song:"
 body = """
-Me pongo en contacto con vosotros para presentar mi candidatura como Desarrollador Frontend en Accenture Song. Antes de dedicarme profesionalmente al desarrollo, me formé como Graduado en Enseñanzas Artísticas Superiores de Música en el Conservatorio Superior de A Coruña: años de instrumento, ensayo en grupo y disciplina de detalle. Esa formación me dio las bases —rigor, sensibilidad por la forma, capacidad de trabajar bajo presión en equipo— que aplico todos los días al frontend, donde la diferencia entre algo correcto y algo cuidado suele estar en el último 10%.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en Accenture Song.
 
-En EMAIS Grupo, dentro de un equipo de +7 desarrolladores con Scrum y code review obligatorio, he diseñado módulos de negocio en producción y una librería de componentes UI documentada en Storybook pensada para mantener consistencia visual entre módulos. También impulsé la migración del sistema de testing a Vitest, instalando una práctica de calidad sostenible en el equipo. Antes, en el CiTIUS (USC), construí desde cero LexGal como único frontend developer: arquitectura React, sistema de versionado con diff visual sobre documentos XML y edición colaborativa en tiempo real con WebSockets.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a Accenture Song por la combinación de creatividad y rigor técnico que caracteriza a sus proyectos de experiencia digital. Mi formación previa como Graduado en Enseñanzas Artísticas Superiores de Música en el Conservatorio Superior de A Coruña me dio el rigor y la sensibilidad por la forma que aplico hoy al frontend —donde la diferencia entre algo correcto y algo cuidado suele estar en el último 10%—, una sensibilidad que creo encaja directamente con la cultura del estudio.
 
-La combinación de creatividad y rigor que veo en Accenture Song es justamente la cultura en la que creo que mi perfil —técnico y formado en otra disciplina del oficio— encaja mejor. Estaré encantado de comentar cualquier detalle.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, una práctica directamente trasladable al ritmo de los proyectos de transformación digital.
+
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"
 
 [en]
 date = "May 6, 2026"
-subject = "Application for Frontend Developer Position"
+subject = "Application for Senior Frontend Developer Position"
 opening = "Dear Accenture Song Hiring Team,"
 body = """
-I am writing to present my candidacy as a Frontend Developer at Accenture Song. Before dedicating myself professionally to development, I obtained a Higher Degree in Music from the Conservatorio Superior de A Coruña: years of instrument practice, ensemble work, and detail-driven discipline. That training gave me the foundation —rigour, sensitivity to form, the ability to work under pressure in a team— that I apply daily to frontend, where the difference between something correct and something polished tends to live in the last 10%.
+I am writing to apply for the Senior Frontend Developer position at Accenture Song.
 
-At EMAIS Grupo, within a 7+ developer team following Scrum with mandatory code review, I have designed production business modules and a UI component library documented in Storybook, intended to keep visual consistency across modules. I also drove the migration of the testing system to Vitest, installing a sustainable quality practice in the team. Previously, at CiTIUS (USC), I built LexGal from scratch as the sole frontend developer: React architecture, a version control system with visual diff over XML documents, and real-time collaborative editing via WebSockets.
+I have more than four years of experience in React and TypeScript, and I am particularly drawn to Accenture Song by the combination of creativity and technical rigour that characterises your digital experience projects. My previous training as a Higher Degree Graduate in Music from the Conservatorio Superior de A Coruña gave me the rigour and sensitivity to form that I apply today to frontend —where the difference between something correct and something polished tends to live in the last 10%—, a sensitivity I believe fits directly with the studio's culture.
 
-The combination of creativity and rigour I see in Accenture Song is precisely the culture I believe my profile —technical, with formal training in another craft— fits best. I would be happy to discuss any details.
+Currently, at EMAIS Grupo, I am part of a team of more than seven developers that combines, under Scrum, continuous delivery of new functionality with the progressive migration of legacy AngularJS + Redux modules to React with Zustand. Day-to-day involves functional components with the latest hooks, TypeScript/TSX, strict code review, and pragmatic architectural decisions to modernise without stopping the business: the same balance required by client projects that cannot afford a pause. I also take part in the internal pilot of AI-assisted development (Copilot, Claude, OpenCode) and agentic engineering, a practice directly transferable to the pace of digital transformation projects.
+
+Previously, for a year at CiTIUS (University of Santiago de Compostela), I was the sole frontend developer on the LexGal project: I defined from scratch the React architecture, the version control system with visual diff over JSON parsed from an XML original, and real-time collaborative editing via WebSockets, in addition to communicating directly with the project leads to refine requirements (joint meetings with project leads, researchers, and public officials of the LexGal project). That stage gave me end-to-end technical autonomy and real experience in client interlocution.
+
+I remain at your disposal to expand on any detail of the profile in an interview.
 """
 closing = "Best regards,"

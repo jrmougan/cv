@@ -3,30 +3,34 @@ to = "Departamento de Selección\nDeloitte Digital"
 
 [es]
 date = "6 de mayo de 2026"
-subject = "Candidatura para el puesto de Desarrollador Frontend"
+subject = "Candidatura para el puesto de Desarrollador Senior Frontend"
 opening = "Estimado equipo de selección de Deloitte Digital:"
 body = """
-Me dirijo a vosotros como Desarrollador Frontend con interés en incorporarme a Deloitte Digital. Lo que más me atrae específicamente es trabajar en proyectos de transformación con clientes que están explorando seriamente el impacto de la IA en cómo se construye software — un terreno en el que ya estoy invirtiendo tiempo.
+Me dirijo a ustedes con el fin de postular al puesto de Desarrollador Senior Frontend en Deloitte Digital.
 
-En EMAIS Grupo, además del trabajo de producto en React y TypeScript dentro de un equipo de +7 desarrolladores con Scrum, formo parte de un piloto interno bastante real: estamos integrando flujos de desarrollo asistidos por IA en el día a día —Copilot, Claude, OpenCode— y experimentando con ingeniería agéntica en tareas de desarrollo, refactor y revisión. No es un experimento aislado: estamos midiendo qué partes del ciclo se aceleran de verdad, dónde se rompe la calidad y qué es realmente útil en producción. Es algo poco habitual en una empresa de gestión empresarial española y, para mí, una de las áreas más interesantes en las que invertir tiempo ahora mismo.
+Cuento con más de cuatro años de experiencia en React y TypeScript, y me atrae especialmente incorporarme a Deloitte Digital por la escala de los proyectos de transformación con clientes que están explorando seriamente el impacto de la IA en cómo se construye software, un terreno en el que ya estoy invirtiendo tiempo activamente.
 
-Antes, en el CiTIUS (USC), construí desde cero como único frontend developer la herramienta LexGal: arquitectura React, sistema de versionado sobre documentos XML, edición colaborativa en tiempo real con WebSockets, y comunicación directa con los investigadores del centro para sacar requisitos. Eso me dio el bagaje de pensar en producto entero, no solo en tareas.
+Actualmente, en EMAIS Grupo, formo parte de un equipo de más de siete desarrolladores que combina, bajo Scrum, la entrega continua de funcionalidad nueva con la migración progresiva de módulos legacy de AngularJS + Redux a React con Zustand. El día a día implica componentes funcionales con los últimos hooks, TypeScript/TSX, code review estricto y decisiones de arquitectura pragmáticas para modernizar sin detener el negocio: el mismo equilibrio que requieren los proyectos de cliente que no pueden permitirse una parada. Además, participo en el piloto interno de desarrollo asistido por IA (Copilot, Claude, OpenCode) e ingeniería agéntica, midiendo qué partes del ciclo se aceleran de verdad y qué resulta útil en producción —una práctica directamente trasladable a los proyectos de transformación digital que lideran.
 
-Os escribo porque la consultoría es donde estos flujos se aplican a problemas reales y diversos, y me interesa formar parte del equipo que los esté llevando a cliente. Estaré encantado de comentar cualquier detalle.
+Antes, durante un año en el CiTIUS (Universidade de Santiago de Compostela), fui el único frontend del proyecto LexGal: definí desde cero la arquitectura React, el sistema de versionado con diff visual sobre JSON parseado sobre un original XML y la edición colaborativa por WebSockets, además de comunicarme directamente con los responsables del proyecto para refinar requisitos (reuniones conjuntas con los responsables de proyecto, investigadores y funcionarios públicos del proyecto LexGal). Esa etapa me dio autonomía técnica de extremo a extremo y experiencia real en interlocución con cliente.
+
+Quedo a su disposición para ampliar cualquier detalle del perfil en una entrevista.
 """
-closing = "Atentamente,"
+closing = "Un cordial saludo,"
 
 [en]
 date = "May 6, 2026"
-subject = "Application for Frontend Developer Position"
+subject = "Application for Senior Frontend Developer Position"
 opening = "Dear Deloitte Digital Hiring Team,"
 body = """
-I am writing as a Frontend Developer interested in joining Deloitte Digital. What specifically draws me to your team is working on transformation projects with clients seriously exploring the impact of AI on how software is built — a space I am already investing in.
+I am writing to apply for the Senior Frontend Developer position at Deloitte Digital.
 
-At EMAIS Grupo, alongside product work in React and TypeScript within a 7+ developer team following Scrum, I am part of a fairly real internal pilot: we are integrating AI-assisted development workflows into our day-to-day —Copilot, Claude, OpenCode— and experimenting with agentic engineering across development, refactor, and review tasks. It is not an isolated experiment: we are measuring which parts of the cycle actually accelerate, where quality breaks down, and what is genuinely useful in production. It is unusual for a Spanish enterprise software company, and for me one of the most interesting areas to invest in right now.
+I have more than four years of experience in React and TypeScript, and I am particularly drawn to Deloitte Digital by the scale of transformation projects with clients seriously exploring the impact of AI on how software is built — a space I am already actively investing in.
 
-Previously, at CiTIUS (USC), I built LexGal from scratch as the sole frontend developer: React architecture, a version control system over XML documents, real-time collaborative editing via WebSockets, and direct communication with the centre's researchers to define requirements. That gave me the experience of thinking about complete products, not just tasks.
+Currently, at EMAIS Grupo, I am part of a team of more than seven developers that combines, under Scrum, continuous delivery of new functionality with the progressive migration of legacy AngularJS + Redux modules to React with Zustand. Day-to-day involves functional components with the latest hooks, TypeScript/TSX, strict code review, and pragmatic architectural decisions to modernise without stopping the business: the same balance required by client projects that cannot afford a pause. I also take part in the internal pilot of AI-assisted development (Copilot, Claude, OpenCode) and agentic engineering, measuring which parts of the cycle actually accelerate and what proves useful in production —a practice directly transferable to the digital transformation projects you lead.
 
-I am writing because consulting is where these workflows get applied to real, diverse problems, and I am interested in joining a team that is taking them to clients. I would be happy to discuss any details.
+Previously, for a year at CiTIUS (University of Santiago de Compostela), I was the sole frontend developer on the LexGal project: I defined from scratch the React architecture, the version control system with visual diff over JSON parsed from an XML original, and real-time collaborative editing via WebSockets, in addition to communicating directly with the project leads to refine requirements (joint meetings with project leads, researchers, and public officials of the LexGal project). That stage gave me end-to-end technical autonomy and real experience in client interlocution.
+
+I remain at your disposal to expand on any detail of the profile in an interview.
 """
 closing = "Best regards,"
