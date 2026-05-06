@@ -40,6 +40,16 @@ items = [
     { name = "Jest", val = 7, cat = "tools" },
     { name = "React Testing Library", val = 8, cat = "tools" },
     { name = "Jira", val = 7, cat = "tools" },
+    { name = "ESLint", val = 8, cat = "tools" },
+    { name = "Prettier", val = 8, cat = "tools" },
+    { name = "Webpack", val = 6, cat = "tools" },
+    { name = "Vite", val = 8, cat = "tools" },
+    { name = "Sonar", val = 6, cat = "tools" },
+    { name = "GitHub Copilot", val = 9, cat = "tools" },
+    { name = "React Router", val = 8, cat = "frontend" },
+    { name = "SCSS", val = 7, cat = "frontend" },
+    { name = "Flexbox", val = 8, cat = "frontend" },
+    { name = "CSS Grid", val = 8, cat = "frontend" },
 ]
 
 [es]
@@ -55,7 +65,7 @@ present = "Actualidad"
 
 [es.personal_info]
 position = "Desarrollador Senior Frontend"
-summary = "Desarrollador Frontend con más de 4 años de experiencia en React, TypeScript y JavaScript. He trabajado tanto como único frontend en proyectos de investigación como en equipos de +7 personas con Scrum y code review, construyendo módulos en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). En proyectos personales también trabajo con backend (Node, Python, Java, PHP) porque me interesa cubrir todo el stack y, a medio plazo, dar el salto a fullstack."
+summary = "Más de 4 años de experiencia como Frontend Developer con React, TypeScript y JavaScript. He trabajado tanto como único frontend en proyectos de investigación como en equipos de +7 personas con Scrum y code review, construyendo módulos en producción, librerías de componentes y sistemas de testing (Vitest, React Testing Library). Complemento el frontend con experiencia en backend (Node, Python, Java, PHP) para colaborar en la definición de APIs y aportar como fullstack cuando el proyecto lo requiere."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -76,7 +86,14 @@ tags = [
     "React Testing Library",
     "Redux",
     "Zustand",
+    "React Router",
     "Node.js",
+    "Vite",
+    "ESLint",
+    "Prettier",
+    "AngularJS",
+    "Scrum",
+    "GitHub Copilot",
     "Git",
     "Jira",
 ]
@@ -85,6 +102,8 @@ tasks = [
     "Colaboré en el desarrollo de una librería de componentes UI reutilizables documentada en Storybook y redacté documentación técnica interna.",
     "Colaboré en la migración del framework de testing de Jest a Vitest.",
     "Participé en el refactor progresivo de módulos legacy AngularJS + Redux a React con Zustand, mejorando los tiempos de carga y la mantenibilidad del código.",
+    "Coordinación con Project Managers para la definición técnica de funcionalidades y con el equipo de backend para definir los contratos de API.",
+    "Participación en code reviews del equipo y en la exploración interna de flujos de desarrollo asistidos por IA (Copilot, Claude, OpenCode) e ingeniería agéntica.",
 ]
 
 [[es.experience]]
@@ -110,6 +129,7 @@ tasks = [
     "Diseñé e implementé el sistema de control de versiones y seguimiento de cambios sobre documentos XML normativos, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario.",
     "Implementé edición colaborativa en tiempo real mediante WebSockets (STOMP/SockJS), permitiendo que múltiples usuarios editasen simultáneamente documentos XML normativos.",
     "Integré el frontend con una API REST SpringBoot y MongoDB, diseñando los flujos de importación y gestión documental.",
+    "Comunicación directa con investigadores del centro para la definición de requisitos funcionales y los flujos de la herramienta.",
 ]
 
 [[es.experience]]
@@ -148,7 +168,7 @@ tags = [
 [[es.education]]
 institution = "IES Ramón Mª Aller Ulloa"
 logo = "./img/logos/logo_xunta.png"
-degree = "Técnico Superior en Desarrollo de Aplicaciones WEB (FP.II)"
+degree = "CFGS — Técnico Superior en Desarrollo de Aplicaciones Web (DAW / FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
@@ -189,7 +209,7 @@ present = "Present"
 
 [en.personal_info]
 position = "Senior Frontend Developer"
-summary = "Frontend Developer with 4+ years of experience in React, TypeScript and JavaScript. I've worked both as the sole frontend on research projects and in 7+ person teams with Scrum and code review, shipping production modules, component libraries and testing setups (Vitest, React Testing Library). In personal projects I also work with backend (Node, Python, Java, PHP) because I want to cover the whole stack and, in the medium term, move into fullstack."
+summary = "4+ years of experience as a Frontend Developer with React, TypeScript and JavaScript. I've worked both as the sole frontend on research projects and in 7+ person teams with Scrum and code review, shipping production modules, component libraries and testing setups (Vitest, React Testing Library). I complement the frontend with backend experience (Node, Python, Java, PHP) to collaborate on API definition and contribute as fullstack when the project requires it."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -210,7 +230,14 @@ tags = [
     "React Testing Library",
     "Redux",
     "Zustand",
+    "React Router",
     "Node.js",
+    "Vite",
+    "ESLint",
+    "Prettier",
+    "AngularJS",
+    "Scrum",
+    "GitHub Copilot",
     "Git",
     "Jira",
 ]
@@ -219,6 +246,8 @@ tasks = [
     "Collaborated on the development of a reusable UI component library documented in Storybook and wrote internal technical documentation.",
     "Collaborated on the migration of the testing framework from Jest to Vitest.",
     "Participated in the progressive refactoring of legacy AngularJS + Redux modules to React with Zustand, improving load times and code maintainability.",
+    "Coordinated with Project Managers on the technical definition of features and with the backend team on the API contracts.",
+    "Participated in team code reviews and in the internal exploration of AI-assisted development workflows (Copilot, Claude, OpenCode) and agentic engineering.",
 ]
 
 [[en.experience]]
@@ -244,6 +273,7 @@ tasks = [
     "Designed and implemented the version control and change tracking system for XML regulatory documents, featuring visual diff between versions, browsable history, and per-user change auditing.",
     "Implemented real-time collaborative editing via WebSockets (STOMP/SockJS), enabling multiple users to simultaneously edit XML regulatory documents.",
     "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
+    "Direct communication with the centre's researchers to define functional requirements and tool workflows.",
 ]
 
 [[en.experience]]
@@ -276,7 +306,7 @@ tags = ["Teamwork", "Discipline", "Attention to Detail", "Problem Solving"]
 [[en.education]]
 institution = "IES Ramón Mª Aller Ulloa"
 logo = "./img/logos/logo_xunta.png"
-degree = "Higher Technician in Web Application Development"
+degree = "CFGS — Higher Technician in Web Application Development (DAW / FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
@@ -317,7 +347,7 @@ present = "Actualidade"
 
 [gl.personal_info]
 position = "Desenvolvedor Senior Frontend"
-summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia en React, TypeScript e JavaScript. Traballei tanto como único frontend en proxectos de investigación como en equipos de +7 persoas con Scrum e code review, construíndo módulos en produción, librarías de compoñentes e sistemas de testing (Vitest, React Testing Library). En proxectos persoais tamén traballo con backend (Node, Python, Java, PHP) porque me interesa cubrir todo o stack e, a medio prazo, dar o salto a fullstack."
+summary = "Máis de 4 anos de experiencia como Frontend Developer con React, TypeScript e JavaScript. Traballei tanto como único frontend en proxectos de investigación como en equipos de +7 persoas con Scrum e code review, construíndo módulos en produción, librarías de compoñentes e sistemas de testing (Vitest, React Testing Library). Complemento o frontend con experiencia en backend (Node, Python, Java, PHP) para colaborar na definición de APIs e aportar como fullstack cando o proxecto o require."
 
 [[gl.experience]]
 company = "EMAIS Grupo"
@@ -338,7 +368,14 @@ tags = [
     "React Testing Library",
     "Redux",
     "Zustand",
+    "React Router",
     "Node.js",
+    "Vite",
+    "ESLint",
+    "Prettier",
+    "AngularJS",
+    "Scrum",
+    "GitHub Copilot",
     "Git",
     "Jira",
 ]
@@ -347,6 +384,8 @@ tasks = [
     "Colaborei no desenvolvemento dunha libraría de compoñentes UI reutilizables documentada en Storybook e redactei documentación técnica interna.",
     "Colaborei na migración do framework de testing de Jest a Vitest.",
     "Participei no refactor progresivo de módulos legacy AngularJS + Redux a React con Zustand, mellorando os tempos de carga e a mantibilidade do código.",
+    "Coordinación con Project Managers para a definición técnica de funcionalidades e co equipo de backend para definir os contratos de API.",
+    "Participación en code reviews do equipo e na exploración interna de fluxos de desenvolvemento asistidos por IA (Copilot, Claude, OpenCode) e enxeñería agéntica.",
 ]
 
 [[gl.experience]]
@@ -372,6 +411,7 @@ tasks = [
     "Deseñei e implementei o sistema de control de versións e seguimento de cambios sobre documentos XML normativos, con diff visual entre versións, historial navegable e auditoría de modificacións por usuario.",
     "Implementei edición colaborativa en tempo real mediante WebSockets (STOMP/SockJS), permitindo que múltiples usuarios editasen simultaneamente documentos XML normativos.",
     "Integrei o frontend cunha API REST SpringBoot e MongoDB, deseñando os fluxos de importación e xestión documental.",
+    "Comunicación directa con investigadores do centro para a definición de requisitos funcionais e os fluxos da ferramenta.",
 ]
 
 [[gl.experience]]
@@ -409,7 +449,7 @@ tags = [
 [[gl.education]]
 institution = "IES Ramón Mª Aller Ulloa"
 logo = "./img/logos/logo_xunta.png"
-degree = "Técnico Superior en Desenvolvemento de Aplicacións WEB (FP.II)"
+degree = "CFGS — Técnico Superior en Desenvolvemento de Aplicacións Web (DAW / FP.II)"
 location = "Lalín, Pontevedra"
 date = "2012 - 2014"
 description = ""
