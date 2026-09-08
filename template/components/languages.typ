@@ -1,7 +1,5 @@
-#let language_item = (item, metadata) => [
-  #block(below: 6pt)[
-    #text(weight: "bold", size: eval(metadata.styles.sizes.normal))[#item.language]
-    #h(4pt)
-    #text(size: eval(metadata.styles.sizes.normal), fill: rgb(metadata.styles.colors.secondary))[#item.level]
-  ]
+#let language_item = (item, metadata) => box[
+  #text(weight: "bold", size: eval(metadata.styles.sizes.item_h3))[#item.language]
+  #h(3pt)
+  #text(size: eval(metadata.styles.sizes.item_h3), fill: rgb(metadata.styles.colors.secondary))[#item.level]
 ]

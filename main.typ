@@ -2,8 +2,13 @@
 #let config = toml("metadata.toml")
 #let data = toml("cv_data.toml")
 
-// Define available languages
-#let langs = ("es", "en", "gl")
+// Default: all languages. Separate PDF: typst compile --input lang=en ...
+#let available-langs = ("es", "en", "gl")
+#let selected-lang = sys.inputs.at("lang", default: "all")
+#assert(selected-lang == "all" or selected-lang in available-langs,
+  message: "Unsupported language: use --input lang=es, en, gl, or all.")
+#let langs = if selected-lang == "all" { available-langs } else { (selected-lang,) }
+#set document(title: data.shared.personal_info.name + " — CV", author: data.shared.personal_info.name)
 
 // Iterate over languages and render them sequentially
 #for lang in langs {

@@ -14,42 +14,46 @@ qr_portfolio = "./img/qr-portfolio.svg"
 
 [[shared.skills]]
 items = [
+    # Core frontend (ordenado por prioridad para el objetivo Senior Frontend)
     { name = "React", val = 9, cat = "frontend" },
     { name = "TypeScript", val = 8, cat = "frontend" },
     { name = "JavaScript", val = 9, cat = "frontend" },
-    { name = "Node.js", val = 6, cat = "backend" },
-    { name = "Python", val = 6, cat = "backend" },
-    { name = "Java", val = 5, cat = "backend" },
-    { name = "PHP", val = 5, cat = "backend" },
+    { name = "Next.js", val = 7, cat = "frontend" },
     { name = "HTML", val = 9, cat = "frontend" },
     { name = "CSS", val = 9, cat = "frontend" },
     { name = "TailwindCSS", val = 7, cat = "frontend" },
-    { name = "Next.js", val = 7, cat = "frontend" },
-    { name = "Redux", val = 6, cat = "frontend" },
+    { name = "SCSS", val = 7, cat = "frontend", featured = false },
+    { name = "Styled-Components", val = 8, cat = "frontend", featured = false },
     { name = "Zustand", val = 7, cat = "frontend" },
-    { name = "Styled-Components", val = 8, cat = "frontend" },
+    { name = "Redux", val = 6, cat = "frontend" },
+    { name = "React Router", val = 8, cat = "frontend", featured = false },
     { name = "Storybook", val = 7, cat = "frontend" },
-    { name = "REST APIs", val = 8, cat = "backend" },
-    { name = "MySQL", val = 6, cat = "backend" },
-    { name = "MongoDB", val = 6, cat = "backend" },
-    { name = "Prisma", val = 6, cat = "backend" },
-    { name = "Git", val = 9, cat = "tools" },
-    { name = "Docker", val = 6, cat = "tools" },
-    { name = "GitHub Actions", val = 6, cat = "tools" },
+    { name = "CSS Grid", val = 8, cat = "frontend", featured = false },
+    { name = "Flexbox", val = 8, cat = "frontend", featured = false },
+    # Testing, build y tooling
+    { name = "Nx", cat = "tools" },
     { name = "Vitest", val = 8, cat = "tools" },
-    { name = "Jest", val = 7, cat = "tools" },
     { name = "React Testing Library", val = 8, cat = "tools" },
-    { name = "Jira", val = 7, cat = "tools" },
-    { name = "ESLint", val = 8, cat = "tools" },
-    { name = "Prettier", val = 8, cat = "tools" },
-    { name = "Webpack", val = 6, cat = "tools" },
+    { name = "Jest", val = 7, cat = "tools", featured = false },
     { name = "Vite", val = 8, cat = "tools" },
-    { name = "Sonar", val = 6, cat = "tools" },
-    { name = "GitHub Copilot", val = 9, cat = "tools" },
-    { name = "React Router", val = 8, cat = "frontend" },
-    { name = "SCSS", val = 7, cat = "frontend" },
-    { name = "Flexbox", val = 8, cat = "frontend" },
-    { name = "CSS Grid", val = 8, cat = "frontend" },
+    { name = "Git", val = 9, cat = "tools" },
+    { name = "GitHub Actions", val = 6, cat = "tools" },
+    { name = "GitHub Copilot", val = 9, cat = "tools", featured = false },
+    { name = "Docker", val = 6, cat = "tools", featured = false },
+    { name = "ESLint", val = 8, cat = "tools", featured = false },
+    { name = "Prettier", val = 8, cat = "tools", featured = false },
+    { name = "Webpack", val = 6, cat = "tools", featured = false },
+    { name = "Sonar", val = 6, cat = "tools", featured = false },
+    { name = "Jira", val = 7, cat = "tools", featured = false },
+    # Backend y datos (apoyo)
+    { name = "REST APIs", val = 8, cat = "backend" },
+    { name = "Node.js", val = 6, cat = "backend" },
+    { name = "Python", val = 6, cat = "backend", featured = false },
+    { name = "MongoDB", val = 6, cat = "backend" },
+    { name = "MySQL", val = 6, cat = "backend" },
+    { name = "Prisma", val = 6, cat = "backend" },
+    { name = "Java", val = 5, cat = "backend", featured = false },
+    { name = "PHP", val = 5, cat = "backend", featured = false },
 ]
 
 [es]
@@ -60,13 +64,14 @@ email = "Email"
 education = "Educación"
 experience = "Experiencia"
 projects = "Proyectos"
+skills = "Habilidades técnicas"
 languages = "Idiomas"
 present = "Actualidad"
 
 [es.personal_info]
-position = "Desarrollador Senior Frontend"
+position = "Desarrollador Frontend Senior"
 availability = "Remoto"
-summary = "Desarrollador Frontend con más de 4 años de experiencia construyendo aplicaciones en producción con React y TypeScript. He trabajado como único frontend definiendo arquitectura desde cero en proyectos de investigación, y como parte de equipos de más de 7 desarrolladores en producto, combinando entrega de funcionalidad nueva con migración progresiva de código legacy bajo Scrum y code review estricto. Colaboro estrechamente con backend en la definición de contratos de API y participo en pilotos internos de desarrollo asistido por IA (Copilot, Claude) e ingeniería agéntica."
+summary = "Desarrollador Frontend con más de 4 años de experiencia con React y TypeScript. Arquitectura frontend, desarrollo modular con Nx y migración de aplicaciones legacy. Trabajo en equipos de producto con revisión de código, testing y colaboración con backend y QA."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -74,36 +79,37 @@ logo = "./img/logos/logo-emais.png"
 position = "Desarrollador Frontend"
 location = "Remoto"
 date = "Julio 2023 - Actualidad"
-description = "Desarrollo de módulos frontend en React y TypeScript para producto de software de gestión empresarial, dentro de un equipo de más de 7 desarrolladores con Scrum, code review obligatorio y gestión en Jira."
+description = "Software de gestión empresarial con React y TypeScript. Equipo de más de 7 desarrolladores, Scrum y revisión de código."
 tags = [
+    "Nx",
     "React",
     "TypeScript",
     "JavaScript",
+    "Zustand",
+    "Redux",
+    "React Router",
     "Styled-Components",
     "Fluent UI",
     "Storybook",
-    "Jest",
     "Vitest",
+    "Jest",
     "React Testing Library",
-    "Redux",
-    "Zustand",
-    "React Router",
-    "Node.js",
     "Vite",
+    "Node.js",
     "ESLint",
     "Prettier",
+    "Git",
+    "GitHub Copilot",
     "AngularJS",
     "Scrum",
-    "GitHub Copilot",
-    "Git",
     "Jira",
 ]
 tasks = [
-    "Participé en el refactor progresivo de módulos legacy de AngularJS + Redux a React con Zustand, mejorando la mantenibilidad del código sin interrumpir la entrega de funcionalidad nueva.",
-    "Desarrollé módulos de negocio en producción con React, TypeScript, Styled-Components, Fluent UI y formularios dinámicos basados en RJSF/JSONSchema.",
-    "Contribuí a una librería interna de componentes UI reutilizables documentada en Storybook, y participé en la migración del framework de testing de Jest a Vitest.",
-    "Coordiné con Project Managers la definición técnica de funcionalidades y con el equipo de backend los contratos de API.",
-    "Participé en el piloto interno de flujos de desarrollo asistidos por IA (GitHub Copilot, Claude, OpenCode) e ingeniería agéntica, evaluando su integración en el día a día del equipo.",
+    "Trabajé en librerías por módulo de un proyecto Nx con AngularJS y React, participando en la migración a una nueva aplicación React con Zustand sobre una arquitectura ya definida.",
+    "Desarrollé módulos de negocio y formularios dinámicos con JSONSchema (RJSF), y amplié la biblioteca de componentes reutilizables en Storybook.",
+    "Escribo tests con Vitest y React Testing Library. Participé en la migración de tests de Jest a Vitest.",
+    "Definí el alcance técnico con Project Managers y acordé los contratos de API con el equipo de backend.",
+    "Utilizo un flujo de QA con agentes para revisar código, ejecutar tests, comprobar la interfaz en el navegador y generar informes antes de entregar los cambios al departamento de QA.",
 ]
 
 [[es.experience]]
@@ -112,23 +118,22 @@ logo = "./img/logos/logo_citius.png"
 position = "Técnico de apoyo a la investigación (Frontend Developer)"
 location = "Santiago de Compostela"
 date = "Mayo 2022 - Abril 2023"
-description = "Único frontend del proyecto LexGal, herramienta web para la consolidación, versionado y edición colaborativa de normativa autonómica gallega en formato XML. Definí desde cero la arquitectura React y los flujos de usuario, en comunicación directa con los investigadores del centro para refinar requisitos."
+description = "Único frontend de LexGal, una herramienta de edición de normativa gallega en XML. Definí desde cero la arquitectura React y los flujos de usuario, concretando requisitos con los investigadores."
 tags = [
     "React",
-    "Redux",
     "JavaScript",
+    "Redux",
     "TailwindCSS",
-    "REST APIs",
     "WebSockets",
     "STOMP",
     "SockJS",
+    "REST APIs",
     "SpringBoot",
     "MongoDB",
 ]
 tasks = [
-    "Diseñé e implementé el sistema de control de versiones sobre documentos XML, con diff visual entre versiones, historial navegable y auditoría de modificaciones por usuario.",
-    "Construí la edición colaborativa en tiempo real mediante WebSockets (STOMP/SockJS), permitiendo trabajo simultáneo de varios usuarios sobre el mismo documento.",
-    "Integré el frontend con una API REST en SpringBoot y MongoDB, diseñando los flujos de importación y gestión documental.",
+    "Implementé versionado de documentos con comparaciones visuales, historial y auditoría por usuario.",
+    "Construí la edición colaborativa en tiempo real con WebSockets (STOMP/SockJS) y la integración con una API REST en SpringBoot y MongoDB.",
 ]
 
 [[es.experience]]
@@ -137,11 +142,10 @@ logo = "./img/logos/sdweb_logo.png"
 position = "Desarrollador Full-Stack"
 location = "Santiago de Compostela"
 date = "Junio 2013 - Enero 2014"
-description = "Primer empleo tras el CFGS. Mantenimiento y desarrollo de nueva funcionalidad sobre eHabilis, plataforma LMS basada en Moodle, con autonomía técnica como desarrollador único en sus proyectos asignados."
-tags = ["PHP", "JavaScript", "MySQL", "Moodle", "SCORM", "PhoneGap", "Drupal"]
+description = "Desarrollador único en proyectos de eHabilis, plataforma LMS basada en Moodle."
+tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
 tasks = [
-    "Desarrollé actividades SCORM con JavaScript para programas de formación sanitaria, integradas en la plataforma LMS.",
-    "Construí una aplicación móvil híbrida con PhoneGap conectada a una API Drupal, cubriendo el ciclo completo de desarrollo.",
+    "Desarrollé actividades SCORM para formación sanitaria y una aplicación móvil con PhoneGap conectada a una API Drupal.",
 ]
 
 
@@ -182,7 +186,7 @@ level = "Nativo"
 
 [[es.languages]]
 language = "Inglés"
-level = "B2 - Lectura técnica diaria. Comunicación profesional escrita y oral"
+level = "B2 · Uso profesional"
 
 [en]
 [en.labels]
@@ -192,13 +196,14 @@ email = "Email"
 education = "Education"
 experience = "Experience"
 projects = "Projects"
+skills = "Technical Skills"
 languages = "Languages"
 present = "Present"
 
 [en.personal_info]
 position = "Senior Frontend Developer"
 availability = "Remote"
-summary = "Frontend Developer with 4+ years of experience building production applications with React and TypeScript. I have worked both as the sole frontend defining architecture from scratch on research projects, and as part of teams of more than 7 developers on product, combining delivery of new functionality with progressive migration of legacy code under Scrum and strict code review. I collaborate closely with backend on API contract definition and take part in internal pilots of AI-assisted development (Copilot, Claude) and agentic engineering."
+summary = "Frontend Developer with 4+ years of experience with React and TypeScript. Frontend architecture, modular development with Nx and legacy application migration. Product team experience with code review, testing and collaboration with backend and QA."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -206,36 +211,37 @@ position = "Frontend Developer"
 logo = "./img/logos/logo-emais.png"
 location = "Remote"
 date = "July 2023 - Present"
-description = "Frontend module development in React and TypeScript for an enterprise management software product, within a team of more than 7 developers following Scrum with mandatory code review and Jira-based project management."
+description = "Enterprise management software with React and TypeScript. Team of more than 7 developers, Scrum and code review."
 tags = [
+    "Nx",
     "React",
     "TypeScript",
     "JavaScript",
+    "Zustand",
+    "Redux",
+    "React Router",
     "Styled-Components",
     "Fluent UI",
     "Storybook",
-    "Jest",
     "Vitest",
+    "Jest",
     "React Testing Library",
-    "Redux",
-    "Zustand",
-    "React Router",
-    "Node.js",
     "Vite",
+    "Node.js",
     "ESLint",
     "Prettier",
+    "Git",
+    "GitHub Copilot",
     "AngularJS",
     "Scrum",
-    "GitHub Copilot",
-    "Git",
     "Jira",
 ]
 tasks = [
-    "Took part in the progressive refactoring of legacy AngularJS + Redux modules to React with Zustand, improving code maintainability without interrupting the delivery of new functionality.",
-    "Developed production business modules with React, TypeScript, Styled-Components, Fluent UI and dynamic forms based on RJSF/JSONSchema.",
-    "Contributed to an internal reusable UI component library documented in Storybook, and took part in the migration of the testing framework from Jest to Vitest.",
-    "Coordinated with Project Managers on the technical definition of features and with the backend team on the API contracts.",
-    "Took part in the internal pilot of AI-assisted development workflows (GitHub Copilot, Claude, OpenCode) and agentic engineering, evaluating their integration into the team's day-to-day work.",
+    "Worked in module-specific libraries in an Nx project combining AngularJS and React, contributing to migration to a new React application with Zustand within an established architecture.",
+    "Built business modules and dynamic forms with JSONSchema (RJSF), and extended the reusable component library in Storybook.",
+    "Write tests with Vitest and React Testing Library. Contributed to the migration of tests from Jest to Vitest.",
+    "Defined technical scope with Project Managers and agreed API contracts with the backend team.",
+    "Use an agent-assisted QA workflow to review code, run tests, check the interface in the browser and generate reports before handing changes over to the QA department.",
 ]
 
 [[en.experience]]
@@ -244,23 +250,22 @@ position = "Research Support Technician (Frontend Developer)"
 logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "May 2022 - April 2023"
-description = "Sole frontend developer on the LexGal project, a web tool for the consolidation, versioning, and collaborative editing of Galician regional regulations in XML format. I defined from scratch the React architecture and the user flows, in direct communication with the centre's researchers to refine requirements."
+description = "Sole frontend developer on LexGal, a tool for editing Galician regulations in XML. Defined the React architecture and user flows from scratch, refining requirements with researchers."
 tags = [
     "React",
-    "Redux",
     "JavaScript",
+    "Redux",
     "TailwindCSS",
-    "REST APIs",
     "WebSockets",
     "STOMP",
     "SockJS",
+    "REST APIs",
     "SpringBoot",
     "MongoDB",
 ]
 tasks = [
-    "Designed and implemented the version control system over XML documents, featuring visual diff between versions, browsable history, and per-user change auditing.",
-    "Built the real-time collaborative editing via WebSockets (STOMP/SockJS), allowing several users to work simultaneously on the same document.",
-    "Integrated the frontend with a SpringBoot REST API and MongoDB, designing the document import and management workflows.",
+    "Implemented document versioning with visual comparisons, history and per-user auditing.",
+    "Built real-time collaborative editing with WebSockets (STOMP/SockJS) and integration with a SpringBoot REST API and MongoDB.",
 ]
 
 [[en.experience]]
@@ -269,17 +274,16 @@ position = "Full-Stack Developer"
 logo = "./img/logos/sdweb_logo.png"
 location = "Santiago de Compostela"
 date = "June 2013 - January 2014"
-description = "First job after CFGS. Maintenance and development of new functionality on eHabilis, an LMS platform based on Moodle, with technical autonomy as sole developer on assigned projects."
-tags = ["PHP", "JavaScript", "MySQL", "Moodle", "SCORM", "PhoneGap", "Drupal"]
+description = "Sole developer on projects for eHabilis, a Moodle-based LMS platform."
+tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
 tasks = [
-    "Developed SCORM activities with JavaScript for healthcare training programmes, integrated into the LMS platform.",
-    "Built a hybrid mobile application with PhoneGap connected to a Drupal API, covering the full development lifecycle.",
+    "Developed SCORM activities for healthcare training and a PhoneGap mobile application connected to a Drupal API.",
 ]
 
 [[en.education]]
 institution = "IES San Clemente"
 logo = "./img/logos/logo_xunta.png"
-degree = "Specialization in Video Games and Virtual Reality"
+degree = "Specialization Course in Video Games and Virtual Reality"
 location = "Santiago de Compostela"
 date = "2024 - 2025"
 description = ""
@@ -288,7 +292,7 @@ tags = ["Unity", "C#", "Blender"]
 [[en.education]]
 institution = "Conservatorio Superior de Música de A Coruña"
 logo = "./img/logos/logo_csm.png"
-degree = "Higher Degree in Music"
+degree = "Bachelor's Degree in Music (Higher Artistic Education)"
 location = "A Coruña"
 date = "2015 - 2020"
 description = ""
@@ -297,7 +301,7 @@ tags = []
 [[en.education]]
 institution = "IES Ramón Mª Aller Ulloa"
 logo = "./img/logos/logo_xunta.png"
-degree = "CFGS Web Application Development (DAW)"
+degree = "Vocational Diploma in Web Application Development (DAW)"
 location = "Lalín, Pontevedra"
 date = "2011 - 2013"
 description = ""
@@ -313,7 +317,7 @@ level = "Native"
 
 [[en.languages]]
 language = "English"
-level = "B2 - Daily technical reading. Professional written and spoken communication"
+level = "B2 · Professional use"
 
 [gl]
 [gl.labels]
@@ -323,13 +327,14 @@ email = "Email"
 education = "Educación"
 experience = "Experiencia"
 projects = "Proxectos"
+skills = "Habilidades técnicas"
 languages = "Idiomas"
 present = "Actualidade"
 
 [gl.personal_info]
-position = "Desenvolvedor Senior Frontend"
+position = "Desenvolvedor Frontend Senior"
 availability = "Remoto"
-summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia construíndo aplicacións en produción con React e TypeScript. Traballei como único frontend definindo arquitectura desde cero en proxectos de investigación, e como parte de equipos de máis de 7 desenvolvedores en produto, combinando entrega de funcionalidade nova con migración progresiva de código legacy baixo Scrum e code review estrito. Colaboro estreitamente con backend na definición de contratos de API e participo en pilotos internos de desenvolvemento asistido por IA (Copilot, Claude) e enxeñería agéntica."
+summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia con React e TypeScript. Arquitectura frontend, desenvolvemento modular con Nx e migración de aplicacións legacy. Traballo en equipos de produto con revisión de código, testing e colaboración co backend e QA."
 
 [[gl.experience]]
 company = "EMAIS Grupo"
@@ -337,36 +342,37 @@ logo = "./img/logos/logo-emais.png"
 position = "Desenvolvedor Frontend"
 location = "Remoto"
 date = "Xullo 2023 - Actualidade"
-description = "Desenvolvemento de módulos frontend en React e TypeScript para produto de software de xestión empresarial, dentro dun equipo de máis de 7 desenvolvedores con Scrum, code review obrigatorio e xestión en Jira."
+description = "Software de xestión empresarial con React e TypeScript. Equipo de máis de 7 desenvolvedores, Scrum e revisión de código."
 tags = [
+    "Nx",
     "React",
     "TypeScript",
     "JavaScript",
+    "Zustand",
+    "Redux",
+    "React Router",
     "Styled-Components",
     "Fluent UI",
     "Storybook",
-    "Jest",
     "Vitest",
+    "Jest",
     "React Testing Library",
-    "Redux",
-    "Zustand",
-    "React Router",
-    "Node.js",
     "Vite",
+    "Node.js",
     "ESLint",
     "Prettier",
+    "Git",
+    "GitHub Copilot",
     "AngularJS",
     "Scrum",
-    "GitHub Copilot",
-    "Git",
     "Jira",
 ]
 tasks = [
-    "Participei no refactor progresivo de módulos legacy de AngularJS + Redux a React con Zustand, mellorando a mantibilidade do código sen interromper a entrega de funcionalidade nova.",
-    "Desenvolvín módulos de negocio en produción con React, TypeScript, Styled-Components, Fluent UI e formularios dinámicos baseados en RJSF/JSONSchema.",
-    "Contribuín a unha libraría interna de compoñentes UI reutilizables documentada en Storybook, e participei na migración do framework de testing de Jest a Vitest.",
-    "Coordinei con Project Managers a definición técnica de funcionalidades e co equipo de backend os contratos de API.",
-    "Participei no piloto interno de fluxos de desenvolvemento asistidos por IA (GitHub Copilot, Claude, OpenCode) e enxeñería agéntica, avaliando a súa integración no día a día do equipo.",
+    "Traballei en bibliotecas por módulo dun proxecto Nx con AngularJS e React, participando na migración a unha nova aplicación React con Zustand sobre unha arquitectura xa definida.",
+    "Desenvolvín módulos de negocio e formularios dinámicos con JSONSchema (RJSF), e ampliei a biblioteca de compoñentes reutilizables en Storybook.",
+    "Escribo tests con Vitest e React Testing Library. Participei na migración de tests de Jest a Vitest.",
+    "Definín o alcance técnico cos Project Managers e acordei os contratos de API co equipo de backend.",
+    "Utilizo un fluxo de QA con axentes para revisar código, executar tests, comprobar a interface no navegador e xerar informes antes de entregar os cambios ao departamento de QA.",
 ]
 
 [[gl.experience]]
@@ -375,23 +381,22 @@ logo = "./img/logos/logo_citius.png"
 position = "Técnico de apoio á investigación (Frontend Developer)"
 location = "Santiago de Compostela"
 date = "Maio 2022 - Abril 2023"
-description = "Único frontend do proxecto LexGal, ferramenta web para a consolidación, versionado e edición colaborativa de normativa autonómica galega en formato XML. Definín desde cero a arquitectura React e os fluxos de usuario, en comunicación directa cos investigadores do centro para refinar requisitos."
+description = "Único frontend de LexGal, unha ferramenta de edición de normativa galega en XML. Definín desde cero a arquitectura React e os fluxos de usuario, concretando requisitos cos investigadores."
 tags = [
     "React",
-    "Redux",
     "JavaScript",
+    "Redux",
     "TailwindCSS",
-    "REST APIs",
     "WebSockets",
     "STOMP",
     "SockJS",
+    "REST APIs",
     "SpringBoot",
     "MongoDB",
 ]
 tasks = [
-    "Deseñei e implementei o sistema de control de versións sobre documentos XML, con diff visual entre versións, historial navegable e auditoría de modificacións por usuario.",
-    "Construín a edición colaborativa en tempo real mediante WebSockets (STOMP/SockJS), permitindo traballo simultáneo de varios usuarios sobre o mesmo documento.",
-    "Integrei o frontend cunha API REST en SpringBoot e MongoDB, deseñando os fluxos de importación e xestión documental.",
+    "Implementei versionado de documentos con comparacións visuais, historial e auditoría por usuario.",
+    "Construín a edición colaborativa en tempo real con WebSockets (STOMP/SockJS) e a integración cunha API REST en SpringBoot e MongoDB.",
 ]
 
 [[gl.experience]]
@@ -400,11 +405,10 @@ logo = "./img/logos/sdweb_logo.png"
 position = "Desenvolvedor Full-Stack"
 location = "Santiago de Compostela"
 date = "Xuño 2013 - Xaneiro 2014"
-description = "Primeiro emprego tras o CFGS. Mantemento e desenvolvemento de nova funcionalidade sobre eHabilis, plataforma LMS baseada en Moodle, con autonomía técnica como desenvolvedor único nos seus proxectos asignados."
-tags = ["PHP", "JavaScript", "MySQL", "Moodle", "SCORM", "PhoneGap", "Drupal"]
+description = "Desenvolvedor único en proxectos de eHabilis, plataforma LMS baseada en Moodle."
+tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
 tasks = [
-    "Desenvolvín actividades SCORM con JavaScript para programas de formación sanitaria, integradas na plataforma LMS.",
-    "Construín unha aplicación móbil híbrida con PhoneGap conectada a unha API Drupal, cubrindo o ciclo completo de desenvolvemento.",
+    "Desenvolvín actividades SCORM para formación sanitaria e unha aplicación móbil con PhoneGap conectada a unha API Drupal.",
 ]
 
 [[gl.education]]
@@ -444,4 +448,4 @@ level = "Nativo"
 
 [[gl.languages]]
 language = "Inglés"
-level = "B2 - Lectura técnica diaria. Comunicación profesional escrita e oral"
+level = "B2 · Uso profesional"

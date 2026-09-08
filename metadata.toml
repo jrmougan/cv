@@ -5,37 +5,36 @@ default_language = "es"
 
 [shared]
 [shared.styles.fonts]
-base = ["Geist Pixel Square"]
-mono = ["Geist Pixel Square"]
-section_title = ["Geist Pixel Square"]
-terminal = ["Geist Pixel Square"]
+base = ["Geist"]
+mono = ["Geist Mono"]
+section_title = ["Geist"]
+terminal = ["Geist Mono"]
 
 [shared.styles.sizes]
-header_name = "22pt"
-header_position = "10pt"
-normal = "8pt"
-item_h1 = "10pt"
-item_h2 = "9pt"
-item_h3 = "8pt"
-section_title = "12pt"
-tag = "7pt"
+header_name = "25pt"
+header_position = "12pt"
+normal = "10.5pt"
+item_h1 = "11pt"
+item_h2 = "9.5pt"
+item_h3 = "8.5pt"
+section_title = "9pt"
+tag = "8.5pt"
 
 [shared.styles.colors]
-# Light Retro Terminal
-background = "#FCF5E3"
-primary = "#3A8BA4"       # Blue from the palette
-secondary = "#75828A"     # Greyish text
-accent = "#D9615D"        # Pale Red
-text = "#4A545C"          # Dark Slate
-muted = "#E5DBC7"         # Muted bg color for tags/quiet items
-header_bg = "#FCF5E3"     # Slightly darker cream
-header_text = "#4A545C"
-header_dim = "#9AA4A8"
-terminal_text = "#839A3A" # Moss Green for the prompt and borders
-section_title = "#839A3A" # Moss Green for section titles
+background = "#FFFFFF"
+primary = "#23566B"
+secondary = "#59636D"
+accent = "#23566B"
+text = "#242C33"
+muted = "#DCE3E7"
+header_bg = "#FFFFFF"
+header_text = "#242C33"
+header_dim = "#59636D"
+terminal_text = "#23566B"
+section_title = "#23566B"
 
 [shared.styles.colors.categories]
-frontend = "#3A8BA4" # Blue
-backend = "#C57A9D"  # Pink
-tools = "#DA8E27"    # Orange/Yellow
-gamedev = "#D9615D"  # Red
+frontend = "#23566B"
+backend = "#23566B"
+tools = "#23566B"
+gamedev = "#23566B"
