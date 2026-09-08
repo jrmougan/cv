@@ -8,52 +8,53 @@ email = "buzon.jesus@mougan.es"
 phone = "+34 666 362 583"
 address = "Santiago de Compostela (A Coruña)"
 link = "linkedin.com/in/jesús-romeo-mougán-750706186"
+github = "github.com/jrmougan"
 qr_linkedin = "./img/qr-linkedin.svg"
 portfolio = "https://cv.mougan.es"
 qr_portfolio = "./img/qr-portfolio.svg"
 
+# Nota: la plantilla solo renderiza los items con featured = true (template/components/skills.typ).
+# Los que están en featured = false no aparecen en el PDF ni los lee un ATS: son solo datos
+# de apoyo para las cartas de presentación.
 [[shared.skills]]
 items = [
     # Core frontend (ordenado por prioridad para el objetivo Senior Frontend)
-    { name = "React", val = 9, cat = "frontend" },
-    { name = "TypeScript", val = 8, cat = "frontend" },
-    { name = "JavaScript", val = 9, cat = "frontend" },
-    { name = "Next.js", val = 7, cat = "frontend" },
-    { name = "HTML", val = 9, cat = "frontend" },
-    { name = "CSS", val = 9, cat = "frontend" },
-    { name = "TailwindCSS", val = 7, cat = "frontend" },
-    { name = "SCSS", val = 7, cat = "frontend", featured = false },
-    { name = "Styled-Components", val = 8, cat = "frontend", featured = false },
-    { name = "Zustand", val = 7, cat = "frontend" },
-    { name = "Redux", val = 6, cat = "frontend" },
-    { name = "React Router", val = 8, cat = "frontend", featured = false },
-    { name = "Storybook", val = 7, cat = "frontend" },
-    { name = "CSS Grid", val = 8, cat = "frontend", featured = false },
-    { name = "Flexbox", val = 8, cat = "frontend", featured = false },
+    { name = "React", cat = "frontend" },
+    { name = "TypeScript", cat = "frontend" },
+    { name = "JavaScript", cat = "frontend" },
+    { name = "Next.js", cat = "frontend" },
+    { name = "HTML", cat = "frontend" },
+    { name = "CSS", cat = "frontend" },
+    { name = "TailwindCSS", cat = "frontend" },
+    { name = "Styled-Components", cat = "frontend", featured = false },
+    { name = "Zustand", cat = "frontend" },
+    { name = "Redux", cat = "frontend" },
+    { name = "Storybook", cat = "frontend" },
+    { name = "i18n", cat = "frontend" },
+    { name = "SCSS", cat = "frontend", featured = false },
+    { name = "React Router", cat = "frontend", featured = false },
+    { name = "CSS Grid", cat = "frontend", featured = false },
+    { name = "Flexbox", cat = "frontend", featured = false },
     # Testing, build y tooling
     { name = "Nx", cat = "tools" },
-    { name = "Vitest", val = 8, cat = "tools" },
-    { name = "React Testing Library", val = 8, cat = "tools" },
-    { name = "Jest", val = 7, cat = "tools", featured = false },
-    { name = "Vite", val = 8, cat = "tools" },
-    { name = "Git", val = 9, cat = "tools" },
-    { name = "GitHub Actions", val = 6, cat = "tools" },
-    { name = "GitHub Copilot", val = 9, cat = "tools", featured = false },
-    { name = "Docker", val = 6, cat = "tools", featured = false },
-    { name = "ESLint", val = 8, cat = "tools", featured = false },
-    { name = "Prettier", val = 8, cat = "tools", featured = false },
-    { name = "Webpack", val = 6, cat = "tools", featured = false },
-    { name = "Sonar", val = 6, cat = "tools", featured = false },
-    { name = "Jira", val = 7, cat = "tools", featured = false },
+    { name = "Vite", cat = "tools" },
+    { name = "Vitest", cat = "tools" },
+    { name = "React Testing Library", cat = "tools" },
+    { name = "Jest", cat = "tools" },
+    { name = "Git", cat = "tools" },
+    { name = "GitHub Actions", cat = "tools" },
+    { name = "ESLint", cat = "tools" },
+    { name = "GitHub Copilot", cat = "tools" },
+    { name = "Prettier", cat = "tools", featured = false },
+    { name = "Docker", cat = "tools", featured = false },
+    { name = "Jira", cat = "tools", featured = false },
     # Backend y datos (apoyo)
-    { name = "REST APIs", val = 8, cat = "backend" },
-    { name = "Node.js", val = 6, cat = "backend" },
-    { name = "Python", val = 6, cat = "backend", featured = false },
-    { name = "MongoDB", val = 6, cat = "backend" },
-    { name = "MySQL", val = 6, cat = "backend" },
-    { name = "Prisma", val = 6, cat = "backend" },
-    { name = "Java", val = 5, cat = "backend", featured = false },
-    { name = "PHP", val = 5, cat = "backend", featured = false },
+    { name = "REST APIs", cat = "backend" },
+    { name = "Node.js", cat = "backend" },
+    { name = "MongoDB", cat = "backend" },
+    { name = "MySQL", cat = "backend" },
+    { name = "Prisma", cat = "backend" },
+    { name = "Python", cat = "backend", featured = false },
 ]
 
 [es]
@@ -71,7 +72,7 @@ present = "Actualidad"
 [es.personal_info]
 position = "Desarrollador Frontend Senior"
 availability = "Remoto"
-summary = "Desarrollador Frontend con más de 4 años de experiencia con React y TypeScript. Arquitectura frontend, desarrollo modular con Nx y migración de aplicaciones legacy. Trabajo en equipos de producto con revisión de código, testing y colaboración con backend y QA."
+summary = "Desarrollador Frontend con más de 4 años en React y TypeScript. Fui el único frontend de una herramienta de edición normativa para la administración gallega y ahora trabajo en la migración de un software de gestión empresarial de AngularJS a React sobre un monorepo Nx."
 
 [[es.experience]]
 company = "EMAIS Grupo"
@@ -79,7 +80,7 @@ logo = "./img/logos/logo-emais.png"
 position = "Desarrollador Frontend"
 location = "Remoto"
 date = "Julio 2023 - Actualidad"
-description = "Software de gestión empresarial con React y TypeScript. Equipo de más de 7 desarrolladores, Scrum y revisión de código."
+description = "Software de gestión empresarial con React y TypeScript, en un equipo de más de 10 desarrolladores."
 tags = [
     "Nx",
     "React",
@@ -105,20 +106,20 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Trabajé en librerías por módulo de un proyecto Nx con AngularJS y React, participando en la migración a una nueva aplicación React con Zustand sobre una arquitectura ya definida.",
-    "Desarrollé módulos de negocio y formularios dinámicos con JSONSchema (RJSF), y amplié la biblioteca de componentes reutilizables en Storybook.",
-    "Escribo tests con Vitest y React Testing Library. Participé en la migración de tests de Jest a Vitest.",
+    "Migré módulos de negocio de AngularJS a React con Zustand en un monorepo Nx, con ambas tecnologías conviviendo en producción durante la migración progresiva.",
+    "Construí formularios dinámicos con JSONSchema (RJSF) y amplié la biblioteca de componentes compartida en Storybook.",
+    "Cubrí con tests los módulos que desarrollé (Vitest y React Testing Library) y contribuí a migrar la suite completa desde Jest.",
     "Definí el alcance técnico con Project Managers y acordé los contratos de API con el equipo de backend.",
-    "Utilizo un flujo de QA con agentes para revisar código, ejecutar tests, comprobar la interfaz en el navegador y generar informes antes de entregar los cambios al departamento de QA.",
+    "Participé en la implantación del flujo de QA con agentes de IA que usa el equipo: revisión de código, ejecución de tests, validación de la interfaz en navegador e informe previo a QA.",
 ]
 
 [[es.experience]]
 company = "CiTIUS (Universidade de Santiago de Compostela)"
 logo = "./img/logos/logo_citius.png"
-position = "Técnico de apoyo a la investigación (Frontend Developer)"
+position = "Desarrollador Frontend (técnico de apoyo a la investigación)"
 location = "Santiago de Compostela"
 date = "Mayo 2022 - Abril 2023"
-description = "Único frontend de LexGal, una herramienta de edición de normativa gallega en XML. Definí desde cero la arquitectura React y los flujos de usuario, concretando requisitos con los investigadores."
+description = "Único desarrollador frontend de LexGal, herramienta de edición de normativa gallega en XML para la administración autonómica. Definí desde cero la arquitectura React y los flujos de usuario con los investigadores."
 tags = [
     "React",
     "JavaScript",
@@ -128,13 +129,22 @@ tags = [
     "STOMP",
     "SockJS",
     "REST APIs",
-    "SpringBoot",
+    "Spring Boot",
     "MongoDB",
 ]
 tasks = [
-    "Implementé versionado de documentos con comparaciones visuales, historial y auditoría por usuario.",
-    "Construí la edición colaborativa en tiempo real con WebSockets (STOMP/SockJS) y la integración con una API REST en SpringBoot y MongoDB.",
+    "Construí la edición colaborativa en tiempo real con WebSockets (STOMP/SockJS) sobre una API REST en Spring Boot y MongoDB.",
+    "Implementé el versionado de documentos con comparación visual de cambios, historial y auditoría por usuario.",
 ]
+
+[[es.experience]]
+company = "Actividad profesional independiente"
+position = "Músico y profesor de música"
+location = "Galicia"
+date = "2014 - 2022"
+description = "Docencia instrumental y actividad de concierto, en paralelo al Grado Superior de Música. Etapa previa a mi reorientación al desarrollo de software."
+tags = []
+tasks = []
 
 [[es.experience]]
 company = "SDWEB"
@@ -142,11 +152,9 @@ logo = "./img/logos/sdweb_logo.png"
 position = "Desarrollador Full-Stack"
 location = "Santiago de Compostela"
 date = "Junio 2013 - Enero 2014"
-description = "Desarrollador único en proyectos de eHabilis, plataforma LMS basada en Moodle."
+description = "Desarrollador único en proyectos para eHabilis (LMS sobre Moodle): actividades SCORM de formación sanitaria y una app móvil PhoneGap sobre API Drupal."
 tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
-tasks = [
-    "Desarrollé actividades SCORM para formación sanitaria y una aplicación móvil con PhoneGap conectada a una API Drupal.",
-]
+tasks = []
 
 
 [[es.education]]
@@ -178,7 +186,7 @@ tags = ["JavaScript", "PHP", "MySQL", "Java"]
 
 [[es.languages]]
 language = "Gallego"
-level = "Materna"
+level = "Nativo"
 
 [[es.languages]]
 language = "Español"
@@ -203,7 +211,7 @@ present = "Present"
 [en.personal_info]
 position = "Senior Frontend Developer"
 availability = "Remote"
-summary = "Frontend Developer with 4+ years of experience with React and TypeScript. Frontend architecture, modular development with Nx and legacy application migration. Product team experience with code review, testing and collaboration with backend and QA."
+summary = "Frontend Developer with 4+ years of experience in React and TypeScript. I was the sole frontend developer on a regulatory drafting tool for the Galician public administration, and I am currently working on the migration of a business management suite from AngularJS to React within an Nx monorepo."
 
 [[en.experience]]
 company = "EMAIS Grupo"
@@ -211,7 +219,7 @@ position = "Frontend Developer"
 logo = "./img/logos/logo-emais.png"
 location = "Remote"
 date = "July 2023 - Present"
-description = "Enterprise management software with React and TypeScript. Team of more than 7 developers, Scrum and code review."
+description = "Enterprise management software with React and TypeScript, in a team of more than 10 developers working with Scrum and peer code review."
 tags = [
     "Nx",
     "React",
@@ -237,20 +245,20 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Worked in module-specific libraries in an Nx project combining AngularJS and React, contributing to migration to a new React application with Zustand within an established architecture.",
-    "Built business modules and dynamic forms with JSONSchema (RJSF), and extended the reusable component library in Storybook.",
-    "Write tests with Vitest and React Testing Library. Contributed to the migration of tests from Jest to Vitest.",
-    "Defined technical scope with Project Managers and agreed API contracts with the backend team.",
-    "Use an agent-assisted QA workflow to review code, run tests, check the interface in the browser and generate reports before handing changes over to the QA department.",
+    "Migrated business modules from AngularJS to React with Zustand in an Nx monorepo, with both stacks running in production throughout the progressive migration.",
+    "Built dynamic forms with JSONSchema (RJSF) and extended the shared Storybook component library.",
+    "Covered the modules I built with tests (Vitest and React Testing Library) and contributed to migrating the full suite from Jest.",
+    "Defined technical scope with Project Managers and agreed on API contracts with the backend team.",
+    "Took part in rolling out the AI agent-assisted QA workflow the team uses: code review, test runs, browser UI validation and a pre-QA report.",
 ]
 
 [[en.experience]]
 company = "CiTIUS (University of Santiago de Compostela)"
-position = "Research Support Technician (Frontend Developer)"
+position = "Frontend Developer (research support technician)"
 logo = "./img/logos/logo_citius.png"
 location = "Santiago de Compostela"
 date = "May 2022 - April 2023"
-description = "Sole frontend developer on LexGal, a tool for editing Galician regulations in XML. Defined the React architecture and user flows from scratch, refining requirements with researchers."
+description = "Sole frontend developer on LexGal, a tool for drafting Galician regulations in XML for the regional public administration. Defined the React architecture and user flows from scratch with the researchers."
 tags = [
     "React",
     "JavaScript",
@@ -260,13 +268,22 @@ tags = [
     "STOMP",
     "SockJS",
     "REST APIs",
-    "SpringBoot",
+    "Spring Boot",
     "MongoDB",
 ]
 tasks = [
-    "Implemented document versioning with visual comparisons, history and per-user auditing.",
-    "Built real-time collaborative editing with WebSockets (STOMP/SockJS) and integration with a SpringBoot REST API and MongoDB.",
+    "Built real-time collaborative editing with WebSockets (STOMP/SockJS) over a Spring Boot REST API and MongoDB.",
+    "Implemented document versioning with visual change comparison, history and per-user auditing.",
 ]
+
+[[en.experience]]
+company = "Independent professional activity"
+position = "Musician and Music Teacher"
+location = "Galicia"
+date = "2014 - 2022"
+description = "Instrumental teaching and concert activity, alongside my Higher Degree in Music. The period preceding my shift into software development."
+tags = []
+tasks = []
 
 [[en.experience]]
 company = "SDWEB"
@@ -274,11 +291,9 @@ position = "Full-Stack Developer"
 logo = "./img/logos/sdweb_logo.png"
 location = "Santiago de Compostela"
 date = "June 2013 - January 2014"
-description = "Sole developer on projects for eHabilis, a Moodle-based LMS platform."
+description = "Sole developer on projects for eHabilis (Moodle-based LMS): SCORM activities for healthcare training and a PhoneGap mobile app over a Drupal API."
 tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
-tasks = [
-    "Developed SCORM activities for healthcare training and a PhoneGap mobile application connected to a Drupal API.",
-]
+tasks = []
 
 [[en.education]]
 institution = "IES San Clemente"
@@ -317,7 +332,7 @@ level = "Native"
 
 [[en.languages]]
 language = "English"
-level = "B2 · Professional use"
+level = "B2 · Professional working proficiency"
 
 [gl]
 [gl.labels]
@@ -334,7 +349,7 @@ present = "Actualidade"
 [gl.personal_info]
 position = "Desenvolvedor Frontend Senior"
 availability = "Remoto"
-summary = "Desenvolvedor Frontend con máis de 4 anos de experiencia con React e TypeScript. Arquitectura frontend, desenvolvemento modular con Nx e migración de aplicacións legacy. Traballo en equipos de produto con revisión de código, testing e colaboración co backend e QA."
+summary = "Desenvolvedor Frontend con máis de 4 anos en React e TypeScript. Fun o único frontend dunha ferramenta de edición normativa para a administración galega e agora traballo na migración dun software de xestión empresarial de AngularJS a React sobre un monorepo Nx."
 
 [[gl.experience]]
 company = "EMAIS Grupo"
@@ -342,7 +357,7 @@ logo = "./img/logos/logo-emais.png"
 position = "Desenvolvedor Frontend"
 location = "Remoto"
 date = "Xullo 2023 - Actualidade"
-description = "Software de xestión empresarial con React e TypeScript. Equipo de máis de 7 desenvolvedores, Scrum e revisión de código."
+description = "Software de xestión empresarial con React e TypeScript, nun equipo de máis de 10 desenvolvedores."
 tags = [
     "Nx",
     "React",
@@ -368,20 +383,20 @@ tags = [
     "Jira",
 ]
 tasks = [
-    "Traballei en bibliotecas por módulo dun proxecto Nx con AngularJS e React, participando na migración a unha nova aplicación React con Zustand sobre unha arquitectura xa definida.",
-    "Desenvolvín módulos de negocio e formularios dinámicos con JSONSchema (RJSF), e ampliei a biblioteca de compoñentes reutilizables en Storybook.",
-    "Escribo tests con Vitest e React Testing Library. Participei na migración de tests de Jest a Vitest.",
+    "Migrei módulos de negocio de AngularJS a React con Zustand nun monorepo Nx, con ambas tecnoloxías convivindo en produción durante a migración progresiva.",
+    "Construín formularios dinámicos con JSONSchema (RJSF) e ampliei a biblioteca de compoñentes compartida en Storybook.",
+    "Cubrín con tests os módulos que desenvolvín (Vitest e React Testing Library) e contribuín a migrar a suite completa desde Jest.",
     "Definín o alcance técnico cos Project Managers e acordei os contratos de API co equipo de backend.",
-    "Utilizo un fluxo de QA con axentes para revisar código, executar tests, comprobar a interface no navegador e xerar informes antes de entregar os cambios ao departamento de QA.",
+    "Participei na implantación do fluxo de QA con axentes de IA que usa o equipo: revisión de código, execución de tests, validación da interface no navegador e informe previo a QA.",
 ]
 
 [[gl.experience]]
 company = "CiTIUS (Universidade de Santiago de Compostela)"
 logo = "./img/logos/logo_citius.png"
-position = "Técnico de apoio á investigación (Frontend Developer)"
+position = "Desenvolvedor Frontend (técnico de apoio á investigación)"
 location = "Santiago de Compostela"
 date = "Maio 2022 - Abril 2023"
-description = "Único frontend de LexGal, unha ferramenta de edición de normativa galega en XML. Definín desde cero a arquitectura React e os fluxos de usuario, concretando requisitos cos investigadores."
+description = "Único desenvolvedor frontend de LexGal, ferramenta de edición de normativa galega en XML para a administración autonómica. Definín desde cero a arquitectura React e os fluxos de usuario cos investigadores."
 tags = [
     "React",
     "JavaScript",
@@ -391,13 +406,22 @@ tags = [
     "STOMP",
     "SockJS",
     "REST APIs",
-    "SpringBoot",
+    "Spring Boot",
     "MongoDB",
 ]
 tasks = [
-    "Implementei versionado de documentos con comparacións visuais, historial e auditoría por usuario.",
-    "Construín a edición colaborativa en tempo real con WebSockets (STOMP/SockJS) e a integración cunha API REST en SpringBoot e MongoDB.",
+    "Construín a edición colaborativa en tempo real con WebSockets (STOMP/SockJS) sobre unha API REST en Spring Boot e MongoDB.",
+    "Implementei o versionado de documentos con comparación visual de cambios, historial e auditoría por usuario.",
 ]
+
+[[gl.experience]]
+company = "Actividade profesional independente"
+position = "Músico e profesor de música"
+location = "Galicia"
+date = "2014 - 2022"
+description = "Docencia instrumental e actividade de concerto, en paralelo ao Grao Superior de Música. Etapa previa á miña reorientación ao desenvolvemento de software."
+tags = []
+tasks = []
 
 [[gl.experience]]
 company = "SDWEB"
@@ -405,11 +429,9 @@ logo = "./img/logos/sdweb_logo.png"
 position = "Desenvolvedor Full-Stack"
 location = "Santiago de Compostela"
 date = "Xuño 2013 - Xaneiro 2014"
-description = "Desenvolvedor único en proxectos de eHabilis, plataforma LMS baseada en Moodle."
+description = "Desenvolvedor único en proxectos para eHabilis (LMS sobre Moodle): actividades SCORM de formación sanitaria e unha app móbil PhoneGap sobre API Drupal."
 tags = ["JavaScript", "PHP", "MySQL", "Moodle", "SCORM", "Drupal", "PhoneGap"]
-tasks = [
-    "Desenvolvín actividades SCORM para formación sanitaria e unha aplicación móbil con PhoneGap conectada a unha API Drupal.",
-]
+tasks = []
 
 [[gl.education]]
 institution = "IES San Clemente"
@@ -440,7 +462,7 @@ tags = ["JavaScript", "PHP", "MySQL", "Java"]
 
 [[gl.languages]]
 language = "Galego"
-level = "Materna"
+level = "Nativo"
 
 [[gl.languages]]
 language = "Castelán"
