@@ -17,7 +17,7 @@
   )
   set text(
     fill: rgb(cv_data.styles.colors.text),
-    font: cv_data.styles.fonts.mono,
+    font: cv_data.styles.fonts.base,
     size: eval(cv_data.styles.sizes.normal),
   )
   set par(leading: 0.75em, justify: true)
