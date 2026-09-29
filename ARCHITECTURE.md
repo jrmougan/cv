@@ -118,7 +118,8 @@ Each section is conditionally rendered: it only appears if its corresponding key
 
 | Tool | Purpose |
 |---|---|
-| **Typst compiler** | `typst compile main.typ` to build the PDF |
+| **Typst compiler** | Pinned to 0.15.1 in `mise.toml`; `mise run build` compiles all PDFs |
+| **mise** | Tool version pinning and `build` / `watch` / `check` tasks |
 | **VS Code + Tinymist** | IDE support with live preview; configured to use only `./fonts/` (no system fonts) |
 | **even-better-toml** | VS Code extension for TOML editing (recommended in `.vscode/extensions.json`) |
 | **Git** | Branch `migration_to_typst` -- project was migrated from another format to Typst |
@@ -129,4 +130,4 @@ Each section is conditionally rendered: it only appears if its corresponding key
 - **Multi-language at the core**: Languages are iterated in `main.typ`, not handled via conditional logic inside components. Components are language-agnostic.
 - **Labels are localized**: UI strings (section titles, proficiency levels) come from `cv_data.toml` per language, not from template code.
 - **Quiet mode**: Work experience entries can be flagged as `quiet = true` to render in gray (used for the musician period to show career continuity without visual emphasis).
-- **No build script**: Compilation is done directly with the `typst` CLI. No Makefile or task runner.
+- **Minimal build tooling**: Compilation uses the `typst` CLI directly, wrapped by `mise` tasks that pin the compiler version and the bundled font path. No Makefile.

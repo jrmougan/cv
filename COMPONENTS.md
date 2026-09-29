@@ -6,7 +6,24 @@ from `metadata.toml` and the components below.
 
 ## Build
 
-Run from the repository root with Typst and the bundled fonts:
+The Typst version is pinned in `mise.toml` (Typst 0.15.1), which also restricts
+font lookup to the bundled `fonts/` directory. Install
+[mise](https://mise.jdx.dev/getting-started.html) and, from the repository root:
+
+```sh
+mise trust
+mise install
+mise run build   # cv.pdf (all languages), cv-{es,en,gl}.pdf, letter_<company>.pdf
+mise run watch   # live-recompile cv.pdf; e.g. mise run watch -- --input lang=es
+mise run check   # compile everything into a temporary directory
+```
+
+Generated PDFs are git-ignored. CI (`.github/workflows/compile-pdf.yml`) runs
+`mise run build` with the same pinned Typst on pull requests and pushes to
+`main`; only pushes to `main` publish `cv.pdf` and the letters to the `latest`
+release. There is no formatter or linter; `check` is the compilation itself.
+
+Equivalent raw commands (inside `mise exec --` or with a matching `typst`):
 
 ```sh
 # Default: Spanish, English, Galician in one document.
