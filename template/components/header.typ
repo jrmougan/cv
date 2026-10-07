@@ -25,8 +25,11 @@
         ]
       ],
       if metadata.at("show_photo", default: true) and "photo" in info {
-        box(radius: 3pt, clip: true,
-          image("../../" + info.photo, width: 49pt, height: 62pt, fit: "cover"))
+        box(
+          width: 49pt, height: 62pt, radius: 2pt, clip: true,
+          place(top + left, dx: -22pt, dy: -3pt,
+            image("../../" + info.photo, width: 99pt, height: 99pt))
+        )
       },
     )
   ]
