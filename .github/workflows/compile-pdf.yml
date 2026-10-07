@@ -3,6 +3,7 @@ name: Compile CV PDF
 on:
   push:
     branches: [main]
+  pull_request:
 
 jobs:
   compile:
@@ -13,20 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: typst-community/setup-typst@v4
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4
+        with:
+          version: 2026.9.17
 
-      - name: Compile CV PDF
-        run: typst compile main.typ cv.pdf --font-path ./fonts/
-
-      - name: Compile Cover Letters
-        run: |
-          for f in letters/*.toml; do
-            company=$(basename "$f" .toml)
-            echo "Compiling cover letter for $company..."
-            typst compile --input company="$company" --font-path ./fonts/ compile_letters.typ "letter_$company.pdf"
-          done
+      - name: Compile CV and Cover Letters
+        run: mise run build
 
       - name: Upload to GitHub Release
+        if: github.event_name == 'push'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest

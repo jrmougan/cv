@@ -1,0 +1,39 @@
+[tools]
+typst = "0.15.1"
+
+[env]
+# Only the bundled Geist fonts: identical output locally and in CI.
+TYPST_FONT_PATHS = "fonts"
+TYPST_IGNORE_SYSTEM_FONTS = "true"
+
+[tasks.build]
+description = "Compile the CV (all languages + es/en/gl) and every cover letter into the repo root"
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+out="${1:-.}"
+mkdir -p "$out"
+typst compile main.typ "$out/cv.pdf"
+for lang in es en gl; do
+  typst compile --input lang="$lang" main.typ "$out/cv-$lang.pdf"
+done
+for f in letters/*.toml; do
+  company=$(basename "$f" .toml)
+  typst compile --input company="$company" compile_letters.typ "$out/letter_$company.pdf"
+done
+'''
+
+[tasks.watch]
+description = "Recompile cv.pdf on change (e.g. mise run watch -- --input lang=es)"
+run = "typst watch main.typ cv.pdf"
+
+[tasks.check]
+description = "Compile every document into a temporary directory (no formatter/linter in use)"
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+mise run build "$tmp"
+ls "$tmp"
+'''
